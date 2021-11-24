@@ -11,6 +11,9 @@ module.exports = {
         "sora": ["Sora", "sans-serif"],
         "sora-semibold": ["Sora Semibold", "sans-serif"],
       },
+      borderRadius: {
+        '4xl': '1.875rem',
+      }
     },
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -34,10 +37,20 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.trueGray,
+      gray: Object.assign(colors.trueGray, {
+        300: '#D6D3D9',
+        400: '#A7A1AB',
+        500: '#675C70',
+      }),
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,
+      purple: Object.assign(colors.purple, {
+        700: '#32233F',
+        800: '#463851',
+        900: '#20142B',
+      }),
+      pink: colors.pink,
       hoodratz: {
         "grey-1": '#F5F4F6',
         "grey-2": "#DED8DC",
