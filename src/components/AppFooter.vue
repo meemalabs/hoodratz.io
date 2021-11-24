@@ -1,7 +1,7 @@
 <template>
 <footer class="text-gray-3 font-sora bg-gray-6">
     <div class="container mx-auto">
-        <div class="md:hidden">
+        <div class="md:hidden bg-gray-8">
             <h3 class="bg-gray-7 text-white uppercase px-4 py-3 text-sm">Company</h3>
             <ul class="divide-y divide-gray-7 text-xs">
                 <li class="p-4 flex items-center justify-between">
@@ -61,7 +61,7 @@
                     <small>© 2021 Hoodratz Inc. All right reserved</small>
                 </div>
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 hidden md:block">
                 <div class="grid grid-cols-4 mt-6">
                     <div>
                         <h3 class="uppercase text-white mb-8">Company</h3>
