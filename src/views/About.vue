@@ -26,7 +26,7 @@
         </div>
 
         <div class="mt-12 mb-20">
-            <div class="flex bg-purple-800 my-4 p-8 rounded-4xl">
+            <div class="flex bg-purple-700 my-6 px-8 py-6 rounded-4xl">
                 <div class="w-16 mr-4">
                     <img src="/images/team/chris.png" alt="Chris Breuer">
                 </div>
@@ -39,7 +39,7 @@
                     <img src="/images/linkedin.svg" alt="Linkedin">
                 </div>
             </div>
-            <div class="flex bg-purple-800 my-4 p-8 rounded-4xl">
+            <div class="flex bg-purple-700 my-6 px-8 py-6 rounded-4xl">
                 <div class="w-16 mr-4">
                     <img src="/images/team/avery.png" alt="Chris Breuer">
                 </div>
@@ -52,7 +52,7 @@
                     <img src="/images/linkedin.svg" alt="Linkedin">
                 </div>
             </div>
-            <div class="flex bg-purple-800 my-4 p-8 rounded-4xl">
+            <div class="flex bg-purple-700 my-6 px-8 py-6 rounded-4xl">
                 <div class="w-16 mr-4">
                     <img src="/images/team/chris.png" alt="Chris Breuer">
                 </div>
@@ -65,7 +65,7 @@
                     <img src="/images/linkedin.svg" alt="Linkedin">
                 </div>
             </div>
-            <div class="flex bg-purple-800 my-4 p-8 rounded-4xl">
+            <div class="flex bg-purple-700 my-6 px-8 py-6 rounded-4xl">
                 <div class="w-16 mr-4">
                     <img src="/images/team/chris.png" alt="Chris Breuer">
                 </div>
