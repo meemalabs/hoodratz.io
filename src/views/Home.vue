@@ -1,9 +1,11 @@
+<script setup>
+import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
+</script>
+
 <template>
   <div class="relative w-screen h-full bg-hoodratz-grey-8">
-    <header class="flex items-center justify-between h-16 px-6 bg-purple-800">
-        <div class="w-32"><img src="/images/logo.svg" alt=""></div>
-        <div><img src="/images/menu.svg" alt=""></div>
-    </header>
+    <AppHeader />
     <section id="hero" class="relative w-screen h-screen max-h-full bg-no-repeat bg-cover bg-hero-sm">
       <div class="flex flex-col mx-4">
         <img class="object-contain w-full h-full" src="/images/home/hoodratz-card-sm.png" alt="">
@@ -166,5 +168,6 @@
         </div>
       </div>
     </section>
+    <AppFooter />
   </div>
 </template>
