@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+        "kumbh-bold": ["Kumbh Sans", "sans-serif"],
+        "sora": ["Sora", "sans-serif"],
+        "sora-semibold": ["Sora Semibold", "sans-serif"],
       },
     },
     backgroundColor: theme => ({
