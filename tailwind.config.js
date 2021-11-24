@@ -58,6 +58,7 @@ module.exports = {
         2: '#F7CFDB',
         3: '#F05B88',
         nude: '#F1B1A3',
+        gradient: 'radial-gradient(82.01% 81.61% at 94.63% 16.78%, #ED9DB9 0%, #EC83A2 57.37%, #F05281 100%)',
       }),
       hoodratz: {
         "grey-1": '#F5F4F6',
