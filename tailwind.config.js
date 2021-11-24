@@ -75,6 +75,10 @@ module.exports = {
         "nude": "#F1B1A3"
       }
     },
+    backgroundImage: {
+      'hero': "url('/images/home/hero.png')",
+      'hero-sm': "url('/images/home/hero-sm.png')",
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

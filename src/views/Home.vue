@@ -1,29 +1,25 @@
-<script setup>
-import ButtonRepo from '@/components/ButtonRepo.vue'
-</script>
-
 <template>
-  <div class="bg-gray-50">
-    <div
-      class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
-    >
-      <h2
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        Ready to dive in?
-        <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
-      </h2>
-      <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/about"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-            >Next Page</router-link
-          >
+  <div class="w-full h-full">
+    <section id="hero" class="relative min-h-screen bg-cover sm:bg-hero bg-hero-sm">
+      <img class="hidden sm:block" src="/images/home/Hoodratz.svg" alt="">
+      
+      <div class="absolute flex items-center justify-center w-full top-24">
+        <div class="relative mr-20">
+          <h1 class="font-bold text-white kumbh-bold" style="font-size: 68px; line-height: 90px; letter-spacing: 1%">Discover HoodRatz, <br>a new NFT collection</h1>
+          <img class="absolute -top-5" src="/images/home/Hoodratz-discover.svg" alt="">
+          <p class="mt-10 font-sora text-hoodratz-grey-2" style="font-size: 20px; line-height: 30px; letter-spacing: 1%; font-weight: 400">
+            A limited edition of 10.000 collectible pixel rats.
+          </p>
+          <div class="relative flex items-center top-10">
+            <button class="py-2 mr-5 bg-white rounded-full px-7">JOIN DISCORD</button>
+            <button class="py-2 bg-white rounded-full px-7">FOLLOW US</button>
+          </div>
         </div>
-        <ButtonRepo />
+        <div>
+          <img src="/images/home/Hoodratz-card.png" alt="" style="width: 606.12px;height: 738.95px;">
+        </div>
       </div>
-    </div>
+    </section>
+    asdasd
   </div>
 </template>
