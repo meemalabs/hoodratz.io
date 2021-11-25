@@ -89,17 +89,17 @@
                         <div class="flex justify-center mb-4">
                             <ul class="flex">
                                 <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
-                                    <a href="#" class="block">
+                                    <a :href="social.discord" target="_blank" class="block">
                                         <img class="w-4" src="/images/discord.svg" alt="Discord">
                                     </a>
                                 </li>
                                 <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
-                                    <a href="#" class="block">
+                                    <a :href="social.twitter" target="_blank" class="block">
                                         <img class="w-4" src="/images/twitter.svg" alt="Twitter">
                                     </a>
                                 </li>
                                 <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
-                                    <a href="#" class="block">
+                                    <a :href="social.instagram" target="_blank" class="block">
                                         <img class="w-4" src="/images/insta.svg" alt="Instagram">
                                     </a>
                                 </li>
@@ -112,3 +112,15 @@
     </div>  
 </footer>
 </template>
+
+<script>
+import { social } from '@/content/app.json'
+
+export default {
+    data () {
+        return {
+            social
+        }
+    }
+}
+</script>

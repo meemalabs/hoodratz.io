@@ -103,7 +103,7 @@ import AppFooter from '@/components/AppFooter.vue'
                         <span>Designer</span>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <img src="/images/twitter.svg" alt="Twitter">
+                        <a href="#" target="_blank"><img src="/images/twitter.svg" alt="Twitter"></a>
                         <img src="/images/linkedin.svg" alt="Linkedin">
                     </div>
                 </div>
