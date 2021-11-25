@@ -1,5 +1,8 @@
 <template>
-  <header class="bg-gray-7 font-sora">
+  <header
+    class="font-sora"
+    :class="transparent ? 'bg-transparent' : 'bg-gray-7'"
+  >
     <div
       class="container flex items-center justify-between h-16 px-6 mx-auto  md:h-24"
     >
@@ -142,6 +145,12 @@
 
 <script>
 export default {
+  props: {
+    transparent: {
+      type: Boolean,
+      default: false,
+    },
+  },
   data() {
     return {
       showMobile: false,
