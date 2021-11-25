@@ -61,6 +61,12 @@ module.exports = {
         gradient: 'radial-gradient(82.01% 81.61% at 94.63% 16.78%, #ED9DB9 0%, #EC83A2 57.37%, #F05281 100%)',
       })
     },
+    backgroundImage: {
+      'hero': "url('/images/home/hero.png')",
+      'hero-sm': "url('/images/home/hero-sm.png')",
+      'hoodratz-card-bg': "url('/images/home/hoodratz-card-bg.png')",
+      'hoodratz-pink-bg': "url('/images/home/hoodratz-pink-bg.png')"
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
