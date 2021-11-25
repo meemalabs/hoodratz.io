@@ -4,23 +4,27 @@
         <div class="md:hidden bg-gray-8">
             <h3 class="bg-gray-7 text-white uppercase px-4 py-3 text-sm">Company</h3>
             <ul class="divide-y divide-gray-7 text-xs">
-                <li class="p-4 flex items-center justify-between">
-                    <div>About</div>
-                    <div><img src="/images/chevron.svg" alt=""></div>
+                <li class="p-4">
+                    <router-link to="/about" class="flex items-center justify-between">
+                        <div>About</div>
+                        <div><img src="/images/chevron.svg" alt=""></div>
+                    </router-link>
                 </li>
-                <li class="p-4 flex items-center justify-between">
-                    <div>Roadmap</div>
-                    <div><img src="/images/chevron.svg" alt=""></div>
+                <li class="p-4">
+                    <router-link to="/about" class="flex items-center justify-between">
+                        <div>Roadmap</div>
+                        <div><img src="/images/chevron.svg" alt=""></div>
+                    </router-link>
                 </li>
             </ul>
             <h3 class="bg-gray-7 text-white uppercase px-4 py-3 text-sm">Hoodratz</h3>
             <ul class="divide-y divide-gray-7 text-xs">
                 <li class="p-4 flex items-center justify-between">
-                    <div>Attributes</div>
+                    <div>Attributes <small class="uppercase bg-white rounded-full text-gray-7 px-1">Soon</small></div>
                     <div><img src="/images/chevron.svg" alt=""></div>
                 </li>
                 <li class="p-4 flex items-center justify-between">
-                    <div>Merch</div>
+                    <div>Merch <small class="uppercase bg-white rounded-full text-gray-7 px-1">Soon</small></div>
                     <div><img src="/images/chevron.svg" alt=""></div>
                 </li>
             </ul>
@@ -39,7 +43,9 @@
         <div class="py-8 px-3 text-sm md:grid md:grid-cols-3 md:gap-4">
             <div>
                 <div class="flex justify-center md:justify-start my-6">
-                    <img src="/images/logo-light.svg" alt="Hoodratz">
+                    <router-link to="/">
+                        <img src="/images/logo-light.svg" alt="Hoodratz">
+                    </router-link>
                 </div>
                 <p class="my-4 text-center md:text-left leading-6">
                     Hodratz are uniquely generated and collectible NFTs. Each of them is one-of-a-kind and 100% owned by you.
@@ -72,8 +78,8 @@
                     <div>
                         <h3 class="uppercase text-white mb-8">Company</h3>
                         <ul>
-                            <li class="my-2"><a href="#">About</a></li>
-                            <li class="my-2"><a href="#">Roadmap</a></li>
+                            <li class="my-2"><router-link to="/about">About</router-link></li>
+                            <li class="my-2"><router-link to="/roadmap">Roadmap</router-link></li>
                         </ul>
                     </div>
                     <div>
