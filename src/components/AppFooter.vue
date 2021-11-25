@@ -47,13 +47,19 @@
                 <div class="flex justify-center mb-4 md:hidden">
                     <ul class="flex">
                         <li class="mx-3 rounded-full border p-4 flex items-center justify-center border-gray-5">
-                            <img src="/images/discord.svg" alt="Discord">
+                            <a :href="social.discord" target="_blank">
+                                <img src="/images/discord.svg" alt="Discord">
+                            </a>
                         </li>
                         <li class="mx-3 rounded-full border p-4 flex items-center justify-center border-gray-5">
-                            <img src="/images/twitter.svg" alt="Twitter">
+                            <a :href="social.twitter" target="_blank">
+                                <img src="/images/twitter.svg" alt="Twitter">
+                            </a>
                         </li>
                         <li class="mx-3 rounded-full border p-4 flex items-center justify-center border-gray-5">
-                            <img src="/images/insta.svg" alt="Instagram">
+                            <a :href="social.instagram" target="_blank">
+                                <img src="/images/insta.svg" alt="Instagram">
+                            </a>
                         </li>
                     </ul>
                 </div>
