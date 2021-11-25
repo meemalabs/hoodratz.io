@@ -11,30 +11,36 @@ import AppFooter from '@/components/AppFooter.vue'
     </div>
     <!-- Content -->
     <div class="mx-4 md:container md:mx-auto">
-        <div class="md:grid md:grid-cols-3">
-            <div class="mb-8 md:mb-0">
-                <div class="relative">
-                    <div class="w-64 -ml-4"><img src="/images/about-txt.svg" alt="About"></div>
-                    <h1 class="text-pink-3 uppercase font-sora mt-8 absolute inset-0 tracking-widest">About</h1>
+        <div class="md:grid md:grid-cols-2">
+            <div class="mb-8 md:mb-0 flex md:items-center">
+                <div>
+                    <div class="relative">
+                        <div class="w-64 -ml-4"><img src="/images/about-txt.svg" alt="About"></div>
+                        <h1 class="text-pink-3 uppercase font-sora mt-8 absolute inset-0 tracking-widest">About</h1>
+                    </div>
+                    <h2 class="text-white font-kumbh-bold text-3xl md:text-5xl mb-4">The Hoodratz story</h2>
+                    <p class="font-sora leading-7">
+                        Hoodratz are uniquely generated, cute and collectible rats with proof of ownership stored on the Solana blockchain. All individual pieces of the Hoodratz world have been created by hand and algorithmically generated using custom code.  There are 165 attributes across 18 categories: These categories include background, body, type, pattern, tail, expression, mouth, eyes, skin, glasses, facial hair, hat/hair, mouth accessories, earring, neck, blankets, flags and best of all, cigars! With these combined, it gives a total mathematical combination of millions of unique Hoodratz - but with only 10,000 being minted, some are more unique and rare than others.
+                    </p>
                 </div>
-                <h2 class="text-white font-kumbh-bold text-3xl mb-4">The Hoodratz story</h2>
-                <p class="font-sora leading-7">
-                    Hoodratz are uniquely generated, cute and collectible rats with proof of ownership stored on the Solana blockchain. All individual pieces of the Hoodratz world have been created by hand and algorithmically generated using custom code.  There are 165 attributes across 18 categories: These categories include background, body, type, pattern, tail, expression, mouth, eyes, skin, glasses, facial hair, hat/hair, mouth accessories, earring, neck, blankets, flags and best of all, cigars! With these combined, it gives a total mathematical combination of millions of unique Hoodratz - but with only 10,000 being minted, some are more unique and rare than others.
-                </p>
             </div>
-            <div class="relative hidden md:block col-span-2">
+            <div class="relative hidden md:block md:-ml-20">
                 <div><img src="/images/about-cover.png" alt=""></div>
-                <div class="absolute inset-0"><img src="/images/about-desktop.png" alt=""></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="w-80 lg:w-96 xl:w-108">
+                        <img src="/images/about-desktop.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="md:grid md:grid-cols-3">
+        <div class="md:grid md:grid-cols-2">
             <div>
                 <div class="relative">
                     <div class="-ml-4 absolute inset-x-0 top-0"><img src="/images/the-team.svg" alt="The Team"></div>
                     <h1 class="text-pink-3 uppercase font-sora mt-8 tracking-widest">The Team</h1>
                 </div>
-                <h2 class="text-white font-kumbh-bold text-3xl my-4">Who's behind it all?</h2>
+                <h2 class="text-white font-kumbh-bold text-3xl md:text-5xl my-4">Who's behind it all?</h2>
                 <p class="font-sora leading-7">
                     We are a small group of friends with the same vision and goal. Our core principles have always been to deliver the best possible NFT user experience from launch as well as creating collectible art with utility.
                 </p>
