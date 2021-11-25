@@ -13,6 +13,9 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '1.875rem',
+      },
+      letterSpacing: {
+        widest: '.5rem',
       }
     },
     backgroundColor: theme => ({
@@ -38,19 +41,25 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: Object.assign(colors.trueGray, {
-        300: '#D6D3D9',
-        400: '#A7A1AB',
-        500: '#675C70',
+        1: '#F5F4F6',
+        2: "#DED8DC",
+        3: '#D6D3D9',
+        4: '#A7A1AB',
+        5: '#675C70',
+        6: '#463851',
+        7: '#32233F',
+        8: "#20142B",
       }),
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,
-      purple: Object.assign(colors.purple, {
-        700: '#32233F',
-        800: '#463851',
-        900: '#20142B',
+      pink: Object.assign(colors.pink, {
+        1: '#FAF3F5',
+        2: '#F7CFDB',
+        3: '#F05B88',
+        nude: '#F1B1A3',
+        gradient: 'radial-gradient(82.01% 81.61% at 94.63% 16.78%, #ED9DB9 0%, #EC83A2 57.37%, #F05281 100%)',
       }),
-      pink: colors.pink,
       hoodratz: {
         "grey-1": '#F5F4F6',
         "grey-2": "#DED8DC",
