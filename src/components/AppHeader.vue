@@ -34,8 +34,8 @@
               <div v-if="isActive" class="w-2 h-2 bg-pink-gradient rounded absolute bottom-0 -mb-3"></div>
             </router-link>
           </li>
-          <li class="mx-4 cursor-not-allowed">Rarity  <span class="bg-white text-gray-6 rounded-full py-1 px-2 text-xs uppercase">Soon</span></li>
-          <li class="mx-4 cursor-not-allowed">Merch <span class="bg-white text-gray-6 rounded-full py-1 px-2 text-xs uppercase">Soon</span></li>
+          <li class="mx-4 cursor-not-allowed">Rarity  <span class="bg-white text-gray-6 rounded-full px-1 text-xs uppercase">Soon</span></li>
+          <li class="mx-4 cursor-not-allowed">Merch <span class="bg-white text-gray-6 rounded-full px-1 text-xs uppercase">Soon</span></li>
         </ul>
       </div>
     </div>

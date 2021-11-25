@@ -78,15 +78,15 @@
                     <div>
                         <h3 class="uppercase text-white mb-8">Company</h3>
                         <ul>
-                            <li class="my-2"><router-link to="/about">About</router-link></li>
-                            <li class="my-2"><router-link to="/roadmap">Roadmap</router-link></li>
+                            <li class="my-2"><router-link class="hover:text-white" to="/about">About</router-link></li>
+                            <li class="my-2"><router-link class="hover:text-white" to="/roadmap">Roadmap</router-link></li>
                         </ul>
                     </div>
                     <div>
                         <h3 class="uppercase text-white mb-8">Hoodratz</h3>
                         <ul>
-                            <li class="my-2"><a href="#">Attributes</a></li>
-                            <li class="my-2"><a href="#">Merch</a></li>
+                            <li class="my-2 cursor-not-allowed">Attributes</li>
+                            <li class="my-2 cursor-not-allowed">Merch</li>
                         </ul>
                     </div>
                     <div>
