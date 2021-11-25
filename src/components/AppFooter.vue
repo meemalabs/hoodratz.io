@@ -88,17 +88,17 @@
                         <h3 class="text-white mb-8">Connect</h3>
                         <div class="flex justify-center mb-4">
                             <ul class="flex">
-                                <li class="mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
                                     <a href="#" class="block">
                                         <img class="w-4" src="/images/discord.svg" alt="Discord">
                                     </a>
                                 </li>
-                                <li class="mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
                                     <a href="#" class="block">
                                         <img class="w-4" src="/images/twitter.svg" alt="Twitter">
                                     </a>
                                 </li>
-                                <li class="mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
                                     <a href="#" class="block">
                                         <img class="w-4" src="/images/insta.svg" alt="Instagram">
                                     </a>

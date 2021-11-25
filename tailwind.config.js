@@ -16,6 +16,9 @@ module.exports = {
       },
       letterSpacing: {
         widest: '.5rem',
+      },
+      width: {
+        108: '27rem',
       }
     },
     backgroundColor: theme => ({
@@ -59,21 +62,13 @@ module.exports = {
         3: '#F05B88',
         nude: '#F1B1A3',
         gradient: 'radial-gradient(82.01% 81.61% at 94.63% 16.78%, #ED9DB9 0%, #EC83A2 57.37%, #F05281 100%)',
-      }),
-      hoodratz: {
-        "grey-1": '#F5F4F6',
-        "grey-2": "#DED8DC",
-        "grey-3": '#D6D3D9',
-        "grey-4": '#A7A1AB',
-        "grey-5": '#675C70',
-        "grey-6": '#463851',
-        "grey-7": '#32233F',
-        "grey-8": "#20142B",
-        "pink-1": "#FAF3F5",
-        "pink-2": "#F7CFDB",
-        "pink-3": "#F05B88",
-        "nude": "#F1B1A3"
-      }
+      })
+    },
+    backgroundImage: {
+      'hero': "url('/images/home/hero.png')",
+      'hero-sm': "url('/images/home/hero-sm.png')",
+      'hoodratz-card-bg': "url('/images/home/hoodratz-card-bg.png')",
+      'hoodratz-pink-bg': "url('/images/home/hoodratz-pink-bg.png')"
     },
   },
   plugins: [
