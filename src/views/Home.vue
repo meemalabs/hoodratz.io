@@ -6,7 +6,7 @@ import AppFooter from '@/components/AppFooter.vue'
 <template>
   <div class="relative w-screen h-full bg-hoodratz-grey-8">
     <AppHeader />
-    <section id="hero" class="relative w-screen h-screen max-h-full bg-no-repeat bg-cover bg-hero-sm">
+    <section id="hero" class="relative w-screen bg-no-repeat bg-contain bg-hero-sm">
       <div class="flex flex-col mx-4">
         <img class="object-contain w-full h-full" src="/images/home/hoodratz-card-sm.png" alt="">
         <div>
