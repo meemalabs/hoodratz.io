@@ -1,24 +1,29 @@
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-import Roadmap from './views/Roadmap.vue'
-import NotFound from './views/NotFound.vue'
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+import Roadmap from "./views/Roadmap.vue";
+import NotFound from "./views/NotFound.vue";
+import PrivacyPolicy from "./views/PrivacyPolicy.vue";
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
-  { path: '/', component: Home, meta: { title: 'Home' } },
+  { path: "/", name: "home", component: Home, meta: { title: "Home" } },
   {
-    path: '/about',
-    meta: { title: 'About' },
+    path: "/about",
+    name: "about",
+    meta: { title: "About" },
     component: About,
-    // example of route level code-splitting
-    // this generates a separate chunk (About.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import('./views/About.vue')
   },
   {
-    path: '/roadmap',
-    meta: { title: 'Roadmap' },
+    path: "/roadmap",
+    name: "roadmap",
+    meta: { title: "Roadmap" },
     component: Roadmap,
   },
-  { path: '/:path(.*)', component: NotFound },
-]
+  {
+    path: "/privacy-policy",
+    name: "privacy-policy",
+    meta: { title: "Privacy Policy" },
+    component: PrivacyPolicy,
+  },
+  { path: "/:path(.*)", component: NotFound },
+];
