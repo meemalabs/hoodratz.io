@@ -308,7 +308,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img src="/images/home/chevron-down.svg" alt="" />
                 </button>
 
                 <button
@@ -316,7 +316,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
@@ -351,7 +351,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.rarity = !accordion.rarity"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img src="/images/home/chevron-down.svg" alt="" />
                 </button>
 
                 <button
@@ -359,7 +359,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.rarity = !accordion.rarity"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
@@ -394,7 +394,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.popularity = !accordion.popularity"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img src="/images/home/chevron-down.svg" alt="" />
                 </button>
 
                 <button
@@ -402,7 +402,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.popularity = !accordion.popularity"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
@@ -437,7 +437,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img src="/images/home/chevron-down.svg" alt="" />
                 </button>
 
                 <button
@@ -445,7 +445,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
