@@ -30,123 +30,32 @@ import AppFooter from '@/components/AppFooter.vue'
     <div class="container mx-auto md:mb-32">
         <div class="md:w-2/3 mx-auto">
             <div class="text-center md:text-left mx-4 my-20 relative">
-                <div class="rounded-4xl bg-gray-7 p-6 md:p-8 font-sora relative">
+                <div v-for="(item, index) in roadmap"
+                    class="rounded-4xl bg-gray-7 font-sora relative"
+                    :class="{ 'p-6 md:p-8': index === 0, 'my-8 p-6': index }">
                     <div class="absolute inset-x-0 top-0 md:-top-0 flex justify-center -mt-6 md:hidden">
-                        <div class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            <div><img src="/images/check.svg" alt=""></div>
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center text-xl text-white"
+                            :class="{ 'bg-gray-6': !item.done, 'bg-pink-gradient': item.done }">
+                            <div v-if="item.done"><img src="/images/check.svg" alt=""></div>
+                            <div v-else>{{ $date(item.date).format('D') }}</div>
                         </div>
                     </div>
                     <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
                         <div class="-ml-16 h-full flex items-center">
-                            <div class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                            <div v-if="item.done" class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
                                 <div><img src="/images/check.svg" alt=""></div>
                             </div>
+                            <div v-else class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white"></div>
                         </div>
                     </div>
                     <div class="mt-6">
                         <div class="flex justify-center md:justify-between">
-                            <div class="hidden md:block text-pink-3">01</div>
-                            <div class="uppercase">December 2021</div>
+                            <div class="hidden md:block text-pink-3">{{ $date(item.date).format('DD') }}</div>
+                            <div class="uppercase">{{ $date(item.date).format('MMMM YYYY') }}</div>
                         </div>
-                        <div class="text-white text-2xl font-bold my-4">First generation drop</div>
+                        <div class="text-white text-2xl font-bold my-4">{{ item.title }}</div>
                         <p class="leading-8">
-                            Launch all 10,000 algorithmically generated Hoodratz to our awesome community.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="rounded-4xl bg-gray-7 my-8 p-6 font-sora relative">
-                    <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
-                        <div class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            <div><img src="/images/check.svg" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
-                        <div class="-ml-16 h-full flex items-center">
-                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex justify-center md:justify-between">
-                            <div class="hidden md:block text-pink-3">02</div>
-                            <div class="uppercase">January 2022</div>
-                        </div>
-                        <div class="text-white text-2xl font-bold my-4">Marketplace integration</div>
-                        <p class="leading-8">
-                            Buy, sell and trade Hoodratz on nakednft.com and opensea.com
-                        </p>
-                    </div>
-                </div>
-
-                <div class="rounded-4xl bg-gray-7 my-8 p-6 font-sora relative">
-                    <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
-                        <div class="bg-gray-6 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            <div>3</div>
-                        </div>
-                    </div>
-                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
-                        <div class="-ml-16 h-full flex items-center">
-                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex justify-center md:justify-between">
-                            <div class="hidden md:block text-pink-3">03</div>
-                            <div class="uppercase">February 2022</div>
-                        </div>
-                        <div class="text-white text-2xl font-bold my-4">Merch</div>
-                        <p class="leading-8">
-                            Exclusive Hoodratz merch will be available in our store... Our team has been working on this one a lot so we are sure you will love it!
-                        </p>
-                    </div>
-                </div>
-
-                <div class="rounded-4xl bg-gray-7 my-8 p-6 font-sora relative">
-                    <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
-                        <div class="bg-gray-6 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            <div>4</div>
-                        </div>
-                    </div>
-                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
-                        <div class="-ml-16 h-full flex items-center">
-                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex justify-center md:justify-between">
-                            <div class="hidden md:block text-pink-3">04</div>
-                            <div class="uppercase">March 2022</div>
-                        </div>
-                        <div class="text-white text-2xl font-bold my-4">Lorem ipsum</div>
-                        <p class="leading-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="rounded-4xl bg-gray-7 my-8 p-6 font-sora relative">
-                    <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
-                        <div class="bg-gray-6 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            <div>5</div>
-                        </div>
-                    </div>
-                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
-                        <div class="-ml-16 h-full flex items-center">
-                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-6">
-                        <div class="flex justify-center md:justify-between">
-                            <div class="hidden md:block text-pink-3">05</div>
-                            <div class="uppercase">May 2022</div>
-                        </div>
-                        <div class="text-white text-2xl font-bold my-4">Lorem ipsum</div>
-                        <p class="leading-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            {{ item.description }}
                         </p>
                     </div>
                 </div>
@@ -159,3 +68,15 @@ import AppFooter from '@/components/AppFooter.vue'
     <AppFooter />
 </div>
 </template>
+
+<script>
+import { roadmap } from '@/content/app.json'
+
+export default {
+    data () {
+        return {
+            roadmap,
+        }
+    }
+}
+</script>
