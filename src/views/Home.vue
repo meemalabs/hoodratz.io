@@ -303,11 +303,24 @@ import AppFooter from "@/components/AppFooter.vue";
                     Over 200 attributes
                   </h1>
                 </div>
-                <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-                  <img src="/images/home/chevron-right.svg" alt="" />
-                </div>
+                <button
+                  v-if="!accordion.variety"
+                  @click="accordion.variety = !accordion.variety"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.variety = !accordion.variety"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
               </div>
               <p
+                v-show="accordion.variety"
                 class="mt-6 text-gray-4 font-sora"
                 style="font-size: 16px; line-height: 30px"
               >
@@ -333,10 +346,31 @@ import AppFooter from "@/components/AppFooter.vue";
                     4 rarity levels
                   </h1>
                 </div>
-                <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-                  <img src="/images/home/chevron-right.svg" alt="" />
-                </div>
+                <button
+                  v-if="!accordion.rarity"
+                  @click="accordion.rarity = !accordion.rarity"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.rarity = !accordion.rarity"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
               </div>
+              <p
+                v-show="accordion.rarity"
+                class="mt-6 text-gray-4 font-sora"
+                style="font-size: 16px; line-height: 30px"
+              >
+                Excepteur labore mollit esse minim ullamco cillum anim est
+                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
+                laboris amet reprehenderit dolor aliqua.
+              </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
@@ -355,10 +389,31 @@ import AppFooter from "@/components/AppFooter.vue";
                     Amazing NFT community
                   </h1>
                 </div>
-                <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-                  <img src="/images/home/chevron-right.svg" alt="" />
-                </div>
+                <button
+                  v-if="!accordion.popularity"
+                  @click="accordion.popularity = !accordion.popularity"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.popularity = !accordion.popularity"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
               </div>
+              <p
+                v-show="accordion.popularity"
+                class="mt-6 text-gray-4 font-sora"
+                style="font-size: 16px; line-height: 30px"
+              >
+                Excepteur labore mollit esse minim ullamco cillum anim est
+                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
+                laboris amet reprehenderit dolor aliqua.
+              </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
@@ -377,10 +432,31 @@ import AppFooter from "@/components/AppFooter.vue";
                     Helping charities worldwide
                   </h1>
                 </div>
-                <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-                  <img src="/images/home/chevron-right.svg" alt="" />
-                </div>
+                <button
+                  v-if="!accordion.mission"
+                  @click="accordion.mission = !accordion.mission"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.mission = !accordion.mission"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
               </div>
+              <p
+                v-show="accordion.mission"
+                class="mt-6 text-gray-4 font-sora"
+                style="font-size: 16px; line-height: 30px"
+              >
+                Excepteur labore mollit esse minim ullamco cillum anim est
+                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
+                laboris amet reprehenderit dolor aliqua.
+              </p>
             </div>
           </div>
           <div>
@@ -434,7 +510,7 @@ import AppFooter from "@/components/AppFooter.vue";
               </h1>
             </div>
             <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-              <img src="/images/home/chevron-right.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="" />
             </div>
           </div>
           <p
@@ -461,7 +537,7 @@ import AppFooter from "@/components/AppFooter.vue";
               </h1>
             </div>
             <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-              <img src="/images/home/chevron-right.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="" />
             </div>
           </div>
         </div>
@@ -480,7 +556,7 @@ import AppFooter from "@/components/AppFooter.vue";
               </h1>
             </div>
             <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-              <img src="/images/home/chevron-right.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="" />
             </div>
           </div>
         </div>
@@ -499,7 +575,7 @@ import AppFooter from "@/components/AppFooter.vue";
               </h1>
             </div>
             <div class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl">
-              <img src="/images/home/chevron-right.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="" />
             </div>
           </div>
         </div>
@@ -583,6 +659,12 @@ import { social } from "@/content/app.json";
 export default {
   data() {
     return {
+      accordion: {
+        variety: false,
+        rarity: false,
+        popularity: false,
+        mission: false,
+      },
       social,
     };
   },
