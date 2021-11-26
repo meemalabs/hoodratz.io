@@ -7,10 +7,10 @@ import AppFooter from '@/components/AppFooter.vue'
 <div class="bg-gray-8 w-screen h-full text-gray-4">
     <AppHeader />
 
-    <div class="container mx-auto md:mt-32">
+    <div class="container mx-auto mt-20 md:mt-24">
         <div class="md:w-2/3 mx-auto">
-            <div class="relative w-full my-4">
-                <div class="absolute inset-0 flex items-center justify-center">
+            <div class="w-full my-4">
+                <div class="flex items-center justify-center">
                     <h1 class="text-pink-3 uppercase font-sora mt-8 tracking-widest -mt-2">Privacy</h1>
                 </div>
             </div>
@@ -28,7 +28,7 @@ import AppFooter from '@/components/AppFooter.vue'
 
     <!-- Content -->
     <div id="privacy-policy" class="mx-4 md:container md:mx-auto mt-8 mb-20 font-sora">
-        <div class="w-2/3 mx-auto">
+        <div class="md:w-2/3 mx-auto">
             <Content />
         </div>
     </div>  

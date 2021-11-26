@@ -164,7 +164,7 @@ Hoodratz, Inc. 12665 Village Ln, Unit 2306, Playa Vista, CA 90094
 
 <style scoped lang="postcss">
 .markdown-body {
-    @apply text-lg
+    @apply text-lg;
 }
 h1 {
     @apply text-white text-3xl font-bold my-4;
