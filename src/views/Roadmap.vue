@@ -10,7 +10,7 @@ import AppFooter from '@/components/AppFooter.vue'
     <div class="container mx-auto md:mt-32">
         <div class="md:w-2/3 mx-auto">
             <div class="relative w-full my-4">
-                <div class="w-full"><img src="/images/roadmap.svg" alt="About"></div>
+                <div class="w-full"><img src="/images/roadmap.png" alt="About"></div>
                 <div class="absolute inset-0 flex items-center justify-center">
                     <h1 class="text-pink-3 uppercase font-sora mt-8 tracking-widest -mt-2">Roadmap</h1>
                 </div>
@@ -29,11 +29,18 @@ import AppFooter from '@/components/AppFooter.vue'
 
     <div class="container mx-auto md:mb-32">
         <div class="md:w-2/3 mx-auto">
-            <div class="text-center md:text-left mx-4 my-20">
+            <div class="text-center md:text-left mx-4 my-20 relative">
                 <div class="rounded-4xl bg-gray-7 p-6 md:p-8 font-sora relative">
-                    <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
+                    <div class="absolute inset-x-0 top-0 md:-top-0 flex justify-center -mt-6 md:hidden">
                         <div class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
                             <div><img src="/images/check.svg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
+                        <div class="-ml-16 h-full flex items-center">
+                            <div class="bg-pink-gradient w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                                <div><img src="/images/check.svg" alt=""></div>
+                            </div>
                         </div>
                     </div>
                     <div class="mt-6">
@@ -54,6 +61,12 @@ import AppFooter from '@/components/AppFooter.vue'
                             <div><img src="/images/check.svg" alt=""></div>
                         </div>
                     </div>
+                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
+                        <div class="-ml-16 h-full flex items-center">
+                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                            </div>
+                        </div>
+                    </div>
                     <div class="mt-6">
                         <div class="flex justify-center md:justify-between">
                             <div class="hidden md:block text-pink-3">02</div>
@@ -70,6 +83,12 @@ import AppFooter from '@/components/AppFooter.vue'
                     <div class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:hidden">
                         <div class="bg-gray-6 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
                             <div>3</div>
+                        </div>
+                    </div>
+                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
+                        <div class="-ml-16 h-full flex items-center">
+                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                            </div>
                         </div>
                     </div>
                     <div class="mt-6">
@@ -90,6 +109,12 @@ import AppFooter from '@/components/AppFooter.vue'
                             <div>4</div>
                         </div>
                     </div>
+                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
+                        <div class="-ml-16 h-full flex items-center">
+                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                            </div>
+                        </div>
+                    </div>
                     <div class="mt-6">
                         <div class="flex justify-center md:justify-between">
                             <div class="hidden md:block text-pink-3">04</div>
@@ -108,6 +133,12 @@ import AppFooter from '@/components/AppFooter.vue'
                             <div>5</div>
                         </div>
                     </div>
+                    <div class="absolute inset-y-0 left-0 flex justify-center hidden md:block z-10">
+                        <div class="-ml-16 h-full flex items-center">
+                            <div class="bg-pink-1 border-2 border-pink-3 w-12 h-12 rounded-full flex items-center justify-center text-xl text-white">
+                            </div>
+                        </div>
+                    </div>
                     <div class="mt-6">
                         <div class="flex justify-center md:justify-between">
                             <div class="hidden md:block text-pink-3">05</div>
@@ -119,6 +150,8 @@ import AppFooter from '@/components/AppFooter.vue'
                         </p>
                     </div>
                 </div>
+
+                <div class="h-full border-l border-gray-4 -ml-10 border-dashed absolute top-0 hidden md:block"></div>
             </div>
         </div>
     </div>

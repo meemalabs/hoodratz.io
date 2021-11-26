@@ -11,7 +11,7 @@ import AppFooter from '@/components/AppFooter.vue'
     </div>
     <!-- Content -->
     <div class="mx-4 md:container md:mx-auto">
-        <div class="md:grid md:grid-cols-2">
+        <div class="md:grid md:grid-cols-2 md:mx-4">
             <div class="mb-8 md:mb-0 flex md:items-center">
                 <div>
                     <div class="relative">
@@ -34,7 +34,7 @@ import AppFooter from '@/components/AppFooter.vue'
             </div>
         </div>
 
-        <div class="md:grid md:grid-cols-2">
+        <div class="lg:grid lg:grid-cols-2 md:mx-4">
             <div>
                 <div class="relative">
                     <div class="-ml-4 absolute inset-x-0 top-0"><img src="/images/the-team.svg" alt="The Team"></div>
@@ -47,7 +47,7 @@ import AppFooter from '@/components/AppFooter.vue'
             </div>
         </div>
 
-        <div class="mt-12 mb-20 md:grid md:grid-cols-4 md:gap-6">
+        <div class="mt-12 mb-20 md:grid md:grid-cols-3 xl:grid-cols-4 md:gap-6 md:mx-4">
             <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl">
                 <div class="w-16 mr-4">
                     <img src="/images/team/chris.png" alt="Chris Breuer">
