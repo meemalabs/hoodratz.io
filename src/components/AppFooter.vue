@@ -31,7 +31,7 @@
             <h3 class="bg-gray-7 text-white uppercase px-4 py-3 text-sm">Policies</h3>
             <ul class="divide-y divide-gray-7 text-xs">
                 <li class="p-4 flex items-center justify-between">
-                    <div>Privay policy</div>
+                    <div><router-link to="/privacy-policy">Privacy policy</router-link></div>
                     <div><img src="/images/chevron.svg" alt=""></div>
                 </li>
                 <li class="p-4 flex items-center justify-between">
