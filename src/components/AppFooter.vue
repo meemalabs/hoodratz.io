@@ -92,8 +92,8 @@
                     <div>
                         <h3 class="uppercase text-white mb-8">Policies</h3>
                         <ul>
-                            <li class="my-2"><router-link to="/privacy-policy">Privacy policy</router-link></li>
-                            <li class="my-2"><a href="#">Cookie policy</a></li>
+                            <li class="my-2"><router-link class="hover:text-white" to="/privacy-policy">Privacy policy</router-link></li>
+                            <li class="my-2"><a class="cursor-not-allowed" href="#">Cookie policy</a></li>
                         </ul>
                     </div>
                     <div>
