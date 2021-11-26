@@ -47,7 +47,7 @@
                         <img src="/images/logo-light.svg" alt="Hoodratz">
                     </router-link>
                 </div>
-                <p class="my-4 text-center md:text-left leading-6">
+                <p class="my-4 text-center md:text-left leading-6 text-sm md:text-xs lg:text-base">
                     Hodratz are uniquely generated and collectible NFTs. Each of them is one-of-a-kind and 100% owned by you.
                 </p>
                 <div class="flex justify-center mb-4 md:hidden">
@@ -99,18 +99,18 @@
                     <div>
                         <h3 class="text-white mb-8">Connect</h3>
                         <div class="flex justify-center mb-4">
-                            <ul class="flex">
-                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                            <ul class="grid grid-cols-3 gap-1 lg:gap-3 xl:gap-4">
+                                <li class="rounded-full border flex items-center justify-center border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12">
                                     <a :href="social.discord" target="_blank" class="block">
                                         <img class="w-4" src="/images/discord.svg" alt="Discord">
                                     </a>
                                 </li>
-                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                                <li class="rounded-full border flex items-center justify-center border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12">
                                     <a :href="social.twitter" target="_blank" class="block">
                                         <img class="w-4" src="/images/twitter.svg" alt="Twitter">
                                     </a>
                                 </li>
-                                <li class="mx-1 xl:mx-3 rounded-full border flex items-center justify-center border-gray-5 w-12 h-12">
+                                <li class="rounded-full border flex items-center justify-center border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12">
                                     <a :href="social.instagram" target="_blank" class="block">
                                         <img class="w-4" src="/images/insta.svg" alt="Instagram">
                                     </a>
