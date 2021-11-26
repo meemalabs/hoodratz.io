@@ -48,62 +48,17 @@ import AppFooter from '@/components/AppFooter.vue'
         </div>
 
         <div class="mt-12 mb-20 md:grid md:grid-cols-3 xl:grid-cols-4 md:gap-6 md:mx-4">
-            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl">
+            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl" v-for="(item, index) in about">
                 <div class="w-16 mr-4">
-                    <img src="/images/team/chris.png" alt="Chris Breuer">
+                    <img :src="item.image" alt="Chris Breuer">
                 </div>
                 <div class="flex flex-1 md:items-center md:mt-8">
                     <div class="flex flex-col flex-1">
-                        <span class="text-white text-2xl">Chris</span>
-                        <span>CEO</span>
+                        <span class="text-white text-2xl">{{ item.name }}</span>
+                        <span>{{ item.role }}</span>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <img src="/images/twitter.svg" alt="Twitter">
-                        <img src="/images/linkedin.svg" alt="Linkedin">
-                    </div>
-                </div>
-            </div>
-            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl">
-                <div class="w-16 mr-4">
-                    <img src="/images/team/avery.png" alt="Chris Breuer">
-                </div>
-                <div class="flex flex-1 md:items-center md:mt-8">
-                    <div class="flex flex-col flex-1">
-                        <span class="text-white text-2xl">Avery</span>
-                        <span>PM</span>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <img src="/images/twitter.svg" alt="Twitter">
-                        <img src="/images/linkedin.svg" alt="Linkedin">
-                    </div>
-                </div>
-            </div>
-            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl">
-                <div class="w-16 mr-4">
-                    <img src="/images/team/chris.png" alt="Chris Breuer">
-                </div>
-                <div class="flex flex-1 md:items-center md:mt-8">
-                    <div class="flex flex-col flex-1">
-                        <span class="text-white text-2xl">Kyle</span>
-                        <span>Developer</span>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <img src="/images/twitter.svg" alt="Twitter">
-                        <img src="/images/linkedin.svg" alt="Linkedin">
-                    </div>
-                </div>
-            </div>
-            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl">
-                <div class="w-16 mr-4">
-                    <img src="/images/team/chris.png" alt="Chris Breuer">
-                </div>
-                <div class="flex flex-1 md:items-center md:mt-8">
-                    <div class="flex flex-col flex-1">
-                        <span class="text-white text-2xl">Denis</span>
-                        <span>Designer</span>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <a href="#" target="_blank"><img src="/images/twitter.svg" alt="Twitter"></a>
                         <img src="/images/linkedin.svg" alt="Linkedin">
                     </div>
                 </div>
@@ -114,3 +69,14 @@ import AppFooter from '@/components/AppFooter.vue'
     <AppFooter />
 </div>
 </template>
+<script>
+import { about } from '@/content/app.json'
+
+export default {
+    data () {
+        return {
+            about,
+        }
+    }
+}
+</script>

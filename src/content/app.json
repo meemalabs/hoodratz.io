@@ -31,5 +31,35 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "done": false
         }
+    ],
+    "about": [
+        {
+            "name": "Chris",
+            "role": "CEO",
+            "image": "/images/team/chris.png",
+            "twitter_url": "",
+            "linkedin_url": ""
+        },
+        {
+            "name": "Avery",
+            "role": "PM",
+            "image": "/images/team/avery.png",
+            "twitter_url": "",
+            "linkedin_url": ""
+        },
+        {
+            "name": "Kyle",
+            "role": "Developer",
+            "image": "/images/team/chris.png",
+            "twitter_url": "",
+            "linkedin_url": ""
+        },
+        {
+            "name": "Denis",
+            "role": "Designer",
+            "image": "/images/team/chris.png",
+            "twitter_url": "",
+            "linkedin_url": ""
+        }
     ]
 }
