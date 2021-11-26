@@ -11,7 +11,7 @@
                     </router-link>
                 </li>
                 <li class="p-4">
-                    <router-link to="/about" class="flex items-center justify-between">
+                    <router-link to="/roadmap" class="flex items-center justify-between">
                         <div>Roadmap</div>
                         <div><img src="/images/chevron.svg" alt=""></div>
                     </router-link>
