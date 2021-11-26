@@ -1,0 +1,25 @@
+<svg width="161" height="161" viewBox="0 0 161 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="75" cy="55.0001" r="29" fill="#F7CFDB"/>
+<g filter="url(#filter0_d_221_170)">
+<circle cx="74.9997" cy="55.0001" r="24.5385" fill="url(#paint0_radial_221_170)"/>
+</g>
+<path d="M76.4354 53.5624L68.985 61.0128M69.789 55.6057L66.1397 54.7437C65.7382 54.6489 65.597 54.1504 65.8879 53.8585L68.79 50.9564C68.985 50.7614 69.2495 50.6497 69.5266 50.6476L72.7987 50.6191M76.9201 46.875C79.3555 48.5358 81.462 50.6423 83.1228 53.0777M74.391 60.2087L75.253 63.8581C75.3478 64.2596 75.8463 64.4008 76.1382 64.1099L79.0404 61.2077C79.2353 61.0128 79.347 60.7483 79.3491 60.4711L79.3776 57.1991M83.7477 51.3652L84.5992 47.268C84.831 46.1531 83.8447 45.1668 82.7297 45.3986L78.6325 46.2501C77.4259 46.5009 76.3195 47.0984 75.449 47.9699L72.0874 51.3305C70.8049 52.6129 69.9703 54.2758 69.7068 56.0705L69.6952 56.1474C69.5287 57.2929 69.9123 58.4489 70.7301 59.2677C71.5478 60.0854 72.7049 60.469 73.8504 60.3015L73.9273 60.2899C75.7219 60.0275 77.3848 59.1918 78.6673 57.9093L82.0279 54.5488C82.8994 53.6783 83.4969 52.5718 83.7477 51.3652Z" stroke="white" stroke-width="1.70588" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_221_170" x="0.137747" y="0.60873" width="159.959" height="159.959" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="4.26471" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_221_170"/>
+<feOffset dx="5.11765" dy="25.5882"/>
+<feGaussianBlur stdDeviation="25.5882"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.529412 0 0 0 0 0.137255 0 0 0 0 0.345098 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_221_170"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_221_170" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_221_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(96.9032 38.6961) rotate(138.386) scale(53.8348 53.9059)">
+<stop stop-color="#ED9DB9"/>
+<stop offset="0.573664" stop-color="#EC83A2"/>
+<stop offset="1" stop-color="#F05281"/>
+</radialGradient>
+</defs>
+</svg>
