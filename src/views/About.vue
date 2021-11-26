@@ -48,7 +48,7 @@ import AppFooter from '@/components/AppFooter.vue'
         </div>
 
         <div class="mt-12 mb-20 md:grid md:grid-cols-3 xl:grid-cols-4 md:gap-6 md:mx-4">
-            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl" v-for="(item, index) in about">
+            <div class="flex md:flex-col bg-gray-7 my-6 px-8 py-6 rounded-4xl" v-for="(item, index) in team">
                 <div class="w-16 mr-4">
                     <img :src="item.image" alt="Chris Breuer">
                 </div>
@@ -70,12 +70,12 @@ import AppFooter from '@/components/AppFooter.vue'
 </div>
 </template>
 <script>
-import { about } from '@/content/app.json'
+import { team } from '@/content/app.json'
 
 export default {
     data () {
         return {
-            about,
+            team,
         }
     }
 }
