@@ -33,7 +33,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.twitter"
               target="_blank"
-              class="w-full px-8 py-3 mt-5 text-white border border-white rounded-full  lg:w-auto text-button font-sora"
+              class="w-full px-8 py-3 mt-5 text-white border border-white rounded-full  lg:w-auto text-button font-sora hover:bg-white hover:text-gray-7"
             >
               FOLLOW US
             </a>
