@@ -23,16 +23,20 @@ import AppFooter from "@/components/AppFooter.vue";
             A limited edition of 10.000 collectible pixel rats.
           </p>
           <div class="flex flex-col items-center w-full lg:flex-row">
-            <button
-              class="w-full px-8 py-3 mt-5 text-white rounded-full  lg:w-auto lg:mr-10 bg-pink-gradient md:shadow-none text-button font-sora shadow-hoodratz-btn"
+            <a
+              :href="social.discord"
+              target="_blank"
+              class="w-full px-8 py-3 mt-5 text-white rounded-full  lg:w-auto lg:mr-10 bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn"
             >
               JOIN DISCORD
-            </button>
-            <button
+            </a>
+            <a
+              :href="social.twitter"
+              target="_blank"
               class="w-full px-8 py-3 mt-5 text-white border border-white rounded-full  lg:w-auto text-button font-sora"
             >
               FOLLOW US
-            </button>
+            </a>
           </div>
         </div>
         <div class="flex justify-center order-first mt-20 lg:order-last">
@@ -571,3 +575,16 @@ import AppFooter from "@/components/AppFooter.vue";
     <AppFooter />
   </div>
 </template>
+
+
+<script>
+import { social } from "@/content/app.json";
+
+export default {
+  data() {
+    return {
+      social,
+    };
+  },
+};
+</script>
