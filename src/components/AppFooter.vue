@@ -131,13 +131,9 @@
                   <router-link
                     class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/#utility"
-                    >Privacy policy</router-link
                   >
-                  <a
-                    href="https://hoodratz.io/#utility"
-                    class="transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
-                    >Utility</a
-                  >
+                    Utility
+                  </router-link>
                 </li>
                 <li class="my-2 cursor-wait">Attributes</li>
                 <li class="my-2 cursor-wait">Merchandise</li>

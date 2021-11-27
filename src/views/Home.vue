@@ -122,12 +122,13 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="flex flex-col">
           <div class="flex flex-col -mt-56">
-            <h1 class="text-pink-3 font-sora text-h4">ABOUT US</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">About Us</h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
               What are Hoodratz?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              Hoodratz are uniquely generated &amp; collectible NFTs.
+              Hoodratz are uniquely generated &amp; collectible digital art
+              pieces (NFTs).
               <br />Inspired by the global New York City NFT hub, each of these
               rats is <br />one-of-a-kind and 100% owned by you.
             </p>
