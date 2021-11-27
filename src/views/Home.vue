@@ -19,7 +19,7 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Discover hoodratz, <br class="hidden xl:block lg:block" />
+            Discover hoodratz <br class="hidden xl:block lg:block" />
             the first cross-chain collection. Ever.
           </h1>
           <p
@@ -291,15 +291,15 @@ import AppFooter from "@/components/AppFooter.vue";
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude font-sora text-caption">
-                    Rarity
+                    Free 12 Months
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    7 rarity levels
+                    Decentralized File Manager
                   </h1>
                 </div>
                 <button
-                  v-if="!accordion.rarity"
-                  @click="accordion.rarity = !accordion.rarity"
+                  v-if="!accordion.free"
+                  @click="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -307,27 +307,77 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.rarity = !accordion.rarity"
+                  @click="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
-                v-show="accordion.rarity"
+                v-show="accordion.free"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                Think of Dropbox for Web 3. For the past 2 years, we have been
+                working on a custom file management experience &amp; ecosystem
+                that ensures a blazing fast media delivery. Public launch
+                February 2022. Every holder will receive 12 months of service
+                for free!
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption">POPULARITY</h1>
-                  <h1 class="text-white text-body">Amazing NFT community</h1>
+                  <h1 class="uppercase text-pink-nude font-sora text-caption">
+                    Reduced Trading Fees
+                  </h1>
+                  <h1 class="text-white text-body font-sora">
+                    Cross-Chain NFT Marketplace
+                  </h1>
+                </div>
+                <button
+                  v-if="!accordion.marketplace"
+                  @click="accordion.marketplace = !accordion.marketplace"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.marketplace = !accordion.marketplace"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+              </div>
+              <p
+                v-show="accordion.marketplace"
+                class="mt-6 text-gray-4 font-sora text-body-2"
+              >
+                Our brand
+                <a
+                  href="https://www.instagram.com/nakednfts/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@NakedNFTs</a
+                >
+                is releasing an incredibly thoroughly designed &amp; architected
+                NFT marketplace on 12/12 as well! As a holder, any time you sell
+                or purchase a digital collectible through our marketplace, you
+                automatically pay fewer taxes.
+              </p>
+            </div>
+
+            <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
+              <div class="flex items-center justify-between">
+                <div class="flex flex-col">
+                  <h1 class="uppercase text-pink-nude text-caption">
+                    Popularity
+                  </h1>
+                  <h1 class="text-white text-body">
+                    The Most Rat NFT Community
+                  </h1>
                 </div>
                 <button
                   v-if="!accordion.popularity"
@@ -422,7 +472,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">VARIETY</h1>
+              <h1 class="text-pink-nude text-caption font-sora">Variety</h1>
               <h1 class="text-white text-body font-sora">
                 Over 200 attributes
               </h1>
@@ -458,7 +508,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">RARITY</h1>
+              <h1 class="text-pink-nude font-sora text-caption">Rarity</h1>
               <h1 class="text-white font-sora text-body">4 rarity levels</h1>
             </div>
             <button
@@ -634,7 +684,8 @@ export default {
     return {
       accordion: {
         variety: false,
-        rarity: false,
+        free: false,
+        marketplace: false,
         popularity: false,
         mission: false,
       },
