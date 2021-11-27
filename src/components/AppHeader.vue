@@ -6,8 +6,10 @@
     <div
       class="container flex items-center justify-between h-16 px-6 mx-auto  md:h-24"
     >
-      <router-link to="/" class="w-32"
-        ><img src="/images/logo.svg" alt=""
+      <router-link
+        to="/"
+        class="p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+        ><img class="w-32" src="/images/logo.svg" alt=""
       /></router-link>
       <div class="md:hidden">
         <img
@@ -26,7 +28,7 @@
       </div>
       <div class="hidden text-white md:block">
         <ul class="flex">
-          <li class="relative flex flex-col items-center mx-4">
+          <li class="relative flex flex-col items-center mx-2">
             <router-link
               to="/"
               custom
@@ -34,7 +36,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
+                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >Home</a
@@ -45,7 +47,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-4">
+          <li class="relative flex flex-col items-center mx-2">
             <router-link
               to="/about"
               custom
@@ -53,7 +55,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
+                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >About</a
@@ -64,7 +66,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-4">
+          <li class="relative flex flex-col items-center mx-2">
             <router-link
               to="/roadmap"
               custom
@@ -73,7 +75,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
+                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Roadmap</a
               >
@@ -83,17 +85,17 @@
               ></div>
             </router-link>
           </li>
-          <li class="mx-4 cursor-not-allowed">
+          <li class="mx-2 cursor-not-allowed">
             Rarity
             <span
-              class="px-1 text-xs uppercase bg-white rounded-full text-gray-6"
+              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
               >Soon</span
             >
           </li>
-          <li class="mx-4 cursor-not-allowed">
+          <li class="mx-2 cursor-not-allowed">
             Merch
             <span
-              class="px-1 text-xs uppercase bg-white rounded-full text-gray-6"
+              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
               >Soon</span
             >
           </li>
