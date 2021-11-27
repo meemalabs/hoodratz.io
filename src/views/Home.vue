@@ -80,6 +80,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
     </section>
+
     <section id="about-us-desktop" class="relative hidden h-full lg:block">
       <div>
         <img src="/images/home/hoodratz-about-us-lg.png" alt="" />
@@ -178,7 +179,7 @@ import AppFooter from "@/components/AppFooter.vue";
           What are Hoodratz?
         </h1>
         <p class="mt-5 text-gray-4 font-sora text-body-2">
-          Hodratz are uniquely generated and collectible NFTs. <br />Each of
+          Hoodratz are uniquely generated and collectible NFTs. <br />Each of
           them is one-of-a-kind and 100% owned by you.
         </p>
       </div>
@@ -408,8 +409,8 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption font-sora">
-                    OUR MISSION
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Our Mission
                   </h1>
                   <h1 class="text-white text-body font-sora">
                     Helping charities worldwide
@@ -435,9 +436,10 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.mission"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                Our passion and focus lies and lives on the intersection of
+                where technology meets humanity. We try to connect and improve
+                lives by leveraging our creative and technological skills by
+                working with educational nonprofits all throughout the world.
               </p>
             </div>
           </div>
@@ -615,21 +617,78 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
+    <section
+      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-32 xl:max-w-screen-xl"
+    >
+      <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="relative">
+          <div
+            class="relative z-10 max-w-screen-lg mx-auto text-center  xl:max-w-screen-xl"
+          >
+            <h2
+              class="mb-8 text-3xl font-extrabold leading-none tracking-tight  text-gray-1 sm:text-5xl lg:text-6xl font-kumbh-bold"
+            >
+              A truly unique NFT collection.<br />
+              In several ways.
+            </h2>
+          </div>
+          <blockquote class="mt-10">
+            <p
+              class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
+            >
+              “Not only is the amount of utility offered .
+              <span
+                class="font-semibold text-indigo-600"
+                style="
+                  box-shadow: inset 0 -0.1666666667em 0 0 #fff,
+                    inset 0 -0.3333333333em 0 0 #bae6fd;
+                "
+                >How many times have you created an API .</span
+              >
+              How many times have you created an API endpoint to handle your
+              file uploads? Are your images &amp; videos utilizing a modern
+              web-optimized format? Do you use differently encoded videos to
+              ensure that no matter the internet connection — or device — there
+              will be as little buffering as possible? The list is long which is
+              why we try to create a set of standards to simplify your
+              management process.
+            </p>
+          </blockquote>
+          <figcaption
+            class="flex flex-col items-center mt-12 font-medium sm:text-xl"
+          >
+            <div class="p-1 mb-3 border-2 border-indigo-800 rounded-full">
+              <img
+                src="/images/chris.jpeg"
+                alt=""
+                class="w-10 h-10 bg-indigo-100 rounded-full"
+                loading="lazy"
+              />
+            </div>
+            <div class="text-gray-1">Chris Breuer</div>
+            <div class="text-gray-3">
+              Creator of Meema &amp; Naked NFTs Marketplace.
+            </div>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+
     <section id="future-desktop" class="hidden h-full py-36 lg:block">
       <div class="relative">
         <img src="/images/home/hoodratz-future-lg.png" alt="" />
         <div class="absolute inset-0 flex flex-col items-center left-7 top-12">
           <img src="/images/home/hoodratz-future-tech-lg.png" alt="" />
           <h1
-            class="mt-5 tracking-widest text-center  text-pink-3 font-sora text-h4"
+            class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
-            NEWSET TECH
+            Newest Tech
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
             Become a part of the future of NFT
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            All hoodratz are stored on the Solana blockchain and their URL is
+            All Hoodratz are stored on the Solana blockchain and their URL is
             secured by <br />
             Meema. NFT world has never seen this before!
           </p>
@@ -671,6 +730,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
     </section>
+
     <AppFooter />
   </div>
 </template>

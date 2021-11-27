@@ -74,8 +74,8 @@
           <p
             class="my-4 text-sm leading-6 text-center  md:text-left md:text-xs lg:text-base"
           >
-            Hodratz are uniquely generated and collectible NFTs. Each of them is
-            one-of-a-kind and 100% owned by you.
+            Hoodratz are uniquely generated and collectible NFTs. Each of them
+            is one-of-a-kind and 100% owned by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
