@@ -28,7 +28,7 @@
       </div>
       <div class="hidden text-white md:block">
         <ul class="flex">
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-4">
             <router-link
               to="/"
               custom
@@ -47,7 +47,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-4">
             <router-link
               to="/about"
               custom
@@ -66,7 +66,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-4">
             <router-link
               to="/roadmap"
               custom
@@ -85,7 +85,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-4">
             <router-link
               to="/faq"
               custom

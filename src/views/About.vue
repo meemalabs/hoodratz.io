@@ -17,24 +17,14 @@ import AppFooter from "@/components/AppFooter.vue";
     <!-- Content -->
     <div class="relative mx-4 md:container md:mx-auto">
       <img
-        class="
-          absolute
-          hidden
-          xl:left-1/2 xl:top-0
-          lg:block lg:top-0 lg:left-1/2
-        "
+        class="absolute hidden  xl:left-1/2 xl:top-0 lg:block lg:top-0 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
-      <div class="md:grid md:grid-cols-2 md:mx-4 md:mt-24">
+      <div class="md:grid md:grid-cols-2 md:mx-32 md:mt-24">
         <div class="relative flex mb-8 md:mb-0 md:items-center">
           <img
-            class="
-              absolute
-              hidden
-              xl:top-96 xl:-left-44
-              lg:top-3/4 lg:-left-56 lg:block
-            "
+            class="absolute hidden  xl:top-96 xl:-left-44 lg:top-3/4 lg:-left-56 lg:block"
             src="/images/home/hoodratz-ellipse-1424.svg"
             alt=""
           />
@@ -44,15 +34,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <img src="/images/about-txt.svg" alt="About" />
               </div>
               <h1
-                class="
-                  absolute
-                  inset-0
-                  mt-8
-                  tracking-widest
-                  uppercase
-                  text-pink-3
-                  font-sora
-                "
+                class="absolute inset-0 mt-8 tracking-widest uppercase  text-pink-3 font-sora"
               >
                 About
               </h1>
@@ -81,12 +63,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </p>
 
             <img
-              class="
-                absolute
-                hidden
-                xl:left-3/4 xl:top-full
-                lg:block lg:top-3/4 lg:left-full
-              "
+              class="absolute hidden  xl:left-3/4 xl:top-full lg:block lg:top-3/4 lg:left-full"
               src="/images/home/hoodratz-ellipse-103.png"
               alt=""
             />
@@ -107,12 +84,7 @@ import AppFooter from "@/components/AppFooter.vue";
         <div>
           <div class="relative">
             <img
-              class="
-                absolute
-                hidden
-                xl:left-36 xl:-top-14
-                lg:block lg:-top-14 lg:left-36
-              "
+              class="absolute hidden  xl:left-36 xl:-top-14 lg:block lg:-top-14 lg:left-36"
               src="/images/home/hoodratz-ellipse-88.png"
               alt=""
             />
@@ -139,26 +111,14 @@ import AppFooter from "@/components/AppFooter.vue";
           alt=""
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-1/2 xl:-top-14
-            lg:block lg:top-24 lg:left-1/2
-          "
+          class="absolute hidden  xl:left-1/2 xl:-top-14 lg:block lg:top-24 lg:left-1/2"
           src="/images/home/hoodratz-ellipse-97.png"
           alt=""
         />
       </div>
 
       <div
-        class="
-          relative
-          mt-12
-          mb-20
-          md:grid md:grid-cols-3
-          xl:grid-cols-4
-          md:gap-6 md:mx-4
-        "
+        class="relative mt-12 mb-20  md:grid md:grid-cols-3 xl:grid-cols-4 md:gap-6 md:mx-4"
       >
         <div
           class="flex px-8 py-6 my-6 md:flex-col bg-gray-7 rounded-4xl"
@@ -179,42 +139,22 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
         </div>
         <img
-          class="
-            absolute
-            hidden
-            xl:left-0 xl:-top-14
-            lg:block lg:-top-16 lg:left-0
-          "
+          class="absolute hidden  xl:left-0 xl:-top-14 lg:block lg:-top-16 lg:left-0"
           src="/images/home/hoodratz-ellipse-97.png"
           alt=""
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-3/4 xl:-top-14
-            lg:block lg:-top-16 lg:left-3/4
-          "
+          class="absolute hidden  xl:left-3/4 xl:-top-14 lg:block lg:-top-16 lg:left-3/4"
           src="/images/home/hoodratz-ellipse-88.png"
           alt=""
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-1/2 xl:top-52
-            lg:block lg:top-52 lg:left-3/4
-          "
+          class="absolute hidden  xl:left-1/2 xl:top-52 lg:block lg:top-52 lg:left-3/4"
           src="/images/home/hoodratz-ellipse-97.png"
           alt=""
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-full xl:top-72
-            lg:block lg:top-96 lg:left-1/2
-          "
+          class="absolute hidden  xl:left-full xl:top-72 lg:block lg:top-96 lg:left-1/2"
           src="/images/home/hoodratz-ellipse-88.png"
           alt=""
         />

@@ -320,9 +320,8 @@ import AppFooter from "@/components/AppFooter.vue";
               Why are the Hoodratz so special?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              We are NFT &amp; blockchain technology lovers through and through.
-              created a collection drop that we would like to buy ourselves!
-              Check this out:
+              We are NFT &amp; crypto lovers who created a collection drop that
+              we would purchase ourselves!
             </p>
             <div class="flex flex-col p-6 mt-20 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
@@ -367,7 +366,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     Free For 12 Months
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Decentralized File Manager
+                    The First Decentralized File Manager
                   </h1>
                 </div>
                 <button
@@ -411,7 +410,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     Reduced Trading Fees
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Cross-Chain NFT Marketplace
+                    The First Cross-Chain NFT Marketplace
                   </h1>
                 </div>
                 <button
@@ -442,9 +441,16 @@ import AppFooter from "@/components/AppFooter.vue";
                   >@NakedNFTs</a
                 >
                 is releasing an incredibly thoroughly designed &amp; architected
-                NFT marketplace on 12/12 as well! As a holder, any time you sell
-                or purchase a digital collectible through our marketplace, you
-                automatically pay fewer taxes.
+                NFT marketplace on 12/12 as well, the day of our Hoodratz
+                launch! It will be our primary marketplace.
+              </p>
+              <p
+                v-show="accordion.marketplace"
+                class="mt-3 text-gray-4 font-sora text-body-2"
+              >
+                Not only will you, as a hodler, pay fewer taxes automatically,
+                but also get to experience history listing on the first
+                marketplace that will support Ethereum, Cardano, and Solana.
               </p>
             </div>
 
@@ -480,6 +486,44 @@ import AppFooter from "@/components/AppFooter.vue";
               >
                 We love building &amp; scaling growing, successful communities.
                 We have a
+              </p>
+            </div>
+
+            <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
+              <div class="flex items-center justify-between">
+                <div class="flex flex-col">
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Airdrops
+                  </h1>
+                  <h1 class="text-white text-body font-sora">
+                    Our creativity keeps creating
+                  </h1>
+                </div>
+                <button
+                  v-if="!accordion.airdrops"
+                  @click="accordion.airdrops = !accordion.airdrops"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.airdrops = !accordion.airdrops"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+              </div>
+              <p
+                v-show="accordion.airdrops"
+                class="mt-6 text-gray-4 font-sora text-body-2"
+              >
+                Our "creative team" is one of the most qualified in the
+                industry. Join our Discord to find out more about our upcoming
+                cross-chain collection launches! Not only will we airdrop
+                several to hodlers but you are not going to want to miss those
+                mints, either.
               </p>
             </div>
 
@@ -544,8 +588,8 @@ import AppFooter from "@/components/AppFooter.vue";
         </h1>
 
         <p class="mt-4 text-gray-4 font-sora text-body-2">
-          We are NFT and crypto lovers and created a collection drop that we
-          would like to buy ourselves!
+          We are NFT &amp; crypto lovers who created a collection drop that we
+          would purchase ourselves!
         </p>
       </div>
       <div class="mx-4 mt-5 md:flex md:flex-col md:items-center">
@@ -829,19 +873,24 @@ import AppFooter from "@/components/AppFooter.vue";
             We are in it for the long run. Are you?
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            Initially, we launch on the Solana blockchain.
+            Initially launching on the Solana blockchain,
           </p>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            We will then expand into Ethereum and the Cardano blockchain.
+            we will then expand into Ethereum &amp; the Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
-            <img class="mr-5" src="/images/solana-logo.svg" alt="" />
+            <img class="mr-5" src="/images/solana-logo.svg" alt="Solana logo" />
           </div>
           <div class="flex items-center mt-5">
             <img
-              class="mr-5 opacity-10"
-              src="/images/home/hoodratz-solana-lg.png"
-              alt=""
+              class="mr-12 opacity-40"
+              src="/images/logo-eth.svg"
+              alt="Ethereum logo"
+            />
+            <img
+              class="opacity-20"
+              src="/images/logo-ada.svg"
+              alt="Cardano logo"
             />
           </div>
         </div>
@@ -891,6 +940,7 @@ export default {
         marketplace: false,
         popularity: false,
         mission: false,
+        airdrops: false,
       },
       social,
     };
