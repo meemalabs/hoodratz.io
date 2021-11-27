@@ -19,8 +19,8 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Hoodratz <br class="hidden xl:block lg:block" />
-            the first cross-chain collection. Ever.
+            Hoodratz. <br class="hidden xl:block lg:block" />
+            The first cross-chain collection. Ever.
           </h1>
           <p
             class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-2 text-body-2"
@@ -325,6 +325,12 @@ import AppFooter from "@/components/AppFooter.vue";
                 February 2022. Every holder will receive 12 months of service
                 for free!
               </p>
+              <p
+                v-show="accordion.free"
+                class="mt-3 italic text-gray-4 font-sora text-body-2"
+              >
+                This is a value of at least 120 USD per year.
+              </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
@@ -401,9 +407,8 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.popularity"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                We love building &amp; scaling growing, successful communities.
+                We have a
               </p>
             </div>
 
@@ -465,9 +470,10 @@ import AppFooter from "@/components/AppFooter.vue";
         <h1 class="mt-3 text-white font-kumbh-bold text-h3">
           What makes them so special?
         </h1>
+
         <p class="mt-4 text-gray-4 font-sora text-body-2">
           We are NFT and crypto lovers and created a collection drop that we
-          would like to buy ourselves! Check this out:
+          would like to buy ourselves!
         </p>
       </div>
       <div class="mx-4 mt-5 md:flex md:flex-col md:items-center">
@@ -638,9 +644,9 @@ import AppFooter from "@/components/AppFooter.vue";
             <p
               class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
             >
-              “Not only is the amount of utility offered .
+              We created Hoodratz as a.
               <span
-                class="font-semibold text-indigo-600"
+                class="font-semibold text-pink-600"
                 style="
                   box-shadow: inset 0 -0.1666666667em 0 0 #fff,
                     inset 0 -0.3333333333em 0 0 #bae6fd;
@@ -659,7 +665,7 @@ import AppFooter from "@/components/AppFooter.vue";
           <figcaption
             class="flex flex-col items-center mt-12 font-medium sm:text-xl"
           >
-            <div class="p-1 mb-3 border-2 border-indigo-800 rounded-full">
+            <div class="p-1 mb-3 border-2 border-pink-900 rounded-full">
               <img
                 src="/images/chris.jpeg"
                 alt=""
@@ -668,9 +674,7 @@ import AppFooter from "@/components/AppFooter.vue";
               />
             </div>
             <div class="text-gray-1">Chris Breuer</div>
-            <div class="text-gray-3">
-              Creator of Meema &amp; Naked NFTs Marketplace.
-            </div>
+            <div class="text-gray-5">Creator of Hoodratz</div>
           </figcaption>
         </div>
       </div>
@@ -684,13 +688,16 @@ import AppFooter from "@/components/AppFooter.vue";
           <h1
             class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
-            Newest Tech
+            Interoperable Tech
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            Initially, all Hoodratz w stored
+            Initially, we launch on the Solana blockchain.
+          </p>
+          <p class="text-center text-body-2 text-gray-4 font-sora">
+            We will then expand into Ethereum and the Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
             <img class="mr-5" src="/images/solana-logo.svg" alt="" />
@@ -701,7 +708,6 @@ import AppFooter from "@/components/AppFooter.vue";
               src="/images/solana-logo-gray.svg"
               alt=""
             />
-            <img class="opacity-10" src="/images/solana-logo-gray.svg" alt="" />
           </div>
         </div>
       </div>

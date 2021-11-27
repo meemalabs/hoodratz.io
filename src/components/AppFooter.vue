@@ -51,7 +51,7 @@
         <ul class="text-xs divide-y divide-gray-7">
           <li class="flex items-center justify-between p-4">
             <div>
-              <router-link to="/privacy-policy">Privacy policy</router-link>
+              <router-link to="/privacy-policy">Privacy Policy</router-link>
             </div>
             <div><img src="/images/chevron.svg" alt="" /></div>
           </li>
