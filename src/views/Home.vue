@@ -40,7 +40,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.twitter"
               target="_blank"
-              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
               FOLLOW US
               <svg

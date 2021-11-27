@@ -113,14 +113,14 @@
               <ul>
                 <li class="my-2">
                   <router-link
-                    class="px-2 rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/about"
                     >About</router-link
                   >
                 </li>
                 <li class="my-2">
                   <router-link
-                    class="px-2 rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/roadmap"
                     >Roadmap</router-link
                   >
@@ -139,14 +139,14 @@
               <ul>
                 <li class="my-2">
                   <router-link
-                    class="px-2 rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/privacy-policy"
                     >Privacy policy</router-link
                   >
                 </li>
                 <li class="my-2">
                   <a
-                    class="px-2 rounded-md cursor-not-allowed  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-not-allowed  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     href="#"
                     >Cookie policy</a
                   >

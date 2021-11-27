@@ -36,7 +36,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >Home</a
@@ -55,7 +55,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >About</a
@@ -75,7 +75,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Roadmap</a
               >
@@ -117,28 +117,28 @@
           <li>
             <router-link
               to="/about"
-              class="block px-3 py-6 text-lg font-medium rounded-md  text-gray-8 hover:text-pink-3"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >About</router-link
             >
           </li>
           <li>
             <router-link
               to="/roadmap"
-              class="block px-3 py-6 text-lg font-medium rounded-md  text-gray-8 hover:text-pink-3"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >Roadmap</router-link
             >
           </li>
           <li>
             <a
               href="#"
-              class="block px-3 py-6 text-lg font-medium rounded-md  text-gray-4 hover:text-pink-3"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
               >Rarity</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block px-3 py-6 text-lg font-medium rounded-md  text-gray-4 hover:text-pink-3"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
               >Merch</a
             >
           </li>
