@@ -19,13 +19,13 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Discover HoodRatz, <br class="hidden xl:block lg:block" />a new NFT
-            collection
+            Discover hoodratz, <br class="hidden xl:block lg:block" />
+            the first cross-chain collection. Ever.
           </h1>
           <p
-            class="mt-5 leading-8  md:text-body font-sora text-gray-2 text-body-2"
+            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-2 text-body-2"
           >
-            A limited edition of 10.000 collectible pixel rats.
+            A limited edition of 10,000 rare hoodratz.
           </p>
           <div
             class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
@@ -33,16 +33,16 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="flex items-center justify-center w-full px-8 py-3 mt-5 text-white rounded-full  md:w-3/4 lg:w-auto lg:mr-10 md:mr-10 bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3"
+              class="flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase rounded-full  md:w-3/4 lg:w-auto lg:mr-10 md:mr-10 bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3"
             >
-              JOIN DISCORD
+              Join Discord
             </a>
             <a
               :href="social.twitter"
               target="_blank"
-              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
-              FOLLOW US
+              Follow Us
               <svg
                 class="fill-current ml-2.5"
                 width="20"
@@ -62,7 +62,7 @@ import AppFooter from "@/components/AppFooter.vue";
             class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">Dec 24!</span>
+              Launching on <span class="text-pink-3">12/12!</span>
             </p>
             <img
               class="mt-10 w-28 h-28"
@@ -92,8 +92,8 @@ import AppFooter from "@/components/AppFooter.vue";
               What are Hoodratz?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              Hodratz are uniquely generated and collectible NFTs. <br />Each of
-              them is one-of-a-kind and 100% owned by you.
+              Hoodratz are uniquely generated &amp; collectible NFTs. <br />Each
+              one of them is truly unique and completely owned by you.
             </p>
           </div>
           <div class="flex mt-24">
@@ -128,8 +128,8 @@ import AppFooter from "@/components/AppFooter.vue";
                   </div>
                 </div>
                 <p class="mt-6 text-gray-4 text-body-2 font-sora">
-                  Hoodratz come with various rare attributes. <br />The rarer
-                  the attribute, the rarer is your rat!
+                  Hoodratz come in various rarity attributes. <br />The rarer
+                  the attribute, the more collectible is your rat!
                 </p>
               </div>
               <div
@@ -146,7 +146,9 @@ import AppFooter from "@/components/AppFooter.vue";
                     />
                   </div>
                   <div class="flex flex-col ml-auto text-right">
-                    <h1 class="text-pink-3 font-sora text-caption">AMOUNT</h1>
+                    <h1 class="uppercase text-pink-3 font-sora text-caption">
+                      Amount
+                    </h1>
                     <h1 class="text-white font-sora text-title">10 000</h1>
                   </div>
                 </div>
@@ -241,9 +243,9 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="grid grid-cols-2">
           <div class="flex flex-col mr-24 -mt-72">
-            <h1 class="text-pink-3 font-sora text-h4">VALUE PROPOSITION</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">Utility</h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
-              What makes them so special?
+              Why are the Hoodratz so special?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
               We are NFT and crypto lovers and created a collection drop that we
@@ -252,9 +254,11 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="flex flex-col p-6 mt-20 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption font-sora">VARIETY</h1>
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Variety
+                  </h1>
                   <h1 class="text-white text-body font-sora">
-                    Over 200 attributes
+                    7 Traits &amp; Over 50 Attributes
                   </h1>
                 </div>
                 <button
@@ -277,18 +281,20 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.variety"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Creativity is our second name! We designed over 200 attributes
+                Creativity is our second name! We designed over 50 attributes
                 for our Hoodratz so that each and every one of them would be
-                amazing and one-of-a-kind!
+                beautiful and one-of-a-kind!
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude font-sora text-caption">RARITY</h1>
+                  <h1 class="uppercase text-pink-nude font-sora text-caption">
+                    Rarity
+                  </h1>
                   <h1 class="text-white text-body font-sora">
-                    4 rarity levels
+                    7 rarity levels
                   </h1>
                 </div>
                 <button
