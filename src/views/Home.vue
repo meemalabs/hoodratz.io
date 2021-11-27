@@ -16,6 +16,26 @@ import AppFooter from "@/components/AppFooter.vue";
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-1/2 lg:block lg:top-1/2 lg:right-0"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-3/4 lg:block lg:top-32 lg:left-36"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-1425.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
@@ -82,6 +102,21 @@ import AppFooter from "@/components/AppFooter.vue";
     </section>
 
     <section id="about-us-desktop" class="relative hidden h-full lg:block">
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-24 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:top-96 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div>
         <img src="/images/home/hoodratz-about-us-lg.png" alt="" />
       </div>
@@ -102,6 +137,11 @@ import AppFooter from "@/components/AppFooter.vue";
             <img
               class="mr-24 w-96 h-1/43"
               src="/images/home/hoodratz-josephine.png"
+              alt=""
+            />
+            <img
+              class="absolute block left-24 w-80 top-full xl:hidden lg:block"
+              src="/images/home/hoodratz-cone.svg"
               alt=""
             />
             <div class="relative flex w-full">
@@ -135,7 +175,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </p>
               </div>
               <div
-                class="absolute flex flex-col p-6 mt-10  xl:-bottom-24 lg:-bottom-80 w-72 bg-hoodratz-grey-7 rounded-4xl font-sora"
+                class="absolute flex flex-col p-6 mt-10  xl:-bottom-24 lg:-bottom-64 w-72 left-1 bg-hoodratz-grey-7 rounded-4xl font-sora"
               >
                 <div class="flex items-center">
                   <div
@@ -160,7 +200,6 @@ import AppFooter from "@/components/AppFooter.vue";
                   <!-- TODO ONCE MINTING: Grab yours while you still can! -->
                 </p>
               </div>
-              <!-- absolute xl:right-0 xl:top-48 lg:top-48 lg:-left-16 lg:right-5 -->
               <div
                 class="absolute  xl:right-0 xl:left-72 xl:top-48 lg:top-48 lg:-left-16 lg:right-5"
               >
@@ -170,6 +209,11 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
         </div>
       </div>
+      <img
+        class="absolute hidden  xl:left-36 xl:top-full lg:block lg:top-full lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
     </section>
 
     <section id="about-us-mobile" class="relative block h-full lg:hidden">
@@ -239,7 +283,30 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section id="proposition-desktop" class="hidden h-full lg:block lg:mt-64">
+    <section
+      id="proposition-desktop"
+      class="relative hidden h-full lg:block lg:mt-64"
+    >
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:-top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:-bottom-3/4 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div>
         <img src="/images/home/hoodratz-proposition-lg.png" alt="" />
       </div>
@@ -454,6 +521,7 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
           <div>
             <img
+              class="xl:mt-0 lg:mt-52"
               src="/images/home/hoodratz-proposition-illustration.png"
               alt=""
             />
@@ -630,11 +698,39 @@ import AppFooter from "@/components/AppFooter.vue";
     <section
       class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-64 xl:max-w-screen-xl"
     >
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-3/4 lg:block lg:top-full lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
       <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <img
+          class="absolute hidden  xl:left-20 xl:top-3/4 lg:block lg:top-3/4 lg:left-20"
+          src="/images/home/hoodratz-ellipse-103.png"
+          alt=""
+        />
         <div class="relative">
-          <div
-            class="relative z-10 max-w-screen-lg mx-auto text-center  xl:max-w-screen-xl"
-          >
+          <div class="relative z-10 max-w-screen-lg mx-auto text-center">
             <h2
               class="mb-8 text-3xl font-extrabold leading-none tracking-tight  text-gray-1 sm:text-5xl lg:text-6xl font-kumbh-bold"
             >
@@ -682,7 +778,42 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section id="future-desktop" class="hidden h-full py-36 lg:block">
+    <section id="future-desktop" class="relative hidden h-full py-36 lg:block">
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-96 xl:top-3/4 lg:block lg:top-3/4 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
       <div class="relative">
         <img src="/images/home/hoodratz-future-lg.png" alt="" />
         <div class="absolute inset-0 flex flex-col items-center left-7 top-12">
@@ -733,7 +864,6 @@ import AppFooter from "@/components/AppFooter.vue";
             All hoodratz are stored on the Solana blockchain and their URL is
             secured by Meema. NFT world has never seen this before!
           </p>
-          <img src="/images/home/hoodratz-circle.svg" alt="" />
         </div>
         <div class="flex items-center justify-center">
           <img class="mr-5" src="/images/home/hoodratz-solana.svg" alt="" />
