@@ -37,7 +37,7 @@
           </li>
           <li class="flex items-center justify-between p-4">
             <div>
-              Merch
+              Merchandise
               <small class="px-1 uppercase bg-white rounded-full text-gray-7"
                 >Soon</small
               >
@@ -51,12 +51,8 @@
         <ul class="text-xs divide-y divide-gray-7">
           <li class="flex items-center justify-between p-4">
             <div>
-              <router-link to="/privacy-policy">Privacy policy</router-link>
+              <router-link to="/privacy-policy">Privacy Policy</router-link>
             </div>
-            <div><img src="/images/chevron.svg" alt="" /></div>
-          </li>
-          <li class="flex items-center justify-between p-4">
-            <div>Cookie policy</div>
             <div><img src="/images/chevron.svg" alt="" /></div>
           </li>
         </ul>
@@ -74,8 +70,9 @@
           <p
             class="my-4 text-sm leading-6 text-center  md:text-left md:text-xs lg:text-base"
           >
-            Hodratz are uniquely generated and collectible NFTs. Each of them is
-            one-of-a-kind and 100% owned by you.
+            Hoodratz are uniquely generated and collectible NFTs. Inspired by
+            New York City’s underground, each of them is one-of-a-kind and 100%
+            owned by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
@@ -131,7 +128,7 @@
               <h3 class="mb-8 text-white uppercase">Hoodratz</h3>
               <ul>
                 <li class="my-2 cursor-not-allowed">Attributes</li>
-                <li class="my-2 cursor-not-allowed">Merch</li>
+                <li class="my-2 cursor-not-allowed">Merchandise</li>
               </ul>
             </div>
             <div>
@@ -144,47 +141,46 @@
                     >Privacy policy</router-link
                   >
                 </li>
-                <li class="my-2">
-                  <a
-                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-not-allowed  hover:text-white focus:outline-none focus:bg-pink-custom-2"
-                    href="#"
-                    >Cookie policy</a
-                  >
-                </li>
               </ul>
             </div>
             <div>
-              <h3 class="mb-8 text-white">Connect</h3>
+              <h3 class="mb-8 text-center text-white">Connect</h3>
               <div class="flex justify-center mb-4">
                 <ul class="grid grid-cols-3 gap-1 lg:gap-3 xl:gap-4">
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.discord" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.discord"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/discord.svg"
                         alt="Discord"
                       />
                     </a>
                   </li>
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.twitter" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.twitter"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/twitter.svg"
                         alt="Twitter"
                       />
                     </a>
                   </li>
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.instagram" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.instagram"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/insta.svg"
                         alt="Instagram"
                       />
