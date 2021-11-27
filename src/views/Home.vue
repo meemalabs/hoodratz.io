@@ -19,7 +19,7 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Discover hoodratz <br class="hidden xl:block lg:block" />
+            Hoodratz <br class="hidden xl:block lg:block" />
             the first cross-chain collection. Ever.
           </h1>
           <p
@@ -154,9 +154,9 @@ import AppFooter from "@/components/AppFooter.vue";
                   </div>
                 </div>
                 <p class="mt-6 text-gray-4 text-body-2 font-sora">
-                  Remember that our stock is limited! There will only ever be 10
-                  thousand Hoodratz created. <br />Grab yours while you still
-                  can!
+                  Our stock is limited! There will only ever be 10,000 Hoodratz
+                  created.
+                  <!-- TODO ONCE MINTING: Grab yours while you still can! -->
                 </p>
               </div>
               <!-- absolute xl:right-0 xl:top-48 lg:top-48 lg:-left-16 lg:right-5 -->
@@ -249,8 +249,9 @@ import AppFooter from "@/components/AppFooter.vue";
               Why are the Hoodratz so special?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              We are NFT and crypto lovers and created a collection drop that we
-              would like to buy ourselves! Check this out:
+              We are NFT &amp; blockchain technology lovers through and through.
+              created a collection drop that we would like to buy ourselves!
+              Check this out:
             </p>
             <div class="flex flex-col p-6 mt-20 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
@@ -410,10 +411,10 @@ import AppFooter from "@/components/AppFooter.vue";
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude text-caption font-sora">
-                    Our Mission
+                    Giving Back
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Helping charities worldwide
+                    Helping good causes worldwide
                   </h1>
                 </div>
                 <button
@@ -439,7 +440,8 @@ import AppFooter from "@/components/AppFooter.vue";
                 Our passion and focus lies and lives on the intersection of
                 where technology meets humanity. We try to connect and improve
                 lives by leveraging our creative and technological skills by
-                working with educational nonprofits all throughout the world.
+                working with educational &amp; environmental nonprofits all
+                throughout the world.
               </p>
             </div>
           </div>
@@ -618,7 +620,7 @@ import AppFooter from "@/components/AppFooter.vue";
     </section>
 
     <section
-      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-32 xl:max-w-screen-xl"
+      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-64 xl:max-w-screen-xl"
     >
       <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="relative">

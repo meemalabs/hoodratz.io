@@ -154,7 +154,7 @@
               </ul>
             </div>
             <div>
-              <h3 class="mb-8 text-white">Connect</h3>
+              <h3 class="mb-8 text-center text-white">Connect</h3>
               <div class="flex justify-center mb-4">
                 <ul class="grid grid-cols-3 gap-1 lg:gap-3 xl:gap-4">
                   <li
