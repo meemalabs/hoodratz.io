@@ -35,6 +35,7 @@ module.exports = {
         "pink-1": "#FAF3F5",
         "pink-2": "#F7CFDB",
         "pink-3": "#F05B88",
+
         nude: "#F1B1A3",
       },
     }),
@@ -61,6 +62,7 @@ module.exports = {
         2: "#F7CFDB",
         3: "#F05B88",
         nude: "#F1B1A3",
+        "custom-2": "rgb(247, 207, 219, 0.1)",
         gradient:
           "radial-gradient(82.01% 81.61% at 94.63% 16.78%, #ED9DB9 0%, #EC83A2 57.37%, #F05281 100%)",
       }),
