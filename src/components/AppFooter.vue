@@ -30,7 +30,7 @@
             <div>
               Attributes
               <small class="px-1 uppercase bg-white rounded-full text-gray-7"
-                >Soon</small
+                >soon</small
               >
             </div>
             <div><img src="/images/chevron.svg" alt="" /></div>
@@ -39,7 +39,7 @@
             <div>
               Merchandise
               <small class="px-1 uppercase bg-white rounded-full text-gray-7"
-                >Soon</small
+                >soon</small
               >
             </div>
             <div><img src="/images/chevron.svg" alt="" /></div>
@@ -127,8 +127,20 @@
             <div>
               <h3 class="mb-8 text-white uppercase">Hoodratz</h3>
               <ul>
-                <li class="my-2 cursor-not-allowed">Attributes</li>
-                <li class="my-2 cursor-not-allowed">Merchandise</li>
+                <li class="my-2">
+                  <router-link
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    to="/#utility"
+                    >Privacy policy</router-link
+                  >
+                  <a
+                    href="https://hoodratz.io/#utility"
+                    class="transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    >Utility</a
+                  >
+                </li>
+                <li class="my-2 cursor-wait">Attributes</li>
+                <li class="my-2 cursor-wait">Merchandise</li>
               </ul>
             </div>
             <div>

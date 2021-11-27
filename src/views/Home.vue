@@ -283,10 +283,7 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section
-      id="proposition-desktop"
-      class="relative hidden h-full lg:block lg:mt-64"
-    >
+    <section id="utility" class="relative hidden h-full lg:block lg:mt-64">
       <img
         class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
@@ -338,7 +335,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-down.svg"
+                    alt="chevron down icon"
+                  />
                 </button>
 
                 <button
@@ -346,7 +346,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -450,7 +453,8 @@ import AppFooter from "@/components/AppFooter.vue";
               >
                 Not only will you, as a hodler, pay fewer taxes automatically,
                 but also get to experience history listing on the first
-                marketplace that will support Ethereum, Cardano, and Solana.
+                marketplace that will support Ethereum, Cardano, and Solana. The
+                more eyes, the more exposure.
               </p>
             </div>
 
@@ -903,8 +907,8 @@ import AppFooter from "@/components/AppFooter.vue";
     >
       <div class="flex flex-col items-center">
         <img src="/images/home/hoodratz-tech.svg" alt="" />
-        <h1 class="mt-5 text-center text-pink-3 font-sora text-h4">
-          NEWSET TECH
+        <h1 class="mt-5 text-center uppercase text-pink-3 font-sora text-h4">
+          Interoperability
         </h1>
         <img src="/images/home/hoodratz-future.svg" alt="" />
         <div class="-mt-32 text-center font-sora">

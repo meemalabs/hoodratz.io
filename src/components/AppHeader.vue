@@ -104,18 +104,18 @@
               ></div>
             </router-link>
           </li>
-          <li class="mx-2 cursor-wait">
+          <li class="mx-4 cursor-wait">
             Rarity
             <span
-              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
-              >Soon</span
+              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
+              >soon</span
             >
           </li>
-          <li class="mx-2 cursor-wait">
+          <li class="mx-4 cursor-wait">
             Merch
             <span
-              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
-              >Soon</span
+              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
+              >soon</span
             >
           </li>
         </ul>
