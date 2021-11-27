@@ -4,7 +4,7 @@ import AppFooter from "@/components/AppFooter.vue";
 </script>
 
 <template>
-  <div class="w-screen h-full bg-gray-8 text-gray-4">
+  <div class="w-full h-full bg-gray-8 text-gray-4">
     <AppHeader />
 
     <div class="container mx-auto mt-20 md:mt-24">
