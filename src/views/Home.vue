@@ -81,7 +81,7 @@ import AppFooter from "@/components/AppFooter.vue";
             class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">12/12!</span>
+              Launching on <span class="text-pink-3">12/12 @ 11am PT!</span>
             </p>
             <img
               class="mt-10 w-28 h-28"
@@ -93,8 +93,8 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="flex justify-center order-first mt-20 lg:order-last">
           <img
             class="object-contain w-3/4 h-full xl:w-3/4 lg:w-full"
-            src="/images/home/hoodratz-card-sm.png"
-            alt=""
+            src="/images/home/hoodratz-card.png"
+            alt="Hoodrat NFT"
           />
         </div>
       </div>
