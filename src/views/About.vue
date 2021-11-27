@@ -16,7 +16,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <!-- Content -->
     <div class="mx-4 md:container md:mx-auto">
-      <div class="md:grid md:grid-cols-2 md:mx-4">
+      <div class="md:grid md:grid-cols-2 md:mx-32">
         <div class="flex mb-8 md:mb-0 md:items-center">
           <div>
             <div class="relative">
@@ -64,7 +64,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
 
-      <div class="lg:grid lg:grid-cols-2 md:mx-4">
+      <div class="lg:grid lg:grid-cols-2 md:mx-32">
         <div>
           <div class="relative">
             <div class="absolute inset-x-0 top-0 -ml-4">
@@ -94,14 +94,14 @@ import AppFooter from "@/components/AppFooter.vue";
           v-for="(item, index) in team"
         >
           <div class="w-16 mr-4">
-            <img :src="item.image" alt="Chris Breuer" />
+            <img class="rounded-full" :src="item.image" alt="Chris Breuer" />
           </div>
           <div class="flex flex-1 md:items-center md:mt-8">
             <div class="flex flex-col flex-1">
               <span class="text-2xl text-white">{{ item.name }}</span>
               <span>{{ item.role }}</span>
             </div>
-            <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+            <div class="grid items-center grid-cols-1 gap-4 md:grid-cols-2">
               <img src="/images/twitter.svg" alt="Twitter" />
               <img src="/images/linkedin.svg" alt="Linkedin" />
             </div>
