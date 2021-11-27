@@ -313,7 +313,9 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="grid grid-cols-2">
           <div class="flex flex-col mr-24 -mt-72">
-            <h1 class="uppercase text-pink-3 font-sora text-h4">Utility</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">
+              Utility &amp; Rarity
+            </h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
               Why are the Hoodratz so special?
             </h1>
@@ -362,7 +364,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude font-sora text-caption">
-                    Free 12 Months
+                    Free For 12 Months
                   </h1>
                   <h1 class="text-white text-body font-sora">
                     Decentralized File Manager
@@ -821,7 +823,7 @@ import AppFooter from "@/components/AppFooter.vue";
           <h1
             class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
-            Interoperable Tech
+            Interoperability
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
