@@ -85,14 +85,14 @@
               ></div>
             </router-link>
           </li>
-          <li class="mx-2 cursor-not-allowed">
+          <li class="mx-2 cursor-wait">
             Rarity
             <span
               class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
               >Soon</span
             >
           </li>
-          <li class="mx-2 cursor-not-allowed">
+          <li class="mx-2 cursor-wait">
             Merch
             <span
               class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"

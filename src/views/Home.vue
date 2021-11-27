@@ -687,20 +687,21 @@ import AppFooter from "@/components/AppFooter.vue";
             Newest Tech
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
-            Become a part of the future of NFT
+            We are in it for the long run. Are you?
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            All Hoodratz are stored on the Solana blockchain and their URL is
-            secured by <br />
-            Meema. NFT world has never seen this before!
+            Initially, all Hoodratz w stored
           </p>
           <div class="flex items-center mt-5">
+            <img class="mr-5" src="/images/solana-logo.svg" alt="" />
+          </div>
+          <div class="flex items-center mt-5">
             <img
-              class="mr-5"
-              src="/images/home/hoodratz-solana-lg.png"
+              class="mr-5 opacity-10"
+              src="/images/solana-logo-gray.svg"
               alt=""
             />
-            <img src="/images/home/hoodratz-meema-lg.png" alt="" />
+            <img class="opacity-10" src="/images/solana-logo-gray.svg" alt="" />
           </div>
         </div>
       </div>

@@ -37,7 +37,7 @@
           </li>
           <li class="flex items-center justify-between p-4">
             <div>
-              Merch
+              Merchandise
               <small class="px-1 uppercase bg-white rounded-full text-gray-7"
                 >Soon</small
               >
@@ -55,10 +55,6 @@
             </div>
             <div><img src="/images/chevron.svg" alt="" /></div>
           </li>
-          <li class="flex items-center justify-between p-4">
-            <div>Cookie policy</div>
-            <div><img src="/images/chevron.svg" alt="" /></div>
-          </li>
         </ul>
       </div>
       <div class="px-3 py-8 text-sm md:grid md:grid-cols-3 md:gap-4">
@@ -74,8 +70,9 @@
           <p
             class="my-4 text-sm leading-6 text-center  md:text-left md:text-xs lg:text-base"
           >
-            Hoodratz are uniquely generated and collectible NFTs. Each of them
-            is one-of-a-kind and 100% owned by you.
+            Hoodratz are uniquely generated and collectible NFTs. Inspired by
+            New York City’s underground, each of them is one-of-a-kind and 100%
+            owned by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
@@ -131,7 +128,7 @@
               <h3 class="mb-8 text-white uppercase">Hoodratz</h3>
               <ul>
                 <li class="my-2 cursor-not-allowed">Attributes</li>
-                <li class="my-2 cursor-not-allowed">Merch</li>
+                <li class="my-2 cursor-not-allowed">Merchandise</li>
               </ul>
             </div>
             <div>
@@ -142,13 +139,6 @@
                     class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/privacy-policy"
                     >Privacy policy</router-link
-                  >
-                </li>
-                <li class="my-2">
-                  <a
-                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-not-allowed  hover:text-white focus:outline-none focus:bg-pink-custom-2"
-                    href="#"
-                    >Cookie policy</a
                   >
                 </li>
               </ul>
