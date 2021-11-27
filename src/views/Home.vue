@@ -39,13 +39,12 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Hoodratz. <br class="hidden xl:block lg:block" />
-            The first cross-chain collection. Ever.
+            The first native NFT cross-chain collection. Ever.
           </h1>
           <p
-            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-2 text-body-2"
+            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-1 text-body-2"
           >
-            A limited edition of 10,000 rare hoodratz.
+            A limited edition of 10,000 rare Hoodratz.
           </p>
           <div
             class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
