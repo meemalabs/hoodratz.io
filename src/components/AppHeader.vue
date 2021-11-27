@@ -34,6 +34,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
+                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >Home</a
@@ -52,6 +53,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
+                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >About</a
@@ -71,6 +73,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
+                class="rounded-md  hover:text-pink-3 focus:px-2 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Roadmap</a
               >
