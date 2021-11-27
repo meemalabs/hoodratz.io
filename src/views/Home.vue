@@ -93,8 +93,9 @@ import AppFooter from "@/components/AppFooter.vue";
               What are Hoodratz?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              Hoodratz are uniquely generated &amp; collectible NFTs. <br />Each
-              one of them is truly unique and completely owned by you.
+              Hoodratz are uniquely generated &amp; collectible NFTs.
+              <br />Inspired by the global New York City NFT hub, each of these
+              rats is <br />one-of-a-kind and 100% owned by you.
             </p>
           </div>
           <div class="flex mt-24">
@@ -179,8 +180,9 @@ import AppFooter from "@/components/AppFooter.vue";
           What are Hoodratz?
         </h1>
         <p class="mt-5 text-gray-4 font-sora text-body-2">
-          Hoodratz are uniquely generated and collectible NFTs. <br />Each of
-          them is one-of-a-kind and 100% owned by you.
+          Hoodratz are uniquely generated and collectible NFTs. <br />Inspired
+          by New York City’s underground, each of them is one-of-a-kind and 100%
+          owned by you.
         </p>
       </div>
       <div class="flex flex-col items-center mx-4 mt-16">
