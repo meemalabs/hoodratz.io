@@ -16,16 +16,36 @@ import AppFooter from "@/components/AppFooter.vue";
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-1/2 lg:block lg:top-1/2 lg:right-0"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-3/4 lg:block lg:top-32 lg:left-36"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-1425.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Discover HoodRatz, <br class="hidden xl:block lg:block" />a new NFT
-            collection
+            Hoodratz. <br class="hidden xl:block lg:block" />
+            The first cross-chain collection. Ever.
           </h1>
           <p
-            class="mt-5 leading-8  md:text-body font-sora text-gray-2 text-body-2"
+            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-2 text-body-2"
           >
-            A limited edition of 10.000 collectible pixel rats.
+            A limited edition of 10,000 rare hoodratz.
           </p>
           <div
             class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
@@ -33,20 +53,20 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="flex items-center justify-center w-full px-8 py-3 mt-5 text-white rounded-full  md:w-3/4 lg:w-auto lg:mr-10 md:mr-10 bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3"
+              class="flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase transition duration-150 ease-in-out rounded-full  bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3 md:w-3/4 lg:w-auto text-button backdrop-blur-sm"
             >
-              JOIN DISCORD
+              Join Discord
             </a>
             <a
               :href="social.twitter"
               target="_blank"
-              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
-              FOLLOW US
+              Follow Us
               <svg
                 class="fill-current ml-2.5"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +82,7 @@ import AppFooter from "@/components/AppFooter.vue";
             class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">Dec 24!</span>
+              Launching on <span class="text-pink-3">12/12!</span>
             </p>
             <img
               class="mt-10 w-28 h-28"
@@ -80,7 +100,23 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
     </section>
+
     <section id="about-us-desktop" class="relative hidden h-full lg:block">
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-24 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:top-96 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div>
         <img src="/images/home/hoodratz-about-us-lg.png" alt="" />
       </div>
@@ -92,14 +128,20 @@ import AppFooter from "@/components/AppFooter.vue";
               What are Hoodratz?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              Hodratz are uniquely generated and collectible NFTs. <br />Each of
-              them is one-of-a-kind and 100% owned by you.
+              Hoodratz are uniquely generated &amp; collectible NFTs.
+              <br />Inspired by the global New York City NFT hub, each of these
+              rats is <br />one-of-a-kind and 100% owned by you.
             </p>
           </div>
           <div class="flex mt-24">
             <img
               class="mr-24 w-96 h-1/43"
               src="/images/home/hoodratz-josephine.png"
+              alt=""
+            />
+            <img
+              class="absolute block left-24 w-80 top-full xl:hidden lg:block"
+              src="/images/home/hoodratz-cone.svg"
               alt=""
             />
             <div class="relative flex w-full">
@@ -128,12 +170,12 @@ import AppFooter from "@/components/AppFooter.vue";
                   </div>
                 </div>
                 <p class="mt-6 text-gray-4 text-body-2 font-sora">
-                  Hoodratz come with various rare attributes. <br />The rarer
-                  the attribute, the rarer is your rat!
+                  Hoodratz come in various rarity attributes. <br />The rarer
+                  the attribute, the more collectible is your rat!
                 </p>
               </div>
               <div
-                class="absolute flex flex-col p-6 mt-10  xl:-bottom-24 lg:-bottom-80 w-72 bg-hoodratz-grey-7 rounded-4xl font-sora"
+                class="absolute flex flex-col p-6 mt-10  xl:-bottom-24 lg:-bottom-64 w-72 left-1 bg-hoodratz-grey-7 rounded-4xl font-sora"
               >
                 <div class="flex items-center">
                   <div
@@ -146,17 +188,18 @@ import AppFooter from "@/components/AppFooter.vue";
                     />
                   </div>
                   <div class="flex flex-col ml-auto text-right">
-                    <h1 class="text-pink-3 font-sora text-caption">AMOUNT</h1>
+                    <h1 class="uppercase text-pink-3 font-sora text-caption">
+                      Amount
+                    </h1>
                     <h1 class="text-white font-sora text-title">10 000</h1>
                   </div>
                 </div>
                 <p class="mt-6 text-gray-4 text-body-2 font-sora">
-                  Remember that our stock is limited! There will only ever be 10
-                  thousand Hoodratz created. <br />Grab yours while you still
-                  can!
+                  Our stock is limited! There will only ever be 10,000 Hoodratz
+                  created.
+                  <!-- TODO ONCE MINTING: Grab yours while you still can! -->
                 </p>
               </div>
-              <!-- absolute xl:right-0 xl:top-48 lg:top-48 lg:-left-16 lg:right-5 -->
               <div
                 class="absolute  xl:right-0 xl:left-72 xl:top-48 lg:top-48 lg:-left-16 lg:right-5"
               >
@@ -166,6 +209,11 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
         </div>
       </div>
+      <img
+        class="absolute hidden  xl:left-36 xl:top-full lg:block lg:top-full lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
     </section>
 
     <section id="about-us-mobile" class="relative block h-full lg:hidden">
@@ -176,8 +224,9 @@ import AppFooter from "@/components/AppFooter.vue";
           What are Hoodratz?
         </h1>
         <p class="mt-5 text-gray-4 font-sora text-body-2">
-          Hodratz are uniquely generated and collectible NFTs. <br />Each of
-          them is one-of-a-kind and 100% owned by you.
+          Hoodratz are uniquely generated and collectible NFTs. <br />Inspired
+          by New York City’s underground, each of them is one-of-a-kind and 100%
+          owned by you.
         </p>
       </div>
       <div class="flex flex-col items-center mx-4 mt-16">
@@ -234,27 +283,53 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section id="proposition-desktop" class="hidden h-full lg:block lg:mt-64">
+    <section
+      id="proposition-desktop"
+      class="relative hidden h-full lg:block lg:mt-64"
+    >
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:-top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:-bottom-3/4 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
       <div>
         <img src="/images/home/hoodratz-proposition-lg.png" alt="" />
       </div>
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="grid grid-cols-2">
           <div class="flex flex-col mr-24 -mt-72">
-            <h1 class="text-pink-3 font-sora text-h4">VALUE PROPOSITION</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">Utility</h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
-              What makes them so special?
+              Why are the Hoodratz so special?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              We are NFT and crypto lovers and created a collection drop that we
-              would like to buy ourselves! Check this out:
+              We are NFT &amp; blockchain technology lovers through and through.
+              created a collection drop that we would like to buy ourselves!
+              Check this out:
             </p>
             <div class="flex flex-col p-6 mt-20 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption font-sora">VARIETY</h1>
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Variety
+                  </h1>
                   <h1 class="text-white text-body font-sora">
-                    Over 200 attributes
+                    7 Traits &amp; Over 50 Attributes
                   </h1>
                 </div>
                 <button
@@ -277,23 +352,25 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.variety"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Creativity is our second name! We designed over 200 attributes
+                Creativity is our second name! We designed over 50 attributes
                 for our Hoodratz so that each and every one of them would be
-                amazing and one-of-a-kind!
+                beautiful and one-of-a-kind!
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude font-sora text-caption">RARITY</h1>
+                  <h1 class="uppercase text-pink-nude font-sora text-caption">
+                    Free 12 Months
+                  </h1>
                   <h1 class="text-white text-body font-sora">
-                    4 rarity levels
+                    Decentralized File Manager
                   </h1>
                 </div>
                 <button
-                  v-if="!accordion.rarity"
-                  @click="accordion.rarity = !accordion.rarity"
+                  v-if="!accordion.free"
+                  @click="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -301,27 +378,83 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.rarity = !accordion.rarity"
+                  @click="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
-                v-show="accordion.rarity"
+                v-show="accordion.free"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                Think of Dropbox for Web 3. For the past 2 years, we have been
+                working on a custom file management experience &amp; ecosystem
+                that ensures a blazing fast media delivery. Public launch
+                February 2022. Every holder will receive 12 months of service
+                for free!
+              </p>
+              <p
+                v-show="accordion.free"
+                class="mt-3 italic text-gray-4 font-sora text-body-2"
+              >
+                This is a value of at least 120 USD per year.
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption">POPULARITY</h1>
-                  <h1 class="text-white text-body">Amazing NFT community</h1>
+                  <h1 class="uppercase text-pink-nude font-sora text-caption">
+                    Reduced Trading Fees
+                  </h1>
+                  <h1 class="text-white text-body font-sora">
+                    Cross-Chain NFT Marketplace
+                  </h1>
+                </div>
+                <button
+                  v-if="!accordion.marketplace"
+                  @click="accordion.marketplace = !accordion.marketplace"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-down.svg" alt="" />
+                </button>
+
+                <button
+                  v-else
+                  @click="accordion.marketplace = !accordion.marketplace"
+                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+                >
+                  <img src="/images/home/chevron-up.svg" alt="" />
+                </button>
+              </div>
+              <p
+                v-show="accordion.marketplace"
+                class="mt-6 text-gray-4 font-sora text-body-2"
+              >
+                Our brand
+                <a
+                  href="https://www.instagram.com/nakednfts/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@NakedNFTs</a
+                >
+                is releasing an incredibly thoroughly designed &amp; architected
+                NFT marketplace on 12/12 as well! As a holder, any time you sell
+                or purchase a digital collectible through our marketplace, you
+                automatically pay fewer taxes.
+              </p>
+            </div>
+
+            <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
+              <div class="flex items-center justify-between">
+                <div class="flex flex-col">
+                  <h1 class="uppercase text-pink-nude text-caption">
+                    Popularity
+                  </h1>
+                  <h1 class="text-white text-body">
+                    The Most Rat NFT Community
+                  </h1>
                 </div>
                 <button
                   v-if="!accordion.popularity"
@@ -343,20 +476,19 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.popularity"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                We love building &amp; scaling growing, successful communities.
+                We have a
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="text-pink-nude text-caption font-sora">
-                    OUR MISSION
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Giving Back
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Helping charities worldwide
+                    Helping good causes worldwide
                   </h1>
                 </div>
                 <button
@@ -379,14 +511,17 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.mission"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Excepteur labore mollit esse minim ullamco cillum anim est
-                ipsum. Cillum consequat Lorem elit cillum cupidatat mollit et
-                laboris amet reprehenderit dolor aliqua.
+                Our passion and focus lies and lives on the intersection of
+                where technology meets humanity. We try to connect and improve
+                lives by leveraging our creative and technological skills by
+                working with educational &amp; environmental nonprofits all
+                throughout the world.
               </p>
             </div>
           </div>
           <div>
             <img
+              class="xl:mt-0 lg:mt-52"
               src="/images/home/hoodratz-proposition-illustration.png"
               alt=""
             />
@@ -405,9 +540,10 @@ import AppFooter from "@/components/AppFooter.vue";
         <h1 class="mt-3 text-white font-kumbh-bold text-h3">
           What makes them so special?
         </h1>
+
         <p class="mt-4 text-gray-4 font-sora text-body-2">
           We are NFT and crypto lovers and created a collection drop that we
-          would like to buy ourselves! Check this out:
+          would like to buy ourselves!
         </p>
       </div>
       <div class="mx-4 mt-5 md:flex md:flex-col md:items-center">
@@ -416,7 +552,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">VARIETY</h1>
+              <h1 class="text-pink-nude text-caption font-sora">Variety</h1>
               <h1 class="text-white text-body font-sora">
                 Over 200 attributes
               </h1>
@@ -452,7 +588,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">RARITY</h1>
+              <h1 class="text-pink-nude font-sora text-caption">Rarity</h1>
               <h1 class="text-white font-sora text-body">4 rarity levels</h1>
             </div>
             <button
@@ -559,31 +695,152 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section id="future-desktop" class="hidden h-full py-36 lg:block">
+    <section
+      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-64 xl:max-w-screen-xl"
+    >
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-36 xl:top-3/4 lg:block lg:top-full lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <img
+          class="absolute hidden  xl:left-20 xl:top-3/4 lg:block lg:top-3/4 lg:left-20"
+          src="/images/home/hoodratz-ellipse-103.png"
+          alt=""
+        />
+        <div class="relative">
+          <div class="relative z-10 max-w-screen-lg mx-auto text-center">
+            <h2
+              class="mb-8 text-3xl font-extrabold leading-none tracking-tight  text-gray-1 sm:text-5xl lg:text-6xl font-kumbh-bold"
+            >
+              A truly unique NFT collection.<br />
+              In several ways.
+            </h2>
+          </div>
+          <blockquote class="mt-10">
+            <p
+              class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
+            >
+              We created Hoodratz as a.
+              <span
+                class="font-semibold text-pink-600"
+                style="
+                  box-shadow: inset 0 -0.1666666667em 0 0 #fff,
+                    inset 0 -0.3333333333em 0 0 #bae6fd;
+                "
+                >How many times have you created an API .</span
+              >
+              How many times have you created an API endpoint to handle your
+              file uploads? Are your images &amp; videos utilizing a modern
+              web-optimized format? Do you use differently encoded videos to
+              ensure that no matter the internet connection — or device — there
+              will be as little buffering as possible? The list is long which is
+              why we try to create a set of standards to simplify your
+              management process.
+            </p>
+          </blockquote>
+          <figcaption
+            class="flex flex-col items-center mt-12 font-medium sm:text-xl"
+          >
+            <div class="p-1 mb-3 border-2 border-pink-900 rounded-full">
+              <img
+                src="/images/chris.jpeg"
+                alt=""
+                class="w-10 h-10 bg-indigo-100 rounded-full"
+                loading="lazy"
+              />
+            </div>
+            <div class="text-gray-1">Chris Breuer</div>
+            <div class="text-gray-5">Creator of Hoodratz</div>
+          </figcaption>
+        </div>
+      </div>
+    </section>
+
+    <section id="future-desktop" class="relative hidden h-full py-36 lg:block">
+      <img
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-96 xl:top-3/4 lg:block lg:top-3/4 lg:left-36"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-88.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-97.png"
+        alt=""
+      />
+      <img
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        src="/images/home/hoodratz-ellipse-103.png"
+        alt=""
+      />
       <div class="relative">
         <img src="/images/home/hoodratz-future-lg.png" alt="" />
         <div class="absolute inset-0 flex flex-col items-center left-7 top-12">
           <img src="/images/home/hoodratz-future-tech-lg.png" alt="" />
           <h1
-            class="mt-5 tracking-widest text-center  text-pink-3 font-sora text-h4"
+            class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
-            NEWSET TECH
+            Interoperable Tech
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
-            Become a part of the future of NFT
+            We are in it for the long run. Are you?
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            All hoodratz are stored on the Solana blockchain and their URL is
-            secured by <br />
-            Meema. NFT world has never seen this before!
+            Initially, we launch on the Solana blockchain.
+          </p>
+          <p class="text-center text-body-2 text-gray-4 font-sora">
+            We will then expand into Ethereum and the Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
+            <img class="mr-5" src="/images/solana-logo.svg" alt="" />
+          </div>
+          <div class="flex items-center mt-5">
             <img
-              class="mr-5"
+              class="mr-5 opacity-10"
               src="/images/home/hoodratz-solana-lg.png"
               alt=""
             />
-            <img src="/images/home/hoodratz-meema-lg.png" alt="" />
           </div>
         </div>
       </div>
@@ -607,7 +864,6 @@ import AppFooter from "@/components/AppFooter.vue";
             All hoodratz are stored on the Solana blockchain and their URL is
             secured by Meema. NFT world has never seen this before!
           </p>
-          <img src="/images/home/hoodratz-circle.svg" alt="" />
         </div>
         <div class="flex items-center justify-center">
           <img class="mr-5" src="/images/home/hoodratz-solana.svg" alt="" />
@@ -615,6 +871,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
     </section>
+
     <AppFooter />
   </div>
 </template>
@@ -628,7 +885,8 @@ export default {
     return {
       accordion: {
         variety: false,
-        rarity: false,
+        free: false,
+        marketplace: false,
         popularity: false,
         mission: false,
       },

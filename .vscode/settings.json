@@ -16,9 +16,6 @@
   },
   "css.validate": false,
   "editor.formatOnSave": true,
-  "search.exclude": {
-    "lib/**": true,
-  },
   "vetur.validation.template": false,
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.format.defaultFormatter.js": "prettier-eslint",
