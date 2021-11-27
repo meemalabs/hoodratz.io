@@ -3,6 +3,7 @@ import About from "./views/About.vue";
 import Roadmap from "./views/Roadmap.vue";
 import NotFound from "./views/NotFound.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy.vue";
+import Faq from "./views/Faq.vue";
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
@@ -24,6 +25,12 @@ export const routes = [
     name: "privacy-policy",
     meta: { title: "Privacy Policy" },
     component: PrivacyPolicy,
+  },
+  {
+    path: "/faq",
+    name: "faq",
+    meta: { title: "FAQ" },
+    component: Faq,
   },
   { path: "/:path(.*)", component: NotFound },
 ];

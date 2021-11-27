@@ -85,6 +85,25 @@
               ></div>
             </router-link>
           </li>
+          <li class="relative flex flex-col items-center mx-2">
+            <router-link
+              to="/faq"
+              custom
+              v-slot="{ href, route, navigate, isActive, isExactActive }"
+            >
+              <a
+                @click="navigate"
+                :class="{ 'text-pink-3': isActive }"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                :href="href"
+                >FAQ</a
+              >
+              <div
+                v-if="isActive"
+                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
+              ></div>
+            </router-link>
+          </li>
           <li class="mx-2 cursor-wait">
             Rarity
             <span
@@ -126,6 +145,13 @@
               to="/roadmap"
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >Roadmap</router-link
+            >
+          </li>
+          <li>
+            <router-link
+              to="/faq"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              >FAQ</router-link
             >
           </li>
           <li>

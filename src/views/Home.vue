@@ -33,7 +33,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase rounded-full  md:w-3/4 lg:w-auto lg:mr-10 md:mr-10 bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3"
+              class="flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase transition duration-150 ease-in-out rounded-full  bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3 md:w-3/4 lg:w-auto text-button backdrop-blur-sm"
             >
               Join Discord
             </a>
@@ -45,8 +45,8 @@ import AppFooter from "@/components/AppFooter.vue";
               Follow Us
               <svg
                 class="fill-current ml-2.5"
-                width="20"
-                height="20"
+                width="15"
+                height="15"
                 viewBox="0 0 20 20"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
@@ -707,7 +707,7 @@ import AppFooter from "@/components/AppFooter.vue";
           <div class="flex items-center mt-5">
             <img
               class="mr-5 opacity-10"
-              src="/images/solana-logo-gray.svg"
+              src="/images/home/hoodratz-solana-lg.png"
               alt=""
             />
           </div>

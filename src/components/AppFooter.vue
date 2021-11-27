@@ -147,34 +147,40 @@
               <h3 class="mb-8 text-center text-white">Connect</h3>
               <div class="flex justify-center mb-4">
                 <ul class="grid grid-cols-3 gap-1 lg:gap-3 xl:gap-4">
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.discord" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.discord"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/discord.svg"
                         alt="Discord"
                       />
                     </a>
                   </li>
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.twitter" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.twitter"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/twitter.svg"
                         alt="Twitter"
                       />
                     </a>
                   </li>
-                  <li
-                    class="flex items-center justify-center border rounded-full  border-gray-5 md:w-10 md:h-10 lg:w-12 lg:h-12"
-                  >
-                    <a :href="social.instagram" target="_blank" class="block">
+                  <li class="flex items-center justify-center">
+                    <a
+                      :href="social.instagram"
+                      target="_blank"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                    >
                       <img
-                        class="w-4"
+                        class="w-full h-full"
                         src="/images/insta.svg"
                         alt="Instagram"
                       />
