@@ -11,9 +11,7 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="mx-auto md:w-2/3">
         <div class="w-full my-4">
           <div class="flex items-center justify-center">
-            <h1
-              class="mt-8 -mt-2 tracking-widest uppercase text-pink-3 font-sora"
-            >
+            <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
               Hoodratz
             </h1>
           </div>
