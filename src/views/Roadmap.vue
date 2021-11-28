@@ -468,11 +468,11 @@ import AppFooter from "@/components/AppFooter.vue";
 
               <p class="leading-8">
                 <ul class="pl-8 leading-8 list-disc">
-                  <li>Launch Meema's Early Access for holders</li>
+                  <li><em>Launch Meema's Early Access for Hoodratz holders</em></li>
                   <li>Merchandise store opens which will include Hoodratz, NakedNFTs, and Meema swag</li>
-                  <li>Kickoff design &amp; development towards mobile apps for the Meema's decentralized file manager which, ultimately, will turn into a custom crypto wallet</li>
+                  <li>Kickoff design &amp; development for mobile apps for Meema's decentralized file manager which, ultimately, will turn into a custom crypto wallet</li>
                   <li>Marketplace improvements</li>
-                  <li>Kickoff design &amp; development towards a Metaplex alternative that integrates into NakedNFT's and Meema's ecosystem, allowing for cross-chain NFT management. This library will extend <code class="px-1 mx-1 py-0.5">nft-elements</code> functionalities.</li>
+                  <li>Kickoff design &amp; development for a Metaplex alternative that integrates into NakedNFT's and Meema's ecosystem, allowing for cross-chain NFT management. This library will extend <code class="px-1 mx-1 py-0.5">nft-elements</code> functionalities.</li>
                 </ul>
               </p>
 
