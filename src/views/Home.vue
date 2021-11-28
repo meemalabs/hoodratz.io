@@ -324,12 +324,13 @@ import AppFooter from "@/components/AppFooter.vue";
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude text-caption font-sora">
-                    Variety
+                    Variety &amp; Popularity
                   </h1>
                   <h1 class="text-white text-body font-sora">
                     7 Traits &amp; Over 50 Attributes
                   </h1>
                 </div>
+
                 <button
                   v-if="!accordion.variety"
                   @click="accordion.variety = !accordion.variety"
@@ -359,6 +360,26 @@ import AppFooter from "@/components/AppFooter.vue";
                 Creativity is our second name! We designed over 50 attributes
                 for our Hoodratz so that each and every one of them would be
                 beautiful and one-of-a-kind!
+              </p>
+              <p
+                v-show="accordion.variety"
+                class="mt-4 text-gray-4 font-sora text-body-2"
+              >
+                Aside from creating awesome tech &amp; art, we specialize in
+                building social communities. Whether it is
+                <a
+                  href="https://www.instagram.com/earthpix/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@earthpix</a
+                >
+                that Kyle founded or
+                <a
+                  href="https://www.instagram.com/nakednfts/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@NakedNFTs</a
+                >, we have scaled communities enormously.
               </p>
             </div>
 
@@ -392,17 +413,18 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.free"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Think of Dropbox for Web 3. For the past 2 years, we have been
-                working on a custom file management experience &amp; ecosystem
-                that ensures a blazing fast media delivery. Public launch
-                February 2022. Every holder will receive 12 months of service
-                for free!
+                Think of <em>Dropbox for Web 3.</em> For the past two years, we
+                have been working on a custom file management experience &amp;
+                ecosystem that ensures a blazing fast "media delivery." Our
+                public launch is February 2022. Though, beta testers will
+                receive early access.
               </p>
               <p
                 v-show="accordion.free"
                 class="mt-3 italic text-gray-4 font-sora text-body-2"
               >
-                This is a value of at least 120 USD per year.
+                Every holder will receive 12 months of service for free! This is
+                a value of at least 120 USD per year.
               </p>
             </div>
 
@@ -455,41 +477,6 @@ import AppFooter from "@/components/AppFooter.vue";
                 but also get to experience history listing on the first
                 marketplace that will support Ethereum, Cardano, and Solana. The
                 more eyes, the more exposure.
-              </p>
-            </div>
-
-            <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
-              <div class="flex items-center justify-between">
-                <div class="flex flex-col">
-                  <h1 class="uppercase text-pink-nude text-caption">
-                    Popularity
-                  </h1>
-                  <h1 class="text-white text-body">
-                    The Most Rat NFT Community
-                  </h1>
-                </div>
-                <button
-                  v-if="!accordion.popularity"
-                  @click="accordion.popularity = !accordion.popularity"
-                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
-                >
-                  <img src="/images/home/chevron-down.svg" alt="" />
-                </button>
-
-                <button
-                  v-else
-                  @click="accordion.popularity = !accordion.popularity"
-                  class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
-                >
-                  <img src="/images/home/chevron-up.svg" alt="" />
-                </button>
-              </div>
-              <p
-                v-show="accordion.popularity"
-                class="mt-6 text-gray-4 font-sora text-body-2"
-              >
-                We love building &amp; scaling growing, successful communities.
-                We have a
               </p>
             </div>
 
@@ -942,7 +929,6 @@ export default {
         variety: false,
         free: false,
         marketplace: false,
-        popularity: false,
         mission: false,
         airdrops: false,
       },
