@@ -419,7 +419,13 @@ import AppFooter from "@/components/AppFooter.vue";
                   class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
                   >Discord</a
                 >
-                to stay up-to-date.
+                to stay up-to-date. And if you are tech-savvy, find us on
+                <a
+                  href="https://github.com/meemalabs/"
+                  target="_blank"
+                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  >GitHub</a
+                >.
               </p>
             </div>
           </div>
