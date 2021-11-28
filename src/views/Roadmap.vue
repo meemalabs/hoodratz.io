@@ -329,22 +329,22 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <div>
               <div class="flex justify-center md:justify-between">
-                <div class="hidden md:block text-pink-3">2</div>
-                <div class="uppercase">Dec 11 '21</div>
+                <div class="hidden md:block text-pink-3">5</div>
+                <div class="uppercase">Dec 19 '21</div>
               </div>
 
               <div class="my-4 text-2xl font-bold text-white">
-                Presale / Whitelist
+                DAO Foundation
               </div>
 
               <p class="leading-8">
-                Join our Whitelist to purchase up to 3 Hoodratz NFTs for a
-                discounted rate of 0.75 SOL. Share those ratz on social media
-                and we may just airdrop you some more! 😉
+                This Sunday, we will launch our DAO and kickoff the development
+                for a Open Source cross-chain DAO framework.
               </p>
 
               <p class="pt-3 leading-8">
-                Follow us on
+                The DAO will choose and determine the future and direction of
+                these organizations. Follow us on
                 <a
                   href="https://twitter.com/HoodratzNFT"
                   target="_blank"
