@@ -914,12 +914,12 @@ import AppFooter from "@/components/AppFooter.vue";
                   box-shadow: inset 0 -0.1666666667em 0 0 #fff,
                     inset 0 -0.3333333333em 0 0 #bae6fd;
                 "
-                >unmatched amount of utility</span
+                >unmatched amount of utility,</span
               >
-              all while moving the web3 &amp; dApp ecosystem forward. How do we
-              do this? We have already put in thousands of hours, no joke. Our
-              NakedNFTs marketplace &amp; Meema’s decentralized file manager are
-              incoming. 🚀
+              all while moving the web3 &amp; dApp ecosystem forward.
+              <em class="px-1">How do we do this?</em> Because we have already
+              put in thousands of hours work, no joke. Our NakedNFTs marketplace
+              &amp; Meema’s decentralized file manager are incoming. 🚀
             </p>
           </blockquote>
           <figcaption
