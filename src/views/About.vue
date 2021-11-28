@@ -173,6 +173,12 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
           </div>
         </div>
+
+        <small class="font-sora">
+          * Our whole list of team members is going to be added throughout the
+          next few days.
+        </small>
+
         <img
           class="absolute hidden  xl:left-0 xl:-top-24 lg:block lg:-top-16 lg:left-0"
           src="/images/home/hoodratz-ellipse-97.png"
