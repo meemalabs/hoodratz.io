@@ -26,7 +26,7 @@ import AppFooter from "@/components/AppFooter.vue";
             >
               Hoodratz Policy
             </h2>
-            <p class="leading-7 font-sora">We take privacy serious.</p>
+            <p class="leading-7 font-sora">We take privacy seriously.</p>
           </div>
         </div>
       </div>
