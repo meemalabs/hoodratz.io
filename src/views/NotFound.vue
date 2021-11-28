@@ -54,7 +54,7 @@ import AppFooter from '@/components/AppFooter.vue'
                   </a>
                 </span>
               </h3>
-              <p class="text-base">Find out what's the plan!</p>
+              <p class="text-base">Find out the plan!</p>
             </div>
             <div class="flex-shrink-0 self-center">
               <img src="/images/chevron.svg" alt="">

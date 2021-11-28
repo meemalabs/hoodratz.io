@@ -70,8 +70,8 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="relative hidden md:block md:-ml-20">
           <div><img src="/images/about-cover.png" alt="" /></div>
           <div class="absolute inset-0 flex items-center justify-center">
-            <div class="w-80 lg:w-96 xl:w-108">
-              <img src="/images/about-desktop.png" alt="" />
+            <div class="w-64 rotate-6">
+              <img src="/images/zombie-nft.png" alt="Zombie NFT" />
             </div>
           </div>
         </div>
