@@ -12,7 +12,7 @@ import AppFooter from "@/components/AppFooter.vue";
     >
       <AppHeader :transparent="true" class="hidden md:block" />
       <img
-        class="absolute hidden  xl:top-36 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
+        class="absolute hidden  xl:top-24 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
@@ -300,7 +300,7 @@ import AppFooter from "@/components/AppFooter.vue";
         alt=""
       />
       <img
-        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:-bottom-3/4 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-0 lg:block lg:-bottom-3/4 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />

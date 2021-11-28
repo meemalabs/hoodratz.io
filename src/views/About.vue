@@ -169,7 +169,7 @@ import AppFooter from "@/components/AppFooter.vue";
           alt=""
         />
         <img
-          class="absolute hidden  xl:left-1/2 xl:top-52 lg:block lg:top-52 lg:left-3/4"
+          class="absolute hidden  xl:left-1/2 xl:top-60 lg:block lg:top-52 lg:left-3/4"
           src="/images/home/hoodratz-ellipse-97.png"
           alt=""
         />
