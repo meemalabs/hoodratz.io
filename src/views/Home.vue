@@ -333,7 +333,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-if="!accordion.variety"
-                  @click="accordion.variety = !accordion.variety"
+                  @click.prevent="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img
@@ -344,7 +344,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.variety = !accordion.variety"
+                  @click.prevent="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img
@@ -395,7 +395,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.free"
-                  @click="accordion.free = !accordion.free"
+                  @click.prevent="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -403,7 +403,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.free = !accordion.free"
+                  @click.prevent="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -440,7 +440,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.marketplace"
-                  @click="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="accordion.marketplace = !accordion.marketplace"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -448,7 +448,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="accordion.marketplace = !accordion.marketplace"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -492,7 +492,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.airdrops"
-                  @click="accordion.airdrops = !accordion.airdrops"
+                  @click.prevent="accordion.airdrops = !accordion.airdrops"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -500,7 +500,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.airdrops = !accordion.airdrops"
+                  @click.prevent="accordion.airdrops = !accordion.airdrops"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -530,7 +530,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.mission"
-                  @click="accordion.mission = !accordion.mission"
+                  @click.prevent="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -538,7 +538,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.mission = !accordion.mission"
+                  @click.prevent="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -596,7 +596,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.variety"
-              @click="accordion.variety = !accordion.variety"
+              @click.prevent="accordion.variety = !accordion.variety"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -604,7 +604,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.variety = !accordion.variety"
+              @click.prevent="accordion.variety = !accordion.variety"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -630,7 +630,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.rarity"
-              @click="accordion.rarity = !accordion.rarity"
+              @click.prevent="accordion.rarity = !accordion.rarity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -638,7 +638,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.rarity = !accordion.rarity"
+              @click.prevent="accordion.rarity = !accordion.rarity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -666,7 +666,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.popularity"
-              @click="accordion.popularity = !accordion.popularity"
+              @click.prevent="accordion.popularity = !accordion.popularity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -674,7 +674,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.popularity = !accordion.popularity"
+              @click.prevent="accordion.popularity = !accordion.popularity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -702,7 +702,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.mission"
-              @click="accordion.mission = !accordion.mission"
+              @click.prevent="accordion.mission = !accordion.mission"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -710,7 +710,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.mission = !accordion.mission"
+              @click.prevent="accordion.mission = !accordion.mission"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
