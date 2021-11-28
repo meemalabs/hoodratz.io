@@ -566,6 +566,9 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
 
+      <p class="mb-4 -mt-6 text-3xl text-center text-white font-kumbh-bold md:text-3xl">And a whole lot more to come...</p>
+      <p class="pt-4 mb-4 -mt-6 text-3xl text-center text-pink-2 font-kumbh-bold md:text-3xl">Rat pack, stay tuned and #stayhood</p>
+
       <!-- <div class="relative mx-auto md:w-2/3">
         <div class="relative mx-4 my-20 text-center md:text-left">
           <div
