@@ -589,9 +589,9 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">Variety</h1>
-              <h1 class="text-white text-body font-sora">
-                Over 200 attributes
+              <h1 class="text-pink-nude text-caption font-sora">Variety &amp; Popularity</h1>
+              <h1 class="text-white font-sora text-body-2">
+                7 Traits &amp; Over 50 Attributes
               </h1>
             </div>
             <button
@@ -611,12 +611,32 @@ import AppFooter from "@/components/AppFooter.vue";
             </button>
           </div>
           <p
-            v-if="accordion.variety"
+            v-show="accordion.variety"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Creativity is our second name! We designed over 200 attributes for
-            our Hoodratz so that each and every one of them would be amazing and
-            one-of-a-kind!
+            Creativity is our second name! We designed over 50 attributes
+            for our Hoodratz so that each and every one of them would be
+            beautiful and one-of-a-kind!
+          </p>
+          <p
+            v-show="accordion.variety"
+            class="mt-4 text-gray-4 font-sora text-body-2"
+          >
+            Aside from creating awesome tech &amp; art, we specialize in
+            building social communities. Whether it is
+            <a
+              href="https://www.instagram.com/earthpix/"
+              target="_blank"
+              class="text-gray-2 hover:text-gray-1"
+              >@earthpix</a
+            >
+            that Kyle founded or
+            <a
+              href="https://www.instagram.com/nakednfts/"
+              target="_blank"
+              class="text-gray-2 hover:text-gray-1"
+              >@NakedNFTs</a
+            >, we have scaled communities enormously.
           </p>
         </div>
 
@@ -625,12 +645,12 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">Rarity</h1>
-              <h1 class="text-white font-sora text-body">4 rarity levels</h1>
+              <h1 class="text-pink-nude font-sora text-caption">Free For 12 Months</h1>
+              <h1 class="text-white font-sora text-body-2">The First Decentralized File Manager</h1>
             </div>
             <button
-              v-if="!accordion.rarity"
-              @click.prevent="accordion.rarity = !accordion.rarity"
+              v-if="!accordion.free"
+              @click.prevent="accordion.free = !accordion.free"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -638,19 +658,28 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click.prevent="accordion.rarity = !accordion.rarity"
+              @click.prevent="accordion.free = !accordion.free"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
             </button>
           </div>
           <p
-            v-if="accordion.rarity"
+            v-show="accordion.free"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Excepteur labore mollit esse minim ullamco cillum anim est ipsum.
-            Cillum consequat Lorem elit cillum cupidatat mollit et laboris amet
-            reprehenderit dolor aliqua.
+            Think of <em>Dropbox for Web 3.</em> For the past two years, we
+            have been working on a custom file management experience &amp;
+            ecosystem that ensures a blazing fast "media delivery." Our
+            public launch is February 2022. Though, beta testers will
+            receive early access.
+          </p>
+          <p
+            v-show="accordion.free"
+            class="mt-3 italic text-gray-4 font-sora text-body-2"
+          >
+            Every holder will receive 12 months of service for free! This is
+            a value of at least 120 USD per year.
           </p>
         </div>
 
@@ -659,14 +688,14 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">POPULARITY</h1>
+              <h1 class="text-pink-nude font-sora text-caption">Reduced Trading Fees</h1>
               <h1 class="text-white font-sora text-body-2">
-                Amazing NFT community
+                The First Cross-Chain NFT Marketplace
               </h1>
             </div>
             <button
-              v-if="!accordion.popularity"
-              @click.prevent="accordion.popularity = !accordion.popularity"
+              v-if="!accordion.marketplace"
+              @click.prevent="accordion.marketplace = !accordion.marketplace"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -674,19 +703,35 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click.prevent="accordion.popularity = !accordion.popularity"
+              @click.prevent="accordion.marketplace = !accordion.marketplace"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
             </button>
           </div>
           <p
-            v-if="accordion.popularity"
+            v-show="accordion.marketplace"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Excepteur labore mollit esse minim ullamco cillum anim est ipsum.
-            Cillum consequat Lorem elit cillum cupidatat mollit et laboris amet
-            reprehenderit dolor aliqua.
+            Our brand
+            <a
+              href="https://www.instagram.com/nakednfts/"
+              target="_blank"
+              class="text-gray-2 hover:text-gray-1"
+              >@NakedNFTs</a
+            >
+            is releasing an incredibly thoroughly designed &amp; architected
+            NFT marketplace on 12/12 as well, the day of our Hoodratz
+            launch! It will be our primary marketplace.
+          </p>
+          <p
+            v-show="accordion.marketplace"
+            class="mt-3 text-gray-4 font-sora text-body-2"
+          >
+            Not only will you, as a hodler, pay fewer taxes automatically,
+            but also get to experience history listing on the first
+            marketplace that will support Ethereum, Cardano, and Solana. The
+            more eyes, the more exposure.
           </p>
         </div>
 
@@ -695,9 +740,47 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">OUR MISSION</h1>
-              <h1 class="text-white text-body font-sora">
-                Helping charities worldwide
+              <h1 class="text-pink-nude text-caption font-sora">Airdrops</h1>
+              <h1 class="text-white font-sora text-body-2">
+                Our creativity keeps creating
+              </h1>
+            </div>
+            <button
+              v-if="!accordion.airdrops"
+              @click.prevent="accordion.airdrops = !accordion.airdrops"
+              class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+            >
+              <img src="/images/home/chevron-down.svg" alt="" />
+            </button>
+
+            <button
+              v-else
+              @click.prevent="accordion.airdrops = !accordion.airdrops"
+              class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
+            >
+              <img src="/images/home/chevron-up.svg" alt="" />
+            </button>
+          </div>
+          <p
+            v-show="accordion.airdrops"
+            class="mt-6 text-gray-4 font-sora text-body-2"
+          >
+            Our "creative team" is one of the most qualified in the
+            industry. Join our Discord to find out more about our upcoming
+            cross-chain collection launches! Not only will we airdrop
+            several to hodlers but you are not going to want to miss those
+            mints, either.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col p-6 mt-5  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex flex-col">
+              <h1 class="text-pink-nude text-caption font-sora">Giving Back</h1>
+              <h1 class="text-white font-sora text-body-2">
+                Helping good causes worldwide
               </h1>
             </div>
             <button
@@ -717,12 +800,14 @@ import AppFooter from "@/components/AppFooter.vue";
             </button>
           </div>
           <p
-            v-if="accordion.mission"
+            v-show="accordion.mission"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Excepteur labore mollit esse minim ullamco cillum anim est ipsum.
-            Cillum consequat Lorem elit cillum cupidatat mollit et laboris amet
-            reprehenderit dolor aliqua.
+            Our passion and focus lies and lives on the intersection of
+            where technology meets humanity. We try to connect and improve
+            lives by leveraging our creative and technological skills by
+            working with educational &amp; environmental nonprofits all
+            throughout the world.
           </p>
         </div>
 
