@@ -138,8 +138,8 @@ import AppFooter from "@/components/AppFooter.vue";
           <div class="flex mt-24">
             <img
               class="mr-24 w-96 h-1/43"
-              src="/images/home/josephine.png"
-              alt="Hoodratz Josephine NFT"
+              src="/images/home/vinnie.png"
+              alt="Hoodratz Vinnie NFT"
             />
             <img
               class="absolute block left-24 w-80 top-full xl:hidden lg:block"
@@ -234,7 +234,7 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="flex flex-col items-center mx-4 mt-16">
         <img
           class="w-full h-full sm:w-3/4 md:w-3/4"
-          src="/images/home/hoodratz-josephine.png"
+          src="/images/home/vinnie.png"
           alt=""
         />
         <div
@@ -850,8 +850,11 @@ import AppFooter from "@/components/AppFooter.vue";
           </p>
         </div>
 
-        <div class="flex items-center justify-center mt-5">
-          <img src="/images/home/hoodratz-attribute.svg" alt="" />
+        <div class="flex items-center justify-center mt-24 md:mt-5">
+          <img
+            src="/images/home/hoodratz-attribute.svg"
+            alt="Hoodratz illustration"
+          />
         </div>
       </div>
     </section>
@@ -1022,13 +1025,15 @@ import AppFooter from "@/components/AppFooter.vue";
       id="future-mobile"
       class="relative block h-full pt-32 pb-10 mx-4 md:pt-0 lg:hidden"
     >
-      <div class="flex flex-col items-center pb-16">
+      <div class="flex flex-col items-center pt-16 pb-16">
         <img src="/images/home/hoodratz-tech.svg" alt="Hoodratz tech" />
+
         <h1 class="mt-5 text-center uppercase text-pink-3 font-sora text-h4">
           Interoperability
         </h1>
+
         <img src="/images/home/hoodratz-future.svg" alt="" />
-        <div class="-mt-48 text-center md:-mt-32 font-sora">
+        <div class="-mt-48 text-center lg:-mt-32 font-sora">
           <h1 class="text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
           </h1>
