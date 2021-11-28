@@ -145,7 +145,7 @@ import AppFooter from "@/components/AppFooter.vue";
           v-for="(item, index) in team"
         >
           <div class="w-16 mr-4">
-            <img class="rounded-full" :src="item.image" alt="Chris Breuer" />
+            <img class="rounded-full" :src="item.image" :alt="item.name" />
           </div>
           <div class="flex flex-1 md:items-center md:mt-8">
             <div class="flex flex-col flex-1">
