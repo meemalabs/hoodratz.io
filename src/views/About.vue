@@ -46,7 +46,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <p class="leading-8 font-sora">
               Hoodratz are uniquely generated, cute and collectible rats with
-              proof of ownership stored on Solana's blockchain, and soon on the
+              proof of ownership stored on Solana’s blockchain, and soon on the
               blockchain of your choice. All individual art pieces of the
               Hoodratz world have been created by hand and were algorithmically
               generated using custom code that we created to share with the
@@ -94,7 +94,7 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
 
           <h2 class="my-4 text-3xl text-white font-kumbh-bold md:text-5xl">
-            Who's behind it all?
+            Who’s behind it all?
           </h2>
 
           <p class="leading-7 font-sora">
