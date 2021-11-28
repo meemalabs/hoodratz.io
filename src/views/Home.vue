@@ -931,7 +931,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <div class="text-gray-1">Chris Breuer</div>
             <div class="text-gray-5">
-              Creator of Hoodratz &amp; Meema &amp; NakedNFTs
+              Creator of Hoodratz, Meema &amp; NakedNFTs
             </div>
           </figcaption>
         </div>
