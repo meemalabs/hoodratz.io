@@ -9,7 +9,7 @@
           <li class="p-4">
             <router-link to="/about" class="flex items-center justify-between">
               <div>About</div>
-              <div><img src="/images/chevron.svg" alt="" /></div>
+              <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
             </router-link>
           </li>
           <li class="p-4">
@@ -18,14 +18,14 @@
               class="flex items-center justify-between"
             >
               <div>Roadmap</div>
-              <div><img src="/images/chevron.svg" alt="" /></div>
+              <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
             </router-link>
           </li>
           <li class="p-4">
-            <router-link to="/faq" class="flex items-center justify-between">
+            <span class="flex items-center justify-between">
               <div>FAQ</div>
-              <div><img src="/images/chevron.svg" alt="" /></div>
-            </router-link>
+              <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
+            </span>
           </li>
         </ul>
         <h3 class="px-4 py-3 text-sm text-white uppercase bg-gray-7">
@@ -39,7 +39,7 @@
                 >soon</small
               >
             </div>
-            <div><img src="/images/chevron.svg" alt="" /></div>
+            <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
           </li>
           <li class="flex items-center justify-between p-4">
             <div>
@@ -48,7 +48,7 @@
                 >soon</small
               >
             </div>
-            <div><img src="/images/chevron.svg" alt="" /></div>
+            <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
           </li>
         </ul>
         <h3 class="px-4 py-3 text-sm text-white uppercase bg-gray-7">
@@ -59,7 +59,7 @@
             <div>
               <router-link to="/privacy-policy">Privacy Policy</router-link>
             </div>
-            <div><img src="/images/chevron.svg" alt="" /></div>
+            <div><img src="/images/chevron.svg" alt="chevron icon" /></div>
           </li>
         </ul>
       </div>
@@ -73,12 +73,10 @@
               <img src="/images/logo-light.svg" alt="Hoodratz" />
             </router-link>
           </div>
-          <p
-            class="my-4 text-sm leading-6 text-center  md:text-left md:text-xs lg:text-base"
-          >
-            Hoodratz are uniquely generated and collectible NFTs. Inspired by
-            New York City’s underground, each of them is one-of-a-kind and 100%
-            owned by you.
+          <p class="my-4 text-sm leading-6 text-center md:text-left md:text-xs">
+            Hoodratz are uniquely generated & collectible NFTs. Inspired by New
+            York City’s underground, each of them is one-of-a-kind & 100% owned
+            by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
@@ -128,13 +126,7 @@
                     >Roadmap</router-link
                   >
                 </li>
-                <li class="my-2">
-                  <router-link
-                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
-                    to="/faq"
-                    >FAQ</router-link
-                  >
-                </li>
+                <li class="px-2 my-2 text-gray-5">FAQ</li>
               </ul>
             </div>
             <div>
@@ -148,16 +140,16 @@
                     Utility
                   </a>
                 </li>
-                <li class="my-2 cursor-wait">
+                <li class="my-2">
                   <span
-                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-wait  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  text-gray-5 focus:outline-none focus:bg-pink-custom-2"
                   >
                     Attributes
                   </span>
                 </li>
-                <li class="my-2 cursor-wait">
+                <li class="my-2">
                   <span
-                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-wait  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  text-gray-5 focus:outline-none focus:bg-pink-custom-2"
                   >
                     Merchandise
                   </span>
@@ -165,14 +157,16 @@
               </ul>
             </div>
             <div>
-              <h3 class="px-2 mb-8 text-white uppercase">Policies</h3>
+              <h3 class="px-2 mb-8 text-white uppercase">
+                <!-- Policies -->
+              </h3>
               <ul>
                 <li class="my-2">
-                  <router-link
-                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                  <!-- <router-link
+                    class="px-2 transition duration-150 ease-in-out rounded-md hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/privacy-policy"
-                    >Privacy policy</router-link
-                  >
+                    >Privacy Policy</router-link
+                  > -->
                 </li>
               </ul>
             </div>
