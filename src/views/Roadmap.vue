@@ -430,15 +430,14 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
 
-      <!-- Do not touch these -->
-      <div class="relative mx-auto md:w-2/3">
+      <!-- <div class="relative mx-auto md:w-2/3">
         <div class="relative mx-4 my-20 text-center md:text-left">
           <div
             v-for="(item, index) in roadmap"
             class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora"
           >
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
                 class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full "
@@ -455,18 +454,18 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
                   v-if="item.done"
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
                 >
                   <div><img src="/images/check.svg" alt="" /></div>
                 </div>
                 <div
                   v-else
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 ></div>
               </div>
             </div>
@@ -488,10 +487,10 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
 
           <div
-            class="absolute top-0 hidden h-full -ml-10 border-l border-dashed  border-gray-4 md:block"
+            class="absolute top-0 hidden h-full -ml-10 border-l border-dashed border-gray-4 md:block"
           ></div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <AppFooter />
