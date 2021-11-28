@@ -58,16 +58,24 @@
 
   "faq": [
     {
-      "question": "When can we mint?",
+      "question": "Wen mint?",
       "answer": "Public sale starts at 12th of December, at 11am PST "
     },
     {
       "question": "How many NFTs are available?",
-      "answer": "A total of 10,000 items will be available. About 100-200 of these will be used for competitions and airdrops, with the remaining NFTs all being used for the public mint."
+      "answer": "A total of 10,000 items will be available. Around 200 of these will be used for competitions and Airdrops, with the remainder of NFTs all being used for the public mint."
     },
     {
       "question": "How much for each NFT?",
-      "answer": "1.00 SOL for public mint, 0.75 SOL for whitelists."
+      "answer": "1.00 SOL for the Public Sale and 0.75 SOL for Whitelist Sale."
+    },
+    {
+      "question": "Where can I buy or sell my ratz?",
+      "answer": "Our primary marketplace will be our own custom designed and developed marketplace, NakedNFTs. We are thinking about secondary marketplaces currently and would hope to list on Magic Eden."
+    },
+    {
+      "question": "Will I be considered cool if I buy a hoodrat?",
+      "answer": "Yes. Yes. Yes."
     }
   ]
 }

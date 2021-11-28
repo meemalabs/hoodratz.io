@@ -85,34 +85,15 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
-            <router-link
-              to="/faq"
-              custom
-              v-slot="{ href, route, navigate, isActive, isExactActive }"
-            >
-              <a
-                @click="navigate"
-                :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
-                :href="href"
-                >FAQ</a
-              >
-              <div
-                v-if="isActive"
-                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
-              ></div>
-            </router-link>
-          </li>
-          <li class="mx-2 cursor-wait lg:mx-4">
+          <li class="mx-2 lg:mx-4 text-gray-4">
             Rarity
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
               >soon</span
             >
           </li>
-          <li class="mx-2 cursor-wait lg:mx-4">
-            Merch
+          <li class="mx-2 text-gray-4 lg:mx-4">
+            Merchandise
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
               >soon</span
@@ -148,13 +129,6 @@
             >
           </li>
           <li>
-            <router-link
-              to="/faq"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
-              >FAQ</router-link
-            >
-          </li>
-          <li>
             <a
               href="#"
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
@@ -165,7 +139,7 @@
             <a
               href="#"
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
-              >Merch</a
+              >Merchandise</a
             >
           </li>
         </ul>

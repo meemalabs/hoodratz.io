@@ -52,14 +52,14 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full  bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button z-10"
+              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full  bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
             >
               Join Discord
             </a>
             <a
               :href="social.twitter"
               target="_blank"
-              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3 z-10"
+              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
               Follow Us
               <svg
@@ -93,8 +93,8 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="flex justify-center order-first mt-20 lg:order-last">
           <img
             class="object-contain w-3/4 h-full xl:w-3/4 lg:w-full"
-            src="/images/home/Hoodratz-card.png"
-            alt="Hoodrat NFT"
+            src="/images/home/hoodratz-card.png"
+            alt="Hoodratz NFT"
           />
         </div>
       </div>
@@ -130,7 +130,7 @@ import AppFooter from "@/components/AppFooter.vue";
               Hoodratz are uniquely generated &amp; collectible digital art
               pieces (NFTs).
               <br />Inspired by the global New York City NFT hub, each of these
-              rats is <br />one-of-a-kind and 100% owned by you.
+              rats is <br />one-of-a-kind & 100% owned by you.
             </p>
           </div>
           <div class="flex mt-24">
@@ -225,7 +225,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </h1>
         <p class="mt-5 text-gray-4 font-sora text-body-2">
           Hoodratz are uniquely generated and collectible NFTs. <br />Inspired
-          by New York City’s underground, each of them is one-of-a-kind and 100%
+          by New York City’s underground, each of them is one-of-a-kind & 100%
           owned by you.
         </p>
       </div>
@@ -440,7 +440,9 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.marketplace"
-                  @click.prevent="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="
+                    accordion.marketplace = !accordion.marketplace
+                  "
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -448,7 +450,9 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click.prevent="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="
+                    accordion.marketplace = !accordion.marketplace
+                  "
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -589,7 +593,9 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">Variety &amp; Popularity</h1>
+              <h1 class="text-pink-nude text-caption font-sora">
+                Variety &amp; Popularity
+              </h1>
               <h1 class="text-white font-sora text-body-2">
                 7 Traits &amp; Over 50 Attributes
               </h1>
@@ -614,9 +620,9 @@ import AppFooter from "@/components/AppFooter.vue";
             v-show="accordion.variety"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Creativity is our second name! We designed over 50 attributes
-            for our Hoodratz so that each and every one of them would be
-            beautiful and one-of-a-kind!
+            Creativity is our second name! We designed over 50 attributes for
+            our Hoodratz so that each and every one of them would be beautiful
+            and one-of-a-kind!
           </p>
           <p
             v-show="accordion.variety"
@@ -645,8 +651,12 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">Free For 12 Months</h1>
-              <h1 class="text-white font-sora text-body-2">The First Decentralized File Manager</h1>
+              <h1 class="text-pink-nude font-sora text-caption">
+                Free For 12 Months
+              </h1>
+              <h1 class="text-white font-sora text-body-2">
+                The First Decentralized File Manager
+              </h1>
             </div>
             <button
               v-if="!accordion.free"
@@ -668,18 +678,17 @@ import AppFooter from "@/components/AppFooter.vue";
             v-show="accordion.free"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Think of <em>Dropbox for Web 3.</em> For the past two years, we
-            have been working on a custom file management experience &amp;
-            ecosystem that ensures a blazing fast "media delivery." Our
-            public launch is February 2022. Though, beta testers will
-            receive early access.
+            Think of <em>Dropbox for Web 3.</em> For the past two years, we have
+            been working on a custom file management experience &amp; ecosystem
+            that ensures a blazing fast "media delivery." Our public launch is
+            February 2022. Though, beta testers will receive early access.
           </p>
           <p
             v-show="accordion.free"
             class="mt-3 italic text-gray-4 font-sora text-body-2"
           >
-            Every holder will receive 12 months of service for free! This is
-            a value of at least 120 USD per year.
+            Every holder will receive 12 months of service for free! This is a
+            value of at least 120 USD per year.
           </p>
         </div>
 
@@ -688,7 +697,9 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">Reduced Trading Fees</h1>
+              <h1 class="text-pink-nude font-sora text-caption">
+                Reduced Trading Fees
+              </h1>
               <h1 class="text-white font-sora text-body-2">
                 The First Cross-Chain NFT Marketplace
               </h1>
@@ -720,18 +731,18 @@ import AppFooter from "@/components/AppFooter.vue";
               class="text-gray-2 hover:text-gray-1"
               >@NakedNFTs</a
             >
-            is releasing an incredibly thoroughly designed &amp; architected
-            NFT marketplace on 12/12 as well, the day of our Hoodratz
-            launch! It will be our primary marketplace.
+            is releasing an incredibly thoroughly designed &amp; architected NFT
+            marketplace on 12/12 as well, the day of our Hoodratz launch! It
+            will be our primary marketplace.
           </p>
           <p
             v-show="accordion.marketplace"
             class="mt-3 text-gray-4 font-sora text-body-2"
           >
-            Not only will you, as a hodler, pay fewer taxes automatically,
-            but also get to experience history listing on the first
-            marketplace that will support Ethereum, Cardano, and Solana. The
-            more eyes, the more exposure.
+            Not only will you, as a hodler, pay fewer taxes automatically, but
+            also get to experience history listing on the first marketplace that
+            will support Ethereum, Cardano, and Solana. The more eyes, the more
+            exposure.
           </p>
         </div>
 
@@ -765,11 +776,10 @@ import AppFooter from "@/components/AppFooter.vue";
             v-show="accordion.airdrops"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Our "creative team" is one of the most qualified in the
-            industry. Join our Discord to find out more about our upcoming
-            cross-chain collection launches! Not only will we airdrop
-            several to hodlers but you are not going to want to miss those
-            mints, either.
+            Our "creative team" is one of the most qualified in the industry.
+            Join our Discord to find out more about our upcoming cross-chain
+            collection launches! Not only will we airdrop several to hodlers but
+            you are not going to want to miss those mints, either.
           </p>
         </div>
 
@@ -803,11 +813,10 @@ import AppFooter from "@/components/AppFooter.vue";
             v-show="accordion.mission"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Our passion and focus lies and lives on the intersection of
-            where technology meets humanity. We try to connect and improve
-            lives by leveraging our creative and technological skills by
-            working with educational &amp; environmental nonprofits all
-            throughout the world.
+            Our passion and focus lies and lives on the intersection of where
+            technology meets humanity. We try to connect and improve lives by
+            leveraging our creative and technological skills by working with
+            educational &amp; environmental nonprofits all throughout the world.
           </p>
         </div>
 
@@ -864,22 +873,21 @@ import AppFooter from "@/components/AppFooter.vue";
             <p
               class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
             >
-              We created Hoodratz as a.
+              Not only have we been trying to create beautiful art, but we have
+              also been hard at work creating a collection that has an
               <span
                 class="font-semibold text-pink-600"
                 style="
                   box-shadow: inset 0 -0.1666666667em 0 0 #fff,
                     inset 0 -0.3333333333em 0 0 #bae6fd;
                 "
-                >How many times have you created an API .</span
+                >incredible amount of utility.</span
               >
-              How many times have you created an API endpoint to handle your
-              file uploads? Are your images &amp; videos utilizing a modern
-              web-optimized format? Do you use differently encoded videos to
-              ensure that no matter the internet connection — or device — there
-              will be as little buffering as possible? The list is long which is
-              why we try to create a set of standards to simplify your
-              management process.
+              It's quite simply unmatched. We are not advertising for something
+              to hopefully be released. We have already put in the work and
+              developed it. Our NakedNFTs marketplace &amp; Meema's
+              decentralized file manager are incoming. dApps are the whole &amp;
+              sole focus of our companies. ❤️
             </p>
           </blockquote>
           <figcaption
@@ -894,7 +902,9 @@ import AppFooter from "@/components/AppFooter.vue";
               />
             </div>
             <div class="text-gray-1">Chris Breuer</div>
-            <div class="text-gray-5">Creator of Hoodratz</div>
+            <div class="text-gray-5">
+              Creator of Hoodratz &amp; Meema &amp; NakedNFTs
+            </div>
           </figcaption>
         </div>
       </div>
@@ -952,7 +962,7 @@ import AppFooter from "@/components/AppFooter.vue";
             Initially launching on the Solana blockchain,
           </p>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            we will then expand into Ethereum &amp; the Cardano blockchain.
+            then expanding into Ethereum &amp; Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
             <img class="mr-5" src="/images/solana-logo.svg" alt="Solana logo" />
@@ -978,7 +988,7 @@ import AppFooter from "@/components/AppFooter.vue";
       class="relative block h-full pb-10 mx-4 lg:hidden"
     >
       <div class="flex flex-col items-center">
-        <img src="/images/home/hoodratz-tech.svg" alt="" />
+        <img src="/images/home/hoodratz-tech.svg" alt="Hoodratz tech" />
         <h1 class="mt-5 text-center uppercase text-pink-3 font-sora text-h4">
           Interoperability
         </h1>
