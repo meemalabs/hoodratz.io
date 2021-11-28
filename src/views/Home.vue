@@ -906,21 +906,20 @@ import AppFooter from "@/components/AppFooter.vue";
             <p
               class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
             >
-              Not only have we been trying to create beautiful art, but we have
-              also been hard at work creating a collection that has an
+              “Not only have we been crafting beautiful art, but we have also
+              been incredibly hard at work, creating a collection that has an
               <span
                 class="font-semibold text-pink-600"
                 style="
                   box-shadow: inset 0 -0.1666666667em 0 0 #fff,
                     inset 0 -0.3333333333em 0 0 #bae6fd;
                 "
-                >incredible amount of utility.</span
+                >unmatched amount of utility</span
               >
-              It’s quite simply unmatched. We are not advertising for something
-              to hopefully be released. We have already put in the work and
-              developed it. Our NakedNFTs marketplace &amp; Meema’s
-              decentralized file manager are incoming. dApps are the whole &amp;
-              sole focus of our companies. ❤️
+              all while moving the web3 &amp; dApp ecosystem forward. How do we
+              do this? We have already put in thousands of hours, no joke. Our
+              NakedNFTs marketplace &amp; Meema’s decentralized file manager are
+              incoming. 🚀
             </p>
           </blockquote>
           <figcaption
