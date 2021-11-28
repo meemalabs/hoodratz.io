@@ -36,6 +36,7 @@ import AppFooter from "@/components/AppFooter.vue";
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
+
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
@@ -52,10 +53,11 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full  bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
+              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase rounded-full  md:mr-4 bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
             >
               Join Discord
             </a>
+
             <a
               :href="social.twitter"
               target="_blank"
@@ -1002,7 +1004,7 @@ import AppFooter from "@/components/AppFooter.vue";
               alt="Ethereum logo"
             />
             <img
-              class="opacity-20"
+              class="pt-1 opacity-20"
               src="/images/logo-ada.svg"
               alt="Cardano logo"
             />
@@ -1013,7 +1015,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <section
       id="future-mobile"
-      class="relative block h-full pb-10 mx-4 lg:hidden"
+      class="relative block h-full pt-32 pb-10 mx-4 md:pt-0 lg:hidden"
     >
       <div class="flex flex-col items-center">
         <img src="/images/home/hoodratz-tech.svg" alt="Hoodratz tech" />
@@ -1023,16 +1025,33 @@ import AppFooter from "@/components/AppFooter.vue";
         <img src="/images/home/hoodratz-future.svg" alt="" />
         <div class="-mt-32 text-center font-sora">
           <h1 class="text-white text-h3 font-kumbh-bold">
-            Become a part of the future of NFT
+            We are in it for the long run. Are you?
           </h1>
           <p class="mt-5 text-gray-4 text-body-2 font-sora">
-            All hoodratz are stored on the Solana blockchain and their URL is
-            secured by Meema. NFT world has never seen this before!
+            Initially launching on the Solana blockchain, <br />then expanding
+            into Ethereum &amp; Cardano blockchain.
           </p>
         </div>
-        <div class="flex items-center justify-center">
-          <img class="mr-5" src="/images/home/hoodratz-solana.svg" alt="" />
-          <img src="/images/home/hoodratz-meema.svg" alt="" />
+
+        <div class="flex items-center justify-center pt-12">
+          <img
+            class="mr-5"
+            src="/images/home/hoodratz-solana.svg"
+            alt="Solana Logo"
+          />
+        </div>
+
+        <div class="flex items-center mt-5">
+          <img
+            class="mr-12 opacity-40"
+            src="/images/logo-eth.svg"
+            alt="Ethereum logo"
+          />
+          <img
+            class="pt-1 opacity-20"
+            src="/images/logo-ada.svg"
+            alt="Cardano logo"
+          />
         </div>
       </div>
     </section>
