@@ -73,10 +73,12 @@
               <img src="/images/logo-light.svg" alt="Hoodratz" />
             </router-link>
           </div>
-          <p class="my-4 text-sm leading-6 text-center md:text-left md:text-xs">
-            Hoodratz are uniquely generated & collectible NFTs. Inspired by New
-            York City’s underground, each of them is one-of-a-kind & 100% owned
-            by you.
+          <p
+            class="my-4 mr-0 text-sm leading-6 text-center  md:mr-12 md:text-left md:text-xs"
+          >
+            Created &amp; designed in Silicon Beach, CA, Hoodratz are uniquely
+            generated &amp; collectible NFTs. Inspired by New York City’s
+            underground, each of them is one-of-a-kind &amp; 100% owned by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
