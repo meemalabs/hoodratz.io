@@ -191,7 +191,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     <h1 class="uppercase text-pink-3 font-sora text-caption">
                       Amount
                     </h1>
-                    <h1 class="text-white font-sora text-title">10 000</h1>
+                    <h1 class="text-white font-sora text-title">10,000</h1>
                   </div>
                 </div>
                 <p class="mt-6 text-gray-4 text-body-2 font-sora">
@@ -266,7 +266,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <div class="flex flex-col text-right">
               <h1 class="text-pink-3 font-sora text-caption">AMOUNT</h1>
-              <h1 class="text-white font-sora text-title">10 000</h1>
+              <h1 class="text-white font-sora text-title">10,000</h1>
             </div>
           </div>
           <p class="mt-6 text-gray-4 text-body-2 font-sora">
@@ -423,8 +423,8 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.free"
                 class="mt-3 italic text-gray-4 font-sora text-body-2"
               >
-                Every holder will receive 12 months of service for free! This is
-                a value of at least 120 USD per year.
+                Every Hoodratz holder will receive 12 months of this service for
+                free! This is a value of at least 120 USD per year.
               </p>
             </div>
 
@@ -478,9 +478,9 @@ import AppFooter from "@/components/AppFooter.vue";
                 class="mt-3 text-gray-4 font-sora text-body-2"
               >
                 Not only will you, as a hodler, pay fewer taxes automatically,
-                but also get to experience history listing on the first
+                but you will also get to experience history listing on the first
                 marketplace that will support Ethereum, Cardano, and Solana. The
-                more eyes, the more exposure.
+                more eyes, the more exposure. 👀
               </p>
             </div>
 
@@ -517,7 +517,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 Our "creative team" is one of the most qualified in the
                 industry. Join our Discord to find out more about our upcoming
                 cross-chain collection launches! Not only will we airdrop
-                several to hodlers but you are not going to want to miss those
+                several to hodlers but you are not going to want to miss our
                 mints, either.
               </p>
             </div>
@@ -552,11 +552,10 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.mission"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Our passion and focus lies and lives on the intersection of
-                where technology meets humanity. We try to connect and improve
-                lives by leveraging our creative and technological skills by
-                working with educational &amp; environmental nonprofits all
-                throughout the world.
+                Our passion and focus lies on the intersection of where
+                technology meets humanity. We are committed to improving lives
+                by leveraging our creative and technological skills by through
+                our work with educational &amp; environmental nonprofits.
               </p>
             </div>
           </div>
@@ -687,8 +686,8 @@ import AppFooter from "@/components/AppFooter.vue";
             v-show="accordion.free"
             class="mt-3 italic text-gray-4 font-sora text-body-2"
           >
-            Every holder will receive 12 months of service for free! This is a
-            value of at least 120 USD per year.
+            Every Hoodratz holder will receive 12 months of this service for
+            free! This is a value of at least 120 USD per year.
           </p>
         </div>
 
