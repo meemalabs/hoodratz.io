@@ -136,8 +136,8 @@ import AppFooter from "@/components/AppFooter.vue";
           <div class="flex mt-24">
             <img
               class="mr-24 w-96 h-1/43"
-              src="/images/home/hoodratz-josephine.png"
-              alt=""
+              src="/images/home/josephine.png"
+              alt="Hoodratz Josephine NFT"
             />
             <img
               class="absolute block left-24 w-80 top-full xl:hidden lg:block"
