@@ -976,7 +976,7 @@ import AppFooter from "@/components/AppFooter.vue";
         src="/images/home/hoodratz-ellipse-103.png"
         alt="background particle image"
       />
-      <div class="relative">
+      <div class="relative pb-24">
         <img src="/images/home/hoodratz-future-lg.png" alt="" />
         <div class="absolute inset-0 flex flex-col items-center left-7 top-12">
           <img src="/images/home/hoodratz-future-tech-lg.png" alt="" />
@@ -985,18 +985,23 @@ import AppFooter from "@/components/AppFooter.vue";
           >
             Interoperability
           </h1>
-          <h1 class="my-5 text-white text-h3 font-kumbh-bold">
+
+          <h1 class="mt-12 mb-5 text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
           </h1>
+
           <p class="text-center text-body-2 text-gray-4 font-sora">
             Initially launching on the Solana blockchain,
           </p>
+
           <p class="text-center text-body-2 text-gray-4 font-sora">
             then expanding into Ethereum &amp; Cardano blockchain.
           </p>
+
           <div class="flex items-center mt-5">
             <img class="mr-5" src="/images/solana-logo.svg" alt="Solana logo" />
           </div>
+
           <div class="flex items-center mt-5">
             <img
               class="mr-12 opacity-40"
@@ -1017,13 +1022,13 @@ import AppFooter from "@/components/AppFooter.vue";
       id="future-mobile"
       class="relative block h-full pt-32 pb-10 mx-4 md:pt-0 lg:hidden"
     >
-      <div class="flex flex-col items-center">
+      <div class="flex flex-col items-center pb-16">
         <img src="/images/home/hoodratz-tech.svg" alt="Hoodratz tech" />
         <h1 class="mt-5 text-center uppercase text-pink-3 font-sora text-h4">
           Interoperability
         </h1>
         <img src="/images/home/hoodratz-future.svg" alt="" />
-        <div class="-mt-32 text-center font-sora">
+        <div class="-mt-48 text-center md:-mt-32 font-sora">
           <h1 class="text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
           </h1>
