@@ -175,8 +175,8 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <small class="font-sora">
-          * Our whole list of team members is going to be added throughout the
-          next few days.
+          * Our whole list of 10 team members is going to be added throughout
+          the next few days.
         </small>
 
         <img
