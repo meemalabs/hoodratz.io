@@ -38,33 +38,33 @@
   ],
   "team": [
     {
-      "name": "Chris",
-      "role": "Co-Founder",
+      "name": "Chris Breuer",
+      "role": "Technical Lead",
       "image": "/images/chris.jpeg",
       "twitter_url": "https://twitter.com/chrisbreuer1904",
+      "linkedin_url": "https://www.linkedin.com/in/chris-breuer-33231765/"
+    },
+    {
+      "name": "Kyle Cameron",
+      "role": "Creative Lead",
+      "image": "/images/team/missing.webp",
+      "twitter_url": "https://twitter.com/nakednfts",
       "linkedin_url": ""
     },
     {
-      "name": "Kyle",
-      "role": "Co-Founder",
-      "image": "/images/chris.jpeg",
-      "twitter_url": "https://twitter.com/chrisbreuer1904",
-      "linkedin_url": ""
-    },
-    {
-      "name": "Avery",
-      "role": "PM",
-      "image": "/images/team/avery.png",
+      "name": "Avery Hill",
+      "role": "Artist",
+      "image": "/images/team/avery.jpeg",
       "twitter_url": "",
-      "linkedin_url": ""
+      "linkedin_url": "https://www.linkedin.com/in/avery-breuer-4599b4104/"
     },
 
     {
-      "name": "Denis",
-      "role": "Designer",
-      "image": "/images/team/chris.png",
-      "twitter_url": "",
-      "linkedin_url": ""
+      "name": "Harlequin Doyon",
+      "role": "Dev Genius",
+      "image": "/images/team/missing.webp",
+      "twitter_url": "https://twitter.com/DoyonHarlequin",
+      "linkedin_url": "https://www.linkedin.com/in/harlequindoyon/"
     }
   ],
 
