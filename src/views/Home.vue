@@ -81,7 +81,7 @@ import AppFooter from "@/components/AppFooter.vue";
             class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">12/12 @ 11am PT!</span>
+              Launching on <span class="text-pink-3">12/12 @ 11am PST!</span>
             </p>
             <img
               class="mt-10 w-28 h-28"
