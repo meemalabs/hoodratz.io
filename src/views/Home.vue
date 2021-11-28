@@ -406,7 +406,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click.prevent="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -455,7 +458,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   "
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -471,7 +477,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 >
                 is releasing an incredibly thoroughly designed &amp; architected
                 NFT marketplace on 12/12 as well, the day of our Hoodratz
-                launch! It will be our primary marketplace.
+                launch! It will become our primary marketplace.
               </p>
               <p
                 v-show="accordion.marketplace"
@@ -507,7 +513,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click.prevent="accordion.airdrops = !accordion.airdrops"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -515,10 +524,16 @@ import AppFooter from "@/components/AppFooter.vue";
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
                 Our "creative team" is one of the most qualified in the
-                industry. Join our Discord to find out more about our upcoming
-                cross-chain collection launches! Not only will we airdrop
-                several to hodlers but you are not going to want to miss our
-                mints, either.
+                industry. Join our
+                <a
+                  href="https://discord.gg/jsahnpyr4X"
+                  target="_blank"
+                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  >Discord</a
+                >
+                to find out more about our upcoming cross-chain collection
+                launches! Not only will we airdrop several to hodlers but you
+                are not going to want to miss our mints, either.
               </p>
             </div>
 
@@ -545,7 +560,10 @@ import AppFooter from "@/components/AppFooter.vue";
                   @click.prevent="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -576,7 +594,7 @@ import AppFooter from "@/components/AppFooter.vue";
     >
       <img src="/images/home/hoodratz-proposition.svg" alt="" />
       <div class="absolute mx-4 top-36">
-        <h1 class="text-pink-3 text-h4">VALUE PROPOSITION</h1>
+        <h1 class="uppercase text-pink-3 text-h4">Utility & Rarity</h1>
         <h1 class="mt-3 text-white font-kumbh-bold text-h3">
           What makes them so special?
         </h1>
@@ -592,7 +610,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">
+              <h1 class="uppercase text-pink-nude text-caption font-sora">
                 Variety &amp; Popularity
               </h1>
               <h1 class="text-white font-sora text-body-2">
@@ -612,7 +630,7 @@ import AppFooter from "@/components/AppFooter.vue";
               @click.prevent="accordion.variety = !accordion.variety"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
-              <img src="/images/home/chevron-up.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="chevron up icon" />
             </button>
           </div>
           <p
@@ -650,7 +668,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">
+              <h1 class="uppercase text-pink-nude font-sora text-caption">
                 Free For 12 Months
               </h1>
               <h1 class="text-white font-sora text-body-2">
@@ -670,7 +688,7 @@ import AppFooter from "@/components/AppFooter.vue";
               @click.prevent="accordion.free = !accordion.free"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
-              <img src="/images/home/chevron-up.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="chevron up icon" />
             </button>
           </div>
           <p
@@ -696,7 +714,7 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude font-sora text-caption">
+              <h1 class="uppercase text-pink-nude font-sora text-caption">
                 Reduced Trading Fees
               </h1>
               <h1 class="text-white font-sora text-body-2">
@@ -716,7 +734,7 @@ import AppFooter from "@/components/AppFooter.vue";
               @click.prevent="accordion.marketplace = !accordion.marketplace"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
-              <img src="/images/home/chevron-up.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="chevron up icon" />
             </button>
           </div>
           <p
@@ -739,9 +757,9 @@ import AppFooter from "@/components/AppFooter.vue";
             class="mt-3 text-gray-4 font-sora text-body-2"
           >
             Not only will you, as a hodler, pay fewer taxes automatically, but
-            also get to experience history listing on the first marketplace that
-            will support Ethereum, Cardano, and Solana. The more eyes, the more
-            exposure.
+            you will also get to experience history listing on the first
+            marketplace that will support Ethereum, Cardano, and Solana. The
+            more eyes, the more exposure. 👀
           </p>
         </div>
 
@@ -750,7 +768,9 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">Airdrops</h1>
+              <h1 class="uppercase text-pink-nude text-caption font-sora">
+                Airdrops
+              </h1>
               <h1 class="text-white font-sora text-body-2">
                 Our creativity keeps creating
               </h1>
@@ -768,7 +788,7 @@ import AppFooter from "@/components/AppFooter.vue";
               @click.prevent="accordion.airdrops = !accordion.airdrops"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
-              <img src="/images/home/chevron-up.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="chevron up icon" />
             </button>
           </div>
           <p
@@ -776,9 +796,16 @@ import AppFooter from "@/components/AppFooter.vue";
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
             Our "creative team" is one of the most qualified in the industry.
-            Join our Discord to find out more about our upcoming cross-chain
-            collection launches! Not only will we airdrop several to hodlers but
-            you are not going to want to miss those mints, either.
+            Join our
+            <a
+              href="https://discord.gg/jsahnpyr4X"
+              target="_blank"
+              class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+              >Discord</a
+            >
+            to find out more about our upcoming cross-chain collection launches!
+            Not only will we airdrop several to hodlers but you are not going to
+            want to miss those mints, either.
           </p>
         </div>
 
@@ -787,7 +814,9 @@ import AppFooter from "@/components/AppFooter.vue";
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
-              <h1 class="text-pink-nude text-caption font-sora">Giving Back</h1>
+              <h1 class="uppercase text-pink-nude text-caption font-sora">
+                Giving Back
+              </h1>
               <h1 class="text-white font-sora text-body-2">
                 Helping good causes worldwide
               </h1>
@@ -805,17 +834,17 @@ import AppFooter from "@/components/AppFooter.vue";
               @click.prevent="accordion.mission = !accordion.mission"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
-              <img src="/images/home/chevron-up.svg" alt="" />
+              <img src="/images/home/chevron-up.svg" alt="chevron up icon" />
             </button>
           </div>
           <p
             v-show="accordion.mission"
             class="mt-6 text-gray-4 font-sora text-body-2"
           >
-            Our passion and focus lies and lives on the intersection of where
-            technology meets humanity. We try to connect and improve lives by
-            leveraging our creative and technological skills by working with
-            educational &amp; environmental nonprofits all throughout the world.
+            Our passion and focus lies on the intersection of where technology
+            meets humanity. We are committed to improving lives by leveraging
+            our creative and technological skills by through our work with
+            educational &amp; environmental nonprofits.
           </p>
         </div>
 
@@ -831,22 +860,22 @@ import AppFooter from "@/components/AppFooter.vue";
       <img
         class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-36 xl:top-3/4 lg:block lg:top-full lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
@@ -857,7 +886,7 @@ import AppFooter from "@/components/AppFooter.vue";
         <img
           class="absolute hidden  xl:left-20 xl:top-3/4 lg:block lg:top-3/4 lg:left-20"
           src="/images/home/hoodratz-ellipse-103.png"
-          alt=""
+          alt="background particle image"
         />
         <div class="relative">
           <div class="relative z-10 max-w-screen-lg mx-auto text-center">
@@ -913,37 +942,37 @@ import AppFooter from "@/components/AppFooter.vue";
       <img
         class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-97.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-96 xl:top-3/4 lg:block lg:top-3/4 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-88.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-97.png"
-        alt=""
+        alt="background particle image"
       />
       <img
         class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
-        alt=""
+        alt="background particle image"
       />
       <div class="relative">
         <img src="/images/home/hoodratz-future-lg.png" alt="" />
