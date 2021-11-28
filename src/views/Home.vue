@@ -93,8 +93,8 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="flex justify-center order-first mt-20 lg:order-last">
           <img
             class="object-contain w-3/4 h-full xl:w-3/4 lg:w-full"
-            src="/images/home/Hoodratz-card.png"
-            alt="Hoodrat NFT"
+            src="/images/home/hoodratz-card.png"
+            alt="Hoodratz NFT"
           />
         </div>
       </div>

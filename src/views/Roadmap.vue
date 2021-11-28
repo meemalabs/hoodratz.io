@@ -10,7 +10,7 @@ import AppFooter from "@/components/AppFooter.vue";
     <div class="container relative mx-auto md:mt-32">
       <div class="mx-auto md:w-2/3">
         <img
-          class="absolute hidden  xl:left-3/4 xl:-top-10 lg:block lg:-top-16 lg:right-0"
+          class="absolute hidden xl:left-3/4 xl:-top-10 lg:block lg:-top-16 lg:right-0"
           src="/images/home/hoodratz-ellipse-97.png"
           alt=""
         />
@@ -42,7 +42,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <div class="container relative mx-auto md:mb-32">
       <img
-        class="absolute hidden  xl:top-0 xl:-left-12 lg:top-0 lg:-left-5 lg:block"
+        class="absolute hidden xl:top-0 xl:-left-12 lg:top-0 lg:-left-5 lg:block"
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt="background particle image"
       />
@@ -62,12 +62,12 @@ import AppFooter from "@/components/AppFooter.vue";
         alt="background particle image"
       />
       <img
-        class="absolute hidden  xl:left-10 xl:top-1/4 lg:block lg:top-1/2 lg:left-0"
+        class="absolute hidden xl:left-10 xl:top-1/4 lg:block lg:top-1/2 lg:left-0"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden  xl:left-2 xl:top-1/2 lg:block lg:top-3/4 lg:left-0"
+        class="absolute hidden xl:left-2 xl:top-1/2 lg:block lg:top-3/4 lg:left-0"
         src="/images/home/hoodratz-ellipse-88.png"
         alt="background particle image"
       />
@@ -77,7 +77,7 @@ import AppFooter from "@/components/AppFooter.vue";
         alt="background particle image"
       />
       <img
-        class="absolute hidden  xl:top-3/4 xl:left-2 lg:top-3/4 lg:-left-10 lg:block"
+        class="absolute hidden xl:top-3/4 xl:left-2 lg:top-3/4 lg:-left-10 lg:block"
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
@@ -96,10 +96,10 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="relative mx-4 my-20 text-center md:text-left">
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -108,11 +108,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
                 >
                   <div><img src="/images/check.svg" alt="" /></div>
                 </div>
@@ -136,10 +136,10 @@ import AppFooter from "@/components/AppFooter.vue";
 
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -148,11 +148,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 >
                   <!-- <div><img src="/images/check.svg" alt="" /></div> -->
                 </div>
@@ -180,14 +180,14 @@ import AppFooter from "@/components/AppFooter.vue";
                 <a
                   href="https://twitter.com/HoodratzNFT"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Twitter</a
                 >
                 or
                 <a
                   href="https://discord.gg/jsahnpyr4X"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Discord</a
                 >
                 to stay up-to-date.
@@ -197,10 +197,10 @@ import AppFooter from "@/components/AppFooter.vue";
 
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -209,11 +209,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 >
                   <!-- <div><img src="/images/check.svg" alt="" /></div> -->
                 </div>
@@ -246,10 +246,10 @@ import AppFooter from "@/components/AppFooter.vue";
 
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -258,11 +258,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 >
                   <!-- <div><img src="/images/check.svg" alt="" /></div> -->
                 </div>
@@ -304,10 +304,10 @@ import AppFooter from "@/components/AppFooter.vue";
 
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -316,11 +316,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 >
                   <!-- <div><img src="/images/check.svg" alt="" /></div> -->
                 </div>
@@ -348,14 +348,82 @@ import AppFooter from "@/components/AppFooter.vue";
                 <a
                   href="https://twitter.com/HoodratzNFT"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Twitter</a
                 >
                 or
                 <a
                   href="https://discord.gg/jsahnpyr4X"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
+                  >Discord</a
+                >
+                to stay up-to-date. And if you are tech-savvy, find us on
+                <a
+                  href="https://github.com/meemalabs/"
+                  target="_blank"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
+                  >GitHub</a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
+            <div
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
+            >
+              <div
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
+              >
+                <div>
+                  <img src="/images/check.svg" alt="check icon" />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
+            >
+              <div class="flex items-center h-full -ml-16">
+                <div
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
+                >
+                  <!-- <div><img src="/images/check.svg" alt="" /></div> -->
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="flex justify-center md:justify-between">
+                <div class="hidden md:block text-pink-3">6</div>
+                <div class="uppercase">Dec 21</div>
+              </div>
+
+              <div class="my-4 text-2xl font-bold text-white">
+                DeFi Staking Tools
+              </div>
+
+              <p class="leading-8">
+                <ul class="pl-8 leading-8 list-disc">
+                  <li>Investigate &amp; research operating a Solana Validator Node for staking purposes</li>
+                  <li>Launch &amp; operate Cardano Stake Pool with >400k ADA pledge</li>
+                </ul>
+              </p>
+
+              <p class="pt-3 leading-8">
+                Follow us on
+                <a
+                  href="https://twitter.com/HoodratzNFT"
+                  target="_blank"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
+                  >Twitter</a
+                >
+                or
+                <a
+                  href="https://discord.gg/jsahnpyr4X"
+                  target="_blank"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Discord</a
                 >
                 to stay up-to-date.
@@ -365,10 +433,10 @@ import AppFooter from "@/components/AppFooter.vue";
 
           <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
-                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
               >
                 <div>
                   <img src="/images/check.svg" alt="check icon" />
@@ -377,11 +445,11 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
 
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 >
                   <!-- <div><img src="/images/check.svg" alt="" /></div> -->
                 </div>
@@ -390,18 +458,24 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <div>
               <div class="flex justify-center md:justify-between">
-                <div class="hidden md:block text-pink-3">2</div>
-                <div class="uppercase">Dec 11 '21</div>
+                <div class="hidden md:block text-pink-3">6</div>
+                <div class="uppercase">Jan 21</div>
               </div>
 
               <div class="my-4 text-2xl font-bold text-white">
-                Presale / Whitelist
+                January Backlog
               </div>
 
               <p class="leading-8">
-                Join our Whitelist to purchase up to 3 Hoodratz NFTs for a
-                discounted rate of 0.75 SOL. Share those ratz on social media
-                and we may just airdrop you some more! 😉
+                <ul class="pl-8 leading-8 list-disc">
+                  <li>Launch Meema's Early Access for holders</li>
+                  <li>Merchandise store opens which will include Hoodratz, NakedNFTs, and Meema swag</li>
+                  <li>Kickoff design &amp; development towards mobile apps for the Meema's decentralized file manager which, ultimately, will turn into a custom crypto wallet</li>
+                  <li>Marketplace improvements</li>
+                  <li>Kickoff design &amp; development towards a Metaplex alternative that integrates into NakedNFT's and Meema's ecosystem, allowing for cross-chain NFT management</li>
+                  <li>Create &amp; operate Cardano Stake Pool and pledge with </li>
+                  <li>Create &amp; operate Solana Stake Pool / Validator Node</li>
+                </ul>
               </p>
 
               <p class="pt-3 leading-8">
@@ -409,29 +483,23 @@ import AppFooter from "@/components/AppFooter.vue";
                 <a
                   href="https://twitter.com/HoodratzNFT"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Twitter</a
                 >
                 or
                 <a
                   href="https://discord.gg/jsahnpyr4X"
                   target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
                   >Discord</a
                 >
-                to stay up-to-date. And if you are tech-savvy, find us on
-                <a
-                  href="https://github.com/meemalabs/"
-                  target="_blank"
-                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
-                  >GitHub</a
-                >.
+                to stay up-to-date.
               </p>
             </div>
           </div>
 
           <div
-            class="absolute top-0 hidden h-full -ml-10 border-l border-dashed  border-gray-4 md:block"
+            class="absolute top-0 hidden h-full -ml-10 border-l border-dashed border-gray-4 md:block"
           ></div>
         </div>
       </div>
