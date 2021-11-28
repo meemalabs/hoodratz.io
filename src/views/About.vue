@@ -21,7 +21,7 @@ import AppFooter from "@/components/AppFooter.vue";
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
-      <div class="md:grid md:grid-cols-2 md:mx-32 md:mt-24">
+      <div class="md:grid md:grid-cols-2 lg:mx-32 md:mx-16 md:mt-24">
         <div class="relative flex mb-8 md:mb-0 md:items-center">
           <img
             class="absolute hidden  xl:top-96 xl:-left-44 lg:top-3/4 lg:-left-56 lg:block"
@@ -77,7 +77,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
 
-      <div class="relative pt-32 lg:grid lg:grid-cols-2 md:mx-32">
+      <div class="relative pt-32 lg:grid lg:grid-cols-2 md:mx-16 lg:mx-32">
         <div>
           <div class="relative">
             <img
@@ -126,7 +126,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <img
-          class="absolute top-0 right-0 pt-32 md:block hidden"
+          class="absolute top-0 right-0 hidden pt-32 lg:block"
           src="/images/home/hoodratz-plain-cone.png"
           alt="background cone image"
         />
@@ -149,7 +149,9 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
           <div class="flex flex-1 md:items-center md:mt-8">
             <div class="flex flex-col flex-1">
-              <span class="text-2xl text-white">{{ item.name }}</span>
+              <span class="text-xl text-white lg:text-2xl">{{
+                item.name
+              }}</span>
               <span>{{ item.role }}</span>
             </div>
             <div class="grid items-center grid-cols-1 gap-4 md:grid-cols-2">
@@ -187,7 +189,7 @@ import AppFooter from "@/components/AppFooter.vue";
           alt=""
         />
         <img
-          class="absolute hidden xl:left-full xl:top-72 lg:block lg:top-96 lg:left-1/2"
+          class="absolute hidden  xl:left-full xl:top-72 lg:block lg:top-96 lg:left-1/2"
           src="/images/home/hoodratz-ellipse-88.png"
           alt=""
         />
