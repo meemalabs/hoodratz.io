@@ -73,12 +73,10 @@
               <img src="/images/logo-light.svg" alt="Hoodratz" />
             </router-link>
           </div>
-          <p
-            class="my-4 text-sm leading-6 text-center  md:text-left md:text-xs lg:text-base"
-          >
-            Hoodratz are uniquely generated and collectible NFTs. Inspired by
-            New York City’s underground, each of them is one-of-a-kind and 100%
-            owned by you.
+          <p class="my-4 text-sm leading-6 text-center md:text-left md:text-xs">
+            Hoodratz are uniquely generated & collectible NFTs. Inspired by New
+            York City’s underground, each of them is one-of-a-kind & 100% owned
+            by you.
           </p>
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
@@ -171,7 +169,7 @@
                   <router-link
                     class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/privacy-policy"
-                    >Privacy policy</router-link
+                    >Privacy Policy</router-link
                   >
                 </li>
               </ul>
