@@ -8,31 +8,31 @@ import AppFooter from "@/components/AppFooter.vue";
     <AppHeader class="block md:hidden" />
     <section
       id="hero"
-      class="relative h-full bg-no-repeat bg-contain xl:h-screen xl:bg-cover lg:bg-contain sm:bg-cover md:bg-hero bg-hero-sm"
+      class="relative h-full bg-no-repeat bg-contain  xl:h-screen xl:bg-cover lg:bg-contain sm:bg-cover md:bg-hero bg-hero-sm"
     >
       <AppHeader :transparent="true" class="hidden md:block" />
       <img
-        class="absolute hidden xl:top-24 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
+        class="absolute hidden  xl:top-24 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
       <img
-        class="absolute hidden xl:right-0 xl:top-1/2 lg:block lg:top-1/2 lg:right-0"
+        class="absolute hidden  xl:right-0 xl:top-1/2 lg:block lg:top-1/2 lg:right-0"
         src="/images/home/hoodratz-ellipse-103.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-0 xl:top-3/4 lg:block lg:top-32 lg:left-36"
+        class="absolute hidden  xl:left-0 xl:top-3/4 lg:block lg:top-32 lg:left-36"
         src="/images/home/hoodratz-ellipse-103.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-1425.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
+        class="absolute hidden  xl:left-1/2 xl:top-3/4 lg:block lg:top-2/3 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
@@ -42,24 +42,24 @@ import AppFooter from "@/components/AppFooter.vue";
             The first native NFT cross-chain collection. Ever.
           </h1>
           <p
-            class="mt-5 font-semibold leading-8 md:text-body font-sora text-gray-1 text-body-2"
+            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-1 text-body-2"
           >
             A limited edition of 10,000 rare Hoodratz.
           </p>
           <div
-            class="flex flex-col items-center w-full lg:flex-row lg:justify-start md:flex-row md:justify-center"
+            class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
           >
             <a
               :href="social.discord"
               target="_blank"
-              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
+              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full  bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
             >
               Join Discord
             </a>
             <a
               :href="social.twitter"
               target="_blank"
-              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
               Follow Us
               <svg
@@ -78,7 +78,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </a>
           </div>
           <div
-            class="absolute items-center hidden xl:bottom-0 lg:-bottom-36 lg:flex"
+            class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
               Launching on <span class="text-pink-3">12/12 @ 11am PST!</span>
@@ -92,7 +92,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
         <div class="flex justify-center order-first mt-20 lg:order-last">
           <img
-            class="object-contain w-3/4 h-full xl:w-3/4 lg:w-full"
+            class="object-contain w-5/6 h-full xl:w-3/4 lg:w-full"
             src="/images/home/hoodratz-card-2.png"
             alt="Hoodratz NFT"
           />
@@ -102,17 +102,17 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <section id="about-us-desktop" class="relative hidden h-full lg:block">
       <img
-        class="absolute hidden xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-20 lg:block lg:top-24 lg:left-1/2"
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-24 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-36 xl:top-2/3 lg:block lg:top-96 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:top-96 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
@@ -156,7 +156,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 alt=""
               />
               <div
-                class="absolute flex flex-col p-6 mt-10 xl:h-56 lg:h-64 -top-24 bg-hoodratz-grey-7 rounded-4xl font-sora"
+                class="absolute flex flex-col p-6 mt-10  xl:h-56 lg:h-64 -top-24 bg-hoodratz-grey-7 rounded-4xl font-sora"
               >
                 <div class="flex items-center">
                   <img
@@ -175,11 +175,11 @@ import AppFooter from "@/components/AppFooter.vue";
                 </p>
               </div>
               <div
-                class="absolute flex flex-col p-6 mt-10 xl:-bottom-24 lg:-bottom-64 w-72 left-1 bg-hoodratz-grey-7 rounded-4xl font-sora"
+                class="absolute flex flex-col p-6 mt-10  xl:-bottom-24 lg:-bottom-64 w-72 left-1 bg-hoodratz-grey-7 rounded-4xl font-sora"
               >
                 <div class="flex items-center">
                   <div
-                    class="absolute p-5 mr-auto -top-8 bg-black-gradient rounded-3xl backdrop-blur-3xl"
+                    class="absolute p-5 mr-auto  -top-8 bg-black-gradient rounded-3xl backdrop-blur-3xl"
                   >
                     <img
                       class="w-8 h-8"
@@ -201,7 +201,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </p>
               </div>
               <div
-                class="absolute xl:right-0 xl:left-72 xl:top-48 lg:top-48 lg:-left-16 lg:right-5"
+                class="absolute  xl:right-0 xl:left-72 xl:top-48 lg:top-48 lg:-left-16 lg:right-5"
               >
                 <img src="/images/home/hoodratz-bg-count.png" alt="" />
               </div>
@@ -210,7 +210,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
       </div>
       <img
-        class="absolute hidden xl:left-36 xl:top-full lg:block lg:top-full lg:left-3/4"
+        class="absolute hidden  xl:left-36 xl:top-full lg:block lg:top-full lg:left-3/4"
         src="/images/home/hoodratz-ellipse-88.png"
         alt=""
       />
@@ -236,7 +236,7 @@ import AppFooter from "@/components/AppFooter.vue";
           alt=""
         />
         <div
-          class="flex flex-col w-full p-6 mt-10 sm:w-3/4 md:w-3/4 bg-hoodratz-grey-7 rounded-4xl font-sora"
+          class="flex flex-col w-full p-6 mt-10  sm:w-3/4 md:w-3/4 bg-hoodratz-grey-7 rounded-4xl font-sora"
         >
           <div class="flex items-center">
             <img
@@ -256,11 +256,11 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <div
-          class="flex flex-col w-full p-6 mt-10 sm:w-3/4 md:w-3/4 bg-hoodratz-grey-7 rounded-4xl font-sora"
+          class="flex flex-col w-full p-6 mt-10  sm:w-3/4 md:w-3/4 bg-hoodratz-grey-7 rounded-4xl font-sora"
         >
           <div class="flex items-center">
             <div
-              class="p-5 mr-auto bg-black-gradient rounded-3xl backdrop-blur-3xl"
+              class="p-5 mr-auto  bg-black-gradient rounded-3xl backdrop-blur-3xl"
             >
               <img src="/images/home/hoodratz-gift.svg" alt="" />
             </div>
@@ -285,22 +285,22 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <section id="utility" class="relative hidden h-full lg:block lg:mt-64">
       <img
-        class="absolute hidden xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-3/4 xl:-top-40 lg:block lg:top-5 lg:left-3/4"
+        class="absolute hidden  xl:left-3/4 xl:-top-40 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
       <img
-        class="absolute hidden xl:left-36 xl:top-0 lg:block lg:-bottom-3/4 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-0 lg:block lg:-bottom-3/4 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
@@ -528,7 +528,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <a
                   href="https://discord.gg/jsahnpyr4X"
                   target="_blank"
-                  class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
+                  class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
                   >Discord</a
                 >
                 to find out more about our upcoming cross-chain collection
@@ -606,7 +606,7 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
       <div class="mx-4 mt-5 md:flex md:flex-col md:items-center">
         <div
-          class="flex flex-col p-6 bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+          class="flex flex-col p-6  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
@@ -664,7 +664,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <div
-          class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+          class="flex flex-col p-6 mt-5  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
@@ -710,7 +710,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <div
-          class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+          class="flex flex-col p-6 mt-5  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
@@ -764,7 +764,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <div
-          class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+          class="flex flex-col p-6 mt-5  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
@@ -800,7 +800,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               href="https://discord.gg/jsahnpyr4X"
               target="_blank"
-              class="transition duration-150 ease-in-out text-pink-1 hover:text-pink-2"
+              class="transition duration-150 ease-in-out  text-pink-1 hover:text-pink-2"
               >Discord</a
             >
             to find out more about our upcoming cross-chain collection launches!
@@ -810,7 +810,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <div
-          class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
+          class="flex flex-col p-6 mt-5  bg-hoodratz-grey-7 rounded-3xl sm:w-full md:w-3/4"
         >
           <div class="flex items-center justify-between">
             <div class="flex flex-col">
@@ -855,43 +855,43 @@ import AppFooter from "@/components/AppFooter.vue";
     </section>
 
     <section
-      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center md:pt-24 lg:pt-64 xl:max-w-screen-xl"
+      class="relative max-w-screen-lg pt-20 mx-auto overflow-hidden text-center  md:pt-24 lg:pt-64 xl:max-w-screen-xl"
     >
       <img
-        class="absolute hidden xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-1/2"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-36 xl:top-3/4 lg:block lg:top-full lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-3/4 lg:block lg:top-full lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
         alt=""
       />
       <div class="relative px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <img
-          class="absolute hidden xl:left-20 xl:top-3/4 lg:block lg:top-3/4 lg:left-20"
+          class="absolute hidden  xl:left-20 xl:top-3/4 lg:block lg:top-3/4 lg:left-20"
           src="/images/home/hoodratz-ellipse-103.png"
           alt="background particle image"
         />
         <div class="relative">
           <div class="relative z-10 max-w-screen-lg mx-auto text-center">
             <h2
-              class="mb-8 text-3xl font-extrabold leading-none tracking-tight text-gray-1 sm:text-5xl lg:text-6xl font-kumbh-bold"
+              class="mb-8 text-3xl font-extrabold leading-none tracking-tight  text-gray-1 sm:text-5xl lg:text-6xl font-kumbh-bold"
             >
               A truly unique NFT collection.<br />
               In several ways.
@@ -899,7 +899,7 @@ import AppFooter from "@/components/AppFooter.vue";
           </div>
           <blockquote class="mt-10">
             <p
-              class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium text-gray-3 sm:text-2xl sm:leading-10 font-sora"
+              class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
             >
               Not only have we been trying to create beautiful art, but we have
               also been hard at work creating a collection that has an
@@ -940,37 +940,37 @@ import AppFooter from "@/components/AppFooter.vue";
 
     <section id="future-desktop" class="relative hidden h-full py-36 lg:block">
       <img
-        class="absolute hidden xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
+        class="absolute hidden  xl:left-0 xl:top-40 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-3/4"
+        class="absolute hidden  xl:left-1/2 xl:top-20 lg:block lg:top-64 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-96 xl:top-3/4 lg:block lg:top-3/4 lg:left-36"
+        class="absolute hidden  xl:left-96 xl:top-3/4 lg:block lg:top-3/4 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-88.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
+        class="absolute hidden  xl:left-3/4 xl:top-3/4 lg:block lg:top-3/4 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-97.png"
         alt="background particle image"
       />
       <img
-        class="absolute hidden xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
+        class="absolute hidden  xl:right-0 xl:top-10 lg:block lg:top-5 lg:left-3/4"
         src="/images/home/hoodratz-ellipse-103.png"
         alt="background particle image"
       />
@@ -979,7 +979,7 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="absolute inset-0 flex flex-col items-center left-7 top-12">
           <img src="/images/home/hoodratz-future-tech-lg.png" alt="" />
           <h1
-            class="mt-5 tracking-widest text-center uppercase text-pink-3 font-sora text-h4"
+            class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
             Interoperability
           </h1>
