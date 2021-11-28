@@ -153,8 +153,21 @@ import AppFooter from "@/components/AppFooter.vue";
               <span>{{ item.role }}</span>
             </div>
             <div class="grid items-center grid-cols-1 gap-4 md:grid-cols-2">
-              <img src="/images/twitter.svg" alt="Twitter" />
-              <img src="/images/linkedin.svg" alt="Linkedin" />
+              <a
+                :href="item.twitter_url || '#'"
+                :target="item.twitter_url ? '_blank' : ''"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/twitter.svg" alt="Twitter" />
+              </a>
+
+              <a
+                :href="item.linkedin_url || '#'"
+                :target="item.linkedin_url ? '_blank' : ''"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/linkedin.svg" alt="Linkedin"
+              /></a>
             </div>
           </div>
         </div>

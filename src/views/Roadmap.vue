@@ -96,9 +96,9 @@ import AppFooter from "@/components/AppFooter.vue";
 
       <div class="relative mx-auto md:w-2/3">
         <div class="relative mx-4 my-20 text-center md:text-left">
-          <div class="relative p-6 rounded-4xl bg-gray-7 font-sora md:p-8">
+          <!-- <div class="relative p-6 rounded-4xl bg-gray-7 font-sora md:p-8">
             <div
-              class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
+              class="absolute inset-x-0 top-0 flex justify-center -mt-6 md:-top-0 md:hidden"
             >
               <div
                 class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full "
@@ -114,18 +114,18 @@ import AppFooter from "@/components/AppFooter.vue";
               </div>
             </div>
             <div
-              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden  md:block"
+              class="absolute inset-y-0 left-0 z-10 flex justify-center hidden md:block"
             >
               <div class="flex items-center h-full -ml-16">
                 <div
                   v-if="item.done"
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full  bg-pink-gradient"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white rounded-full bg-pink-gradient"
                 >
                   <div><img src="/images/check.svg" alt="" /></div>
                 </div>
                 <div
                   v-else
-                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full  bg-pink-1 border-pink-3"
+                  class="flex items-center justify-center w-12 h-12 text-xl text-white border-2 rounded-full bg-pink-1 border-pink-3"
                 ></div>
               </div>
             </div>
@@ -139,9 +139,12 @@ import AppFooter from "@/components/AppFooter.vue";
               <div class="my-4 text-2xl font-bold text-white">Title</div>
               <p class="leading-8">description</p>
             </div>
-          </div>
+          </div> -->
 
-          <div class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora">
+          <div
+            v-for="(item, index) in roadmap"
+            class="relative p-6 my-8 rounded-4xl bg-gray-7 font-sora"
+          >
             <div
               class="absolute inset-x-0 top-0 flex justify-center -mt-6  md:-top-0 md:hidden"
             >
@@ -155,7 +158,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div v-if="item.done">
                   <img src="/images/check.svg" alt="" />
                 </div>
-                <div v-else>{{ $date(item.date).format("D") }}</div>
+                <div v-else>{{ item.date }}</div>
               </div>
             </div>
             <div
@@ -178,18 +181,16 @@ import AppFooter from "@/components/AppFooter.vue";
             <div>
               <div class="flex justify-center md:justify-between">
                 <div class="hidden md:block text-pink-3">
-                  {{ $date(item.date).format("DD") }}
+                  {{ `0${index + 1}` }}
                 </div>
                 <div class="uppercase">
-                  {{ $date(item.date).format("MMMM YYYY") }}
+                  {{ item.date }}
                 </div>
               </div>
               <div class="my-4 text-2xl font-bold text-white">
                 {{ item.title }}
               </div>
-              <p class="leading-8">
-                {{ item.description }}
-              </p>
+              <p v-html="item.description" class="leading-8"></p>
             </div>
           </div>
 

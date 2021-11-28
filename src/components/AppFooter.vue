@@ -125,18 +125,30 @@
               </ul>
             </div>
             <div>
-              <h3 class="mb-8 text-white uppercase">Hoodratz</h3>
+              <h3 class="px-2 mb-8 text-white uppercase">Hoodratz</h3>
               <ul>
                 <li class="my-2">
-                  <router-link
+                  <a
                     class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
-                    to="/#utility"
+                    href="/#utility"
                   >
                     Utility
-                  </router-link>
+                  </a>
                 </li>
-                <li class="my-2 cursor-wait">Attributes</li>
-                <li class="my-2 cursor-wait">Merchandise</li>
+                <li class="my-2 cursor-wait">
+                  <span
+                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-wait  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                  >
+                    Attributes
+                  </span>
+                </li>
+                <li class="my-2 cursor-wait">
+                  <span
+                    class="px-2 transition duration-150 ease-in-out rounded-md cursor-wait  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                  >
+                    Merchandise
+                  </span>
+                </li>
               </ul>
             </div>
             <div>
