@@ -160,7 +160,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 Hoodratz, Inc. 12665 Village Ln, Unit 2306, Playa Vista, CA 90094
 
-**Questions? Let’s talk**
+[**Questions? Let’s talk**](mailto:chris@meema.io)
 
 <style scoped lang="postcss">
 .markdown-body {

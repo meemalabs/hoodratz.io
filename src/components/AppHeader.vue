@@ -28,7 +28,7 @@
       </div>
       <div class="hidden text-white md:block">
         <ul class="flex">
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/"
               custom
@@ -47,7 +47,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/about"
               custom
@@ -66,7 +66,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/roadmap"
               custom
@@ -85,7 +85,7 @@
               ></div>
             </router-link>
           </li>
-          <li class="relative flex flex-col items-center mx-2">
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/faq"
               custom
@@ -104,18 +104,18 @@
               ></div>
             </router-link>
           </li>
-          <li class="mx-2 cursor-wait">
+          <li class="mx-2 cursor-wait lg:mx-4">
             Rarity
             <span
-              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
-              >Soon</span
+              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
+              >soon</span
             >
           </li>
-          <li class="mx-2 cursor-wait">
+          <li class="mx-2 cursor-wait lg:mx-4">
             Merch
             <span
-              class="px-1 mx-1 text-xs uppercase bg-white rounded-full  text-gray-6"
-              >Soon</span
+              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
+              >soon</span
             >
           </li>
         </ul>

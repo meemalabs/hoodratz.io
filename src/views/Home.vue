@@ -12,7 +12,7 @@ import AppFooter from "@/components/AppFooter.vue";
     >
       <AppHeader :transparent="true" class="hidden md:block" />
       <img
-        class="absolute hidden  xl:top-36 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
+        class="absolute hidden  xl:top-24 xl:right-1/2 lg:top-10 lg:right-1/2 lg:block"
         src="/images/home/hoodratz-ellipse-1424.svg"
         alt=""
       />
@@ -39,13 +39,12 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="grid grid-cols-1 mx-4 lg:grid-cols-2">
         <div class="flex flex-col justify-center md:ml-0 lg:ml-10 xl:ml-36">
           <h1 class="text-white font-kumbh-bold xl:text-h1 lg:text-h2 text-h3">
-            Hoodratz. <br class="hidden xl:block lg:block" />
-            The first cross-chain collection. Ever.
+            The first native NFT cross-chain collection. Ever.
           </h1>
           <p
-            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-2 text-body-2"
+            class="mt-5 font-semibold leading-8  md:text-body font-sora text-gray-1 text-body-2"
           >
-            A limited edition of 10,000 rare hoodratz.
+            A limited edition of 10,000 rare Hoodratz.
           </p>
           <div
             class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
@@ -53,14 +52,14 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase transition duration-150 ease-in-out rounded-full  bg-pink-gradient md:shadow-none text-a font-sora shadow-hoodratz-btn hover:bg-pink-3 md:w-3/4 lg:w-auto text-button backdrop-blur-sm"
+              class="flex items-center justify-center w-full px-8 py-3 mt-5 mr-4 text-white uppercase rounded-full  bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button z-10"
             >
               Join Discord
             </a>
             <a
               :href="social.twitter"
               target="_blank"
-              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3 z-10"
             >
               Follow Us
               <svg
@@ -82,7 +81,7 @@ import AppFooter from "@/components/AppFooter.vue";
             class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
           >
             <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">12/12!</span>
+              Launching on <span class="text-pink-3">12/12 @ 11am PST!</span>
             </p>
             <img
               class="mt-10 w-28 h-28"
@@ -94,8 +93,8 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="flex justify-center order-first mt-20 lg:order-last">
           <img
             class="object-contain w-3/4 h-full xl:w-3/4 lg:w-full"
-            src="/images/home/hoodratz-card-sm.png"
-            alt=""
+            src="/images/home/Hoodratz-card.png"
+            alt="Hoodrat NFT"
           />
         </div>
       </div>
@@ -123,12 +122,13 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="flex flex-col">
           <div class="flex flex-col -mt-56">
-            <h1 class="text-pink-3 font-sora text-h4">ABOUT US</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">About Us</h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
               What are Hoodratz?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              Hoodratz are uniquely generated &amp; collectible NFTs.
+              Hoodratz are uniquely generated &amp; collectible digital art
+              pieces (NFTs).
               <br />Inspired by the global New York City NFT hub, each of these
               rats is <br />one-of-a-kind and 100% owned by you.
             </p>
@@ -136,8 +136,8 @@ import AppFooter from "@/components/AppFooter.vue";
           <div class="flex mt-24">
             <img
               class="mr-24 w-96 h-1/43"
-              src="/images/home/hoodratz-josephine.png"
-              alt=""
+              src="/images/home/josephine.png"
+              alt="Hoodratz Josephine NFT"
             />
             <img
               class="absolute block left-24 w-80 top-full xl:hidden lg:block"
@@ -283,10 +283,7 @@ import AppFooter from "@/components/AppFooter.vue";
       </div>
     </section>
 
-    <section
-      id="proposition-desktop"
-      class="relative hidden h-full lg:block lg:mt-64"
-    >
+    <section id="utility" class="relative hidden h-full lg:block lg:mt-64">
       <img
         class="absolute hidden  xl:left-36 xl:top-20 lg:block lg:top-24 lg:left-36"
         src="/images/home/hoodratz-ellipse-88.png"
@@ -303,7 +300,7 @@ import AppFooter from "@/components/AppFooter.vue";
         alt=""
       />
       <img
-        class="absolute hidden  xl:left-36 xl:top-2/3 lg:block lg:-bottom-3/4 lg:left-36"
+        class="absolute hidden  xl:left-36 xl:top-0 lg:block lg:-bottom-3/4 lg:left-36"
         src="/images/home/hoodratz-ellipse-97.png"
         alt=""
       />
@@ -313,39 +310,47 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="xl:mx-auto max-w-7xl lg:mx-20">
         <div class="grid grid-cols-2">
           <div class="flex flex-col mr-24 -mt-72">
-            <h1 class="uppercase text-pink-3 font-sora text-h4">Utility</h1>
+            <h1 class="uppercase text-pink-3 font-sora text-h4">
+              Utility &amp; Rarity
+            </h1>
             <h1 class="mt-3 text-white font-kumbh-bold text-h2">
               Why are the Hoodratz so special?
             </h1>
             <p class="mt-5 text-gray-4 font-sora text-body-2">
-              We are NFT &amp; blockchain technology lovers through and through.
-              created a collection drop that we would like to buy ourselves!
-              Check this out:
+              We are NFT &amp; crypto lovers who created a collection drop that
+              we would purchase ourselves!
             </p>
             <div class="flex flex-col p-6 mt-20 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude text-caption font-sora">
-                    Variety
+                    Variety &amp; Popularity
                   </h1>
                   <h1 class="text-white text-body font-sora">
                     7 Traits &amp; Over 50 Attributes
                   </h1>
                 </div>
+
                 <button
                   v-if="!accordion.variety"
-                  @click="accordion.variety = !accordion.variety"
+                  @click.prevent="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-down.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-down.svg"
+                    alt="chevron down icon"
+                  />
                 </button>
 
                 <button
                   v-else
-                  @click="accordion.variety = !accordion.variety"
+                  @click.prevent="accordion.variety = !accordion.variety"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
-                  <img src="/images/home/chevron-up.svg" alt="" />
+                  <img
+                    src="/images/home/chevron-up.svg"
+                    alt="chevron up icon"
+                  />
                 </button>
               </div>
               <p
@@ -356,21 +361,41 @@ import AppFooter from "@/components/AppFooter.vue";
                 for our Hoodratz so that each and every one of them would be
                 beautiful and one-of-a-kind!
               </p>
+              <p
+                v-show="accordion.variety"
+                class="mt-4 text-gray-4 font-sora text-body-2"
+              >
+                Aside from creating awesome tech &amp; art, we specialize in
+                building social communities. Whether it is
+                <a
+                  href="https://www.instagram.com/earthpix/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@earthpix</a
+                >
+                that Kyle founded or
+                <a
+                  href="https://www.instagram.com/nakednfts/"
+                  target="_blank"
+                  class="text-gray-2 hover:text-gray-1"
+                  >@NakedNFTs</a
+                >, we have scaled communities enormously.
+              </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
                   <h1 class="uppercase text-pink-nude font-sora text-caption">
-                    Free 12 Months
+                    Free For 12 Months
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Decentralized File Manager
+                    The First Decentralized File Manager
                   </h1>
                 </div>
                 <button
                   v-if="!accordion.free"
-                  @click="accordion.free = !accordion.free"
+                  @click.prevent="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -378,7 +403,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.free = !accordion.free"
+                  @click.prevent="accordion.free = !accordion.free"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -388,17 +413,18 @@ import AppFooter from "@/components/AppFooter.vue";
                 v-show="accordion.free"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                Think of Dropbox for Web 3. For the past 2 years, we have been
-                working on a custom file management experience &amp; ecosystem
-                that ensures a blazing fast media delivery. Public launch
-                February 2022. Every holder will receive 12 months of service
-                for free!
+                Think of <em>Dropbox for Web 3.</em> For the past two years, we
+                have been working on a custom file management experience &amp;
+                ecosystem that ensures a blazing fast "media delivery." Our
+                public launch is February 2022. Though, beta testers will
+                receive early access.
               </p>
               <p
                 v-show="accordion.free"
                 class="mt-3 italic text-gray-4 font-sora text-body-2"
               >
-                This is a value of at least 120 USD per year.
+                Every holder will receive 12 months of service for free! This is
+                a value of at least 120 USD per year.
               </p>
             </div>
 
@@ -409,12 +435,12 @@ import AppFooter from "@/components/AppFooter.vue";
                     Reduced Trading Fees
                   </h1>
                   <h1 class="text-white text-body font-sora">
-                    Cross-Chain NFT Marketplace
+                    The First Cross-Chain NFT Marketplace
                   </h1>
                 </div>
                 <button
                   v-if="!accordion.marketplace"
-                  @click="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="accordion.marketplace = !accordion.marketplace"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -422,7 +448,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.marketplace = !accordion.marketplace"
+                  @click.prevent="accordion.marketplace = !accordion.marketplace"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -440,25 +466,33 @@ import AppFooter from "@/components/AppFooter.vue";
                   >@NakedNFTs</a
                 >
                 is releasing an incredibly thoroughly designed &amp; architected
-                NFT marketplace on 12/12 as well! As a holder, any time you sell
-                or purchase a digital collectible through our marketplace, you
-                automatically pay fewer taxes.
+                NFT marketplace on 12/12 as well, the day of our Hoodratz
+                launch! It will be our primary marketplace.
+              </p>
+              <p
+                v-show="accordion.marketplace"
+                class="mt-3 text-gray-4 font-sora text-body-2"
+              >
+                Not only will you, as a hodler, pay fewer taxes automatically,
+                but also get to experience history listing on the first
+                marketplace that will support Ethereum, Cardano, and Solana. The
+                more eyes, the more exposure.
               </p>
             </div>
 
             <div class="flex flex-col p-6 mt-5 bg-hoodratz-grey-7 rounded-3xl">
               <div class="flex items-center justify-between">
                 <div class="flex flex-col">
-                  <h1 class="uppercase text-pink-nude text-caption">
-                    Popularity
+                  <h1 class="uppercase text-pink-nude text-caption font-sora">
+                    Airdrops
                   </h1>
-                  <h1 class="text-white text-body">
-                    The Most Rat NFT Community
+                  <h1 class="text-white text-body font-sora">
+                    Our creativity keeps creating
                   </h1>
                 </div>
                 <button
-                  v-if="!accordion.popularity"
-                  @click="accordion.popularity = !accordion.popularity"
+                  v-if="!accordion.airdrops"
+                  @click.prevent="accordion.airdrops = !accordion.airdrops"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -466,18 +500,21 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.popularity = !accordion.popularity"
+                  @click.prevent="accordion.airdrops = !accordion.airdrops"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
                 </button>
               </div>
               <p
-                v-show="accordion.popularity"
+                v-show="accordion.airdrops"
                 class="mt-6 text-gray-4 font-sora text-body-2"
               >
-                We love building &amp; scaling growing, successful communities.
-                We have a
+                Our "creative team" is one of the most qualified in the
+                industry. Join our Discord to find out more about our upcoming
+                cross-chain collection launches! Not only will we airdrop
+                several to hodlers but you are not going to want to miss those
+                mints, either.
               </p>
             </div>
 
@@ -493,7 +530,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 </div>
                 <button
                   v-if="!accordion.mission"
-                  @click="accordion.mission = !accordion.mission"
+                  @click.prevent="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-down.svg" alt="" />
@@ -501,7 +538,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
                 <button
                   v-else
-                  @click="accordion.mission = !accordion.mission"
+                  @click.prevent="accordion.mission = !accordion.mission"
                   class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
                 >
                   <img src="/images/home/chevron-up.svg" alt="" />
@@ -542,8 +579,8 @@ import AppFooter from "@/components/AppFooter.vue";
         </h1>
 
         <p class="mt-4 text-gray-4 font-sora text-body-2">
-          We are NFT and crypto lovers and created a collection drop that we
-          would like to buy ourselves!
+          We are NFT &amp; crypto lovers who created a collection drop that we
+          would purchase ourselves!
         </p>
       </div>
       <div class="mx-4 mt-5 md:flex md:flex-col md:items-center">
@@ -559,7 +596,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.variety"
-              @click="accordion.variety = !accordion.variety"
+              @click.prevent="accordion.variety = !accordion.variety"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -567,7 +604,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.variety = !accordion.variety"
+              @click.prevent="accordion.variety = !accordion.variety"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -593,7 +630,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.rarity"
-              @click="accordion.rarity = !accordion.rarity"
+              @click.prevent="accordion.rarity = !accordion.rarity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -601,7 +638,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.rarity = !accordion.rarity"
+              @click.prevent="accordion.rarity = !accordion.rarity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -629,7 +666,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.popularity"
-              @click="accordion.popularity = !accordion.popularity"
+              @click.prevent="accordion.popularity = !accordion.popularity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -637,7 +674,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.popularity = !accordion.popularity"
+              @click.prevent="accordion.popularity = !accordion.popularity"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -665,7 +702,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
             <button
               v-if="!accordion.mission"
-              @click="accordion.mission = !accordion.mission"
+              @click.prevent="accordion.mission = !accordion.mission"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-down.svg" alt="" />
@@ -673,7 +710,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <button
               v-else
-              @click="accordion.mission = !accordion.mission"
+              @click.prevent="accordion.mission = !accordion.mission"
               class="px-4 py-5 bg-hoodratz-grey-6 rounded-xl"
             >
               <img src="/images/home/chevron-up.svg" alt="" />
@@ -821,25 +858,30 @@ import AppFooter from "@/components/AppFooter.vue";
           <h1
             class="mt-5 tracking-widest text-center uppercase  text-pink-3 font-sora text-h4"
           >
-            Interoperable Tech
+            Interoperability
           </h1>
           <h1 class="my-5 text-white text-h3 font-kumbh-bold">
             We are in it for the long run. Are you?
           </h1>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            Initially, we launch on the Solana blockchain.
+            Initially launching on the Solana blockchain,
           </p>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            We will then expand into Ethereum and the Cardano blockchain.
+            we will then expand into Ethereum &amp; the Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
-            <img class="mr-5" src="/images/solana-logo.svg" alt="" />
+            <img class="mr-5" src="/images/solana-logo.svg" alt="Solana logo" />
           </div>
           <div class="flex items-center mt-5">
             <img
-              class="mr-5 opacity-10"
-              src="/images/home/hoodratz-solana-lg.png"
-              alt=""
+              class="mr-12 opacity-40"
+              src="/images/logo-eth.svg"
+              alt="Ethereum logo"
+            />
+            <img
+              class="opacity-20"
+              src="/images/logo-ada.svg"
+              alt="Cardano logo"
             />
           </div>
         </div>
@@ -852,8 +894,8 @@ import AppFooter from "@/components/AppFooter.vue";
     >
       <div class="flex flex-col items-center">
         <img src="/images/home/hoodratz-tech.svg" alt="" />
-        <h1 class="mt-5 text-center text-pink-3 font-sora text-h4">
-          NEWSET TECH
+        <h1 class="mt-5 text-center uppercase text-pink-3 font-sora text-h4">
+          Interoperability
         </h1>
         <img src="/images/home/hoodratz-future.svg" alt="" />
         <div class="-mt-32 text-center font-sora">
@@ -887,8 +929,8 @@ export default {
         variety: false,
         free: false,
         marketplace: false,
-        popularity: false,
         mission: false,
+        airdrops: false,
       },
       social,
     };
