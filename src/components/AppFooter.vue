@@ -21,6 +21,12 @@
               <div><img src="/images/chevron.svg" alt="" /></div>
             </router-link>
           </li>
+          <li class="p-4">
+            <router-link to="/faq" class="flex items-center justify-between">
+              <div>FAQ</div>
+              <div><img src="/images/chevron.svg" alt="" /></div>
+            </router-link>
+          </li>
         </ul>
         <h3 class="px-4 py-3 text-sm text-white uppercase bg-gray-7">
           Hoodratz
@@ -120,6 +126,13 @@
                     class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/roadmap"
                     >Roadmap</router-link
+                  >
+                </li>
+                <li class="my-2">
+                  <router-link
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    to="/faq"
+                    >FAQ</router-link
                   >
                 </li>
               </ul>
