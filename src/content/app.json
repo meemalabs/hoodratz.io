@@ -6,19 +6,19 @@
   },
   "roadmap": [
     {
-      "date": "12.11.21 @ 11am PST ",
+      "date": "2021-12-11T11:00:00-08:00",
       "title": "Presale / Whitelist",
       "description": "<p> For the first 500 users, allowing up to 3 sales per wallet and sale price at 0.75 SOL. </p> <p> 100 free airdrops to Discord, Twitter and other social medium for completing 'competitions' like the invite 'competition'. </p>",
       "done": false
     },
     {
-      "date": "12.12.21 @ 11am PST",
+      "date": "2021-12-12T11:00:00-08:00",
       "title": "Remaining ~8875-9500 Mint @1.0 SOL",
       "description": "Total number varies based on the amount of 'early sales' and airdrops.",
       "done": false
     },
     {
-      "date": "12.12.21",
+      "date": "2021-12-12T23:59:59-08:00",
       "title": "Once sold out",
       "description": "<p> NFT Marketplace release that will likely become the first cross-chain marketplace. </p> <p> Let's buyback the floor of 100-150 SOL and then Airdrop to friends and family, possibly do it over 3 days and do 50 SOL each day. </p>",
       "done": false
@@ -48,7 +48,7 @@
     },
 
     {
-      "name": "Harlequin Doyon",
+      "name": "Harley Doyon",
       "role": "Dev Genius",
       "image": "/images/team/missing.webp",
       "twitter_url": "https://twitter.com/DoyonHarlequin",
