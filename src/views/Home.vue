@@ -907,19 +907,21 @@ import AppFooter from "@/components/AppFooter.vue";
               class="max-w-5xl mx-auto mb-6 space-y-6 text-lg font-medium  text-gray-3 sm:text-2xl sm:leading-10 font-sora"
             >
               “Not only have we been crafting beautiful art, but we have also
-              been incredibly hard at work, creating a collection that has an
+              been incredibly hard at work, creating a collection that has
               <span
-                class="font-semibold text-pink-600"
+                class="py-1 font-semibold text-indigo-800"
                 style="
                   box-shadow: inset 0 -0.1666666667em 0 0 #fff,
                     inset 0 -0.3333333333em 0 0 #bae6fd;
                 "
-                >unmatched amount of utility,</span
+                >an unmatched amount of utility</span
               >
-              all while moving the web3 &amp; dApp ecosystem forward.
-              <em class="px-1">How do we do this?</em> Because we have already
-              put in thousands of hours work, no joke. Our NakedNFTs marketplace
-              &amp; Meema’s decentralized file manager are incoming. 🚀
+              by innovating parts of the web3 ecosystem. dApps, DAOs, and
+              decentralized storage &amp; data transfer have become our sole
+              vision and focus. Thousands of hours work already went into
+              creating this very ecosystem of services &amp; applications we are
+              launching. Our NakedNFTs marketplace &amp; Meema’s decentralized
+              file manager are incoming. 🚀
             </p>
           </blockquote>
           <figcaption
