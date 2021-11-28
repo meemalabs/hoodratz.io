@@ -187,7 +187,7 @@ import AppFooter from "@/components/AppFooter.vue";
           alt=""
         />
         <img
-          class="absolute hidden  xl:left-full xl:top-72 lg:block lg:top-96 lg:left-1/2"
+          class="absolute hidden xl:left-full xl:top-72 lg:block lg:top-96 lg:left-1/2"
           src="/images/home/hoodratz-ellipse-88.png"
           alt=""
         />
