@@ -13,6 +13,15 @@
     #f05281 100%
   );
 }
+
+a.bg-pink-gradient:hover {
+  background: radial-gradient(
+    82.01% 81.61% at 94.63% 16.78%,
+    #e679a0 0%,
+    #e55781 57.37%,
+    #ee356c 100%
+  );
+}
 .bg-black-gradient {
   background: linear-gradient(
     103.6deg,
