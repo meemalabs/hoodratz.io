@@ -962,7 +962,7 @@ import AppFooter from "@/components/AppFooter.vue";
             Initially launching on the Solana blockchain,
           </p>
           <p class="text-center text-body-2 text-gray-4 font-sora">
-            we will then expand into Ethereum &amp; the Cardano blockchain.
+            then expanding into Ethereum &amp; Cardano blockchain.
           </p>
           <div class="flex items-center mt-5">
             <img class="mr-5" src="/images/solana-logo.svg" alt="Solana logo" />
