@@ -126,7 +126,7 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <img
-          class="absolute top-0 right-0 pt-32 md:hidden lg:block"
+          class="absolute top-0 right-0 pt-32 md:block hidden"
           src="/images/home/hoodratz-plain-cone.png"
           alt="background cone image"
         />
