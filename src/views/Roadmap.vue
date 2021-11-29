@@ -538,6 +538,7 @@ import AppFooter from "@/components/AppFooter.vue";
                   <li><code class="px-1 mx-1 py-0.5">nft-elements</code> Library v1.0 Launch 🚀</li>
                   <li>Marketplace improvements</li>
                   <li>Elaborate on tokenomics &amp; start implementation of custom token</li>
+                  <li>Scaffold ecosystem whitepaper</li>
                 </ul>
               </p>
 
