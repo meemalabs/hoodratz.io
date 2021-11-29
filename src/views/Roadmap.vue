@@ -406,7 +406,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
               <p class="leading-8">
                 <ul class="pl-8 leading-8 list-disc">
-                  <li>Investigate &amp; research operating a Solana Validator Node for staking purposes</li>
+                  <li>Launch &amp; operate a Solana Validator Node for staking purposes and reinvest the mint fund</li>
                   <li>Launch &amp; operate Cardano Stake Pool with >400k ADA pledge 🚀</li>
                 </ul>
               </p>
