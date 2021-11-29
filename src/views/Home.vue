@@ -925,7 +925,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="p-1 mb-3 border-2 border-pink-900 rounded-full">
               <img
                 src="/images/chris.jpeg"
-                alt=""
+                alt="Chris Breuer head shot"
                 class="w-10 h-10 bg-indigo-100 rounded-full"
                 loading="lazy"
               />
