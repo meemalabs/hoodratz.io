@@ -406,7 +406,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
               <p class="leading-8">
                 <ul class="pl-8 leading-8 list-disc">
-                  <li>Launch &amp; operate a Solana Validator Node for staking purposes and reinvest the mint fund 🚀</li>
+                  <li>Launch &amp; operate a Solana Validator Node for staking purposes &amp; reinvest the mint fund 🚀</li>
                   <li>Launch &amp; operate Cardano Stake Pool with at least 400k ADA pledge 🚀</li>
                 </ul>
               </p>
@@ -458,7 +458,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <div>
               <div class="flex justify-center md:justify-between">
-                <div class="hidden md:block text-pink-3">6</div>
+                <div class="hidden md:block text-pink-3">7</div>
                 <div class="uppercase">Jan '21</div>
               </div>
 
@@ -524,7 +524,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
             <div>
               <div class="flex justify-center md:justify-between">
-                <div class="hidden md:block text-pink-3">7</div>
+                <div class="hidden md:block text-pink-3">8</div>
                 <div class="uppercase">Feb '21</div>
               </div>
 
