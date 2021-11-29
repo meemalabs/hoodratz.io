@@ -912,11 +912,11 @@ import AppFooter from "@/components/AppFooter.vue";
                 >an unmatched amount of utility,</span
               >
               by innovating parts of the web3 ecosystem. dApps, DAOs,
-              decentralized storage &amp; data transfer have become our sole
-              vision and focus. Thousands of hours of work already went into
-              developing this very ecosystem of services &amp; applications. Our
-              NakedNFTs marketplace, Meema’s decentralized file manager &amp;
-              DeFi tools are incoming. 🚀
+              decentralized storage &amp; data transfer protocols have become
+              our sole vision &amp; focus. Thousands of hours of work already
+              went into developing this very ecosystem of services &amp;
+              applications. Our NakedNFTs marketplace, Meema’s decentralized
+              file manager &amp; DeFi tools are incoming. 🚀
             </p>
           </blockquote>
           <figcaption
@@ -925,7 +925,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="p-1 mb-3 border-2 border-pink-900 rounded-full">
               <img
                 src="/images/chris.jpeg"
-                alt=""
+                alt="Chris Breuer head shot"
                 class="w-10 h-10 bg-indigo-100 rounded-full"
                 loading="lazy"
               />
