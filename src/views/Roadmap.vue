@@ -297,7 +297,7 @@ import AppFooter from "@/components/AppFooter.vue";
               </p>
 
               <p class="pt-3 leading-8">
-                Ever tried purchasing a SOL NFT with Ethereum? 👀
+                Ever tried purchasing a SOL NFT with ETH? 👀
               </p>
             </div>
           </div>
