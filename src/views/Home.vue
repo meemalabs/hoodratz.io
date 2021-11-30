@@ -4,7 +4,9 @@ import AppFooter from "@/components/AppFooter.vue";
 </script>
 
 <template>
-  <div class="relative h-full bg-hoodratz-grey-8">
+  <div
+    class="relative h-full  bg-hoodratz-grey-8 selection:bg-pink-3 selection:text-white"
+  >
     <AppHeader class="block md:hidden" />
     <section
       id="hero"

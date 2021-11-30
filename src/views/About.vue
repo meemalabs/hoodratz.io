@@ -4,7 +4,9 @@ import AppFooter from "@/components/AppFooter.vue";
 </script>
 
 <template>
-  <div class="w-full h-full bg-gray-8 text-gray-4">
+  <div
+    class="w-full h-full  bg-gray-8 text-gray-4 selection:bg-pink-3 selection:text-white"
+  >
     <AppHeader />
     <div class="md:hidden">
       <img
