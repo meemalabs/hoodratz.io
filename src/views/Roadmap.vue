@@ -469,6 +469,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <p class="leading-8">
                 <ul class="pl-8 leading-8 list-disc">
                   <li><em>Launch Meema’s Early Access for Hoodratz holders</em></li>
+                  <li>Instagram’s @earthpix founder to release a "Stock Photography" collection with various social media influencer. Hoodratz will get in early ❤️</li>
                   <li>Merchandise store opens which will include Hoodratz, NakedNFTs, and Meema swag</li>
                   <li>Kickoff design &amp; development for mobile apps for Meema’s decentralized file manager which, ultimately, will turn into a custom crypto wallet</li>
                   <li>Marketplace improvements</li>
