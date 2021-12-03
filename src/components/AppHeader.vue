@@ -99,6 +99,13 @@
               >soon</span
             >
           </li>
+          <li class="mx-2 text-gray-4 lg:mx-4">
+            White Paper
+            <span
+              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
+              >soon</span
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -140,6 +147,13 @@
               href="#"
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
               >Merchandise</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
+              >White Paper</a
             >
           </li>
         </ul>
