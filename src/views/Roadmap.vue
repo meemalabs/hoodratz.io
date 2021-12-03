@@ -123,7 +123,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">1</div>
-                  <div class="uppercase">Nov '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Nov '21</div>
                 </div>
                 <div class="my-4 text-2xl font-bold text-white">
                   Marketing Campaign Kickoff
@@ -163,7 +163,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">2</div>
-                  <div class="uppercase">Dec 11 '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Dec 11 '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -224,7 +224,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">3</div>
-                  <div class="uppercase">Dec 12 '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Dec 12 '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">Public Sale</div>
@@ -273,7 +273,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">4</div>
-                  <div class="uppercase">Dec 12 '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Dec 12 '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -331,7 +331,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">5</div>
-                  <div class="uppercase">Dec 19 '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Dec 19 '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -398,7 +398,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">6</div>
-                  <div class="uppercase">Dec '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Dec '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -460,7 +460,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">7</div>
-                  <div class="uppercase">Jan '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Jan '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -528,7 +528,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">8</div>
-                  <div class="uppercase">Feb '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Feb '21</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
