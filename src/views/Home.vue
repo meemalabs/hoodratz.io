@@ -55,7 +55,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="z-10 flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase rounded-full  md:mr-4 bg-pink-gradient hover:bg-red-500 md:shadow-none text-a font-sora shadow-hoodratz-btn md:w-3/4 lg:w-auto text-button"
+              class="z-10 px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  cta cta-gradient font-sora shadow-hoodratz-btn text-button"
             >
               Join Discord
             </a>
@@ -1087,3 +1087,50 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.cta {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-family: inherit;
+  -webkit-appearance: none;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #6e7f91;
+  color: #fefefe;
+}
+
+.cta:hover,
+.cta:focus {
+  text-decoration: none;
+}
+
+.cta-gradient {
+  border: 0;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  background: #f05281;
+  background-image: linear-gradient(
+    to right,
+    #f05281,
+    #ed9db9,
+    #ed9db9,
+    #f05281
+  );
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.cta-gradient:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+</style>

@@ -68,7 +68,7 @@ module.exports = {
       }),
     },
     backgroundImage: {
-      hero: "url('/images/home/hero.png')",
+      hero: "url('/images/home/hero.jpg')",
       "hero-sm": "url('/images/home/hero-sm.png')",
       "hoodratz-card-bg": "url('/images/home/hoodratz-card-bg.png')",
       "hoodratz-pink-bg": "url('/images/home/hoodratz-pink-bg.png')",

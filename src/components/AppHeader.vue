@@ -9,7 +9,7 @@
       <router-link
         to="/"
         class="p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
-        ><img class="w-32" src="/images/logo.svg" alt=""
+        ><img class="w-32" src="/images/logo.svg" alt="Hoodratz logo"
       /></router-link>
       <div class="md:hidden">
         <img
@@ -85,21 +85,45 @@
               ></div>
             </router-link>
           </li>
-          <li class="mx-2 lg:mx-4 text-gray-4">
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
+            <router-link
+              to="/giveaway"
+              custom
+              v-slot="{ href, route, navigate, isActive, isExactActive }"
+            >
+              <a
+                @click="navigate"
+                :class="{ 'text-pink-3': isActive }"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                :href="href"
+                >Influencers</a
+              >
+              <div
+                v-if="isActive"
+                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
+              ></div>
+            </router-link>
+          </li>
+          <li class="mx-2 lg:mx-4 text-gray-4" v-tooltip="`Dropping 12/07/12`">
             Rarity
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
               >soon</span
             >
           </li>
-          <li class="mx-2 text-gray-4 lg:mx-4">
+          <li class="mx-2 text-gray-4 lg:mx-4" v-tooltip="`Coming January`">
             Merchandise
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
               >soon</span
             >
           </li>
-          <li class="mx-2 text-gray-4 lg:mx-4">
+          <li
+            class="mx-2 text-gray-4 lg:mx-4"
+            v-tooltip="
+              `For now, please ping @Chris or team in Discord. Coming soon.`
+            "
+          >
             White Paper
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"

@@ -34,8 +34,8 @@ export const routes = [
     component: Faq,
   },
   {
-    path: "/give-away",
-    name: "give-away",
+    path: "/giveaway",
+    name: "giveaway",
     meta: { title: "Giveaway" },
     component: Giveaway,
   },
