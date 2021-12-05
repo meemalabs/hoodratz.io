@@ -3,6 +3,7 @@ import About from "./views/About.vue";
 import Roadmap from "./views/Roadmap.vue";
 import NotFound from "./views/NotFound.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy.vue";
+import Giveaway from "./views/Giveaway.vue";
 import Faq from "./views/Faq.vue";
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -31,6 +32,12 @@ export const routes = [
     name: "faq",
     meta: { title: "FAQ" },
     component: Faq,
+  },
+  {
+    path: "/give-away",
+    name: "give-away",
+    meta: { title: "Giveaway" },
+    component: Giveaway,
   },
   { path: "/:path(.*)", component: NotFound },
 ];
