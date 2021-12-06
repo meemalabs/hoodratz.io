@@ -847,7 +847,7 @@ import AppFooter from "@/components/AppFooter.vue";
           >
             Our passion and focus lies on the intersection of where technology
             meets humanity. We are committed to improving lives by leveraging
-            our creative and technological skills by through our work with
+            our creative and technological skills through our work with
             educational &amp; environmental nonprofits.
           </p>
         </div>
