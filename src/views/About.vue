@@ -103,16 +103,20 @@ import AppFooter from "@/components/AppFooter.vue";
             We are more than a company. Or even a decentralized autonomous
             organization (DAO). We are a group of friends coming from all walks
             of life who have worked in technical &amp; creative corporate web2
-            environments. With all of our focus shifting to web3, we are trying
-            to make the world a better place by socializing &amp; democratizing
-            the way data is stored &amp; transferred.
+            environments.
           </p>
 
           <p class="mt-4 leading-7 font-sora">
-            We believe NFTs, and the tech allowing for it, are an integral part
-            of our future lives. We also believe NFTs allow for a whole lot more
-            than "digital collectibles." As a consequence, we developed our own
-            marketplace to allow for these up-and-coming features.
+            With all of our focus shifting to web3, we are trying to improve the
+            world by socializing &amp; democratizing the way data is stored
+            &amp; transferred. It is your data, and no one else's.
+          </p>
+
+          <p class="mt-4 leading-7 font-sora">
+            NFTs are—and will be even more so—an integral &amp; foundational
+            technology pillar of the web3 ecosystem. We also believe NFTs are
+            more than "digital collectibles." As a consequence, we developed our
+            own marketplace to allow for many more up-and-coming features.
           </p>
 
           <p class="mt-4 leading-7 font-sora">
@@ -177,8 +181,8 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <small class="font-sora">
-          * Our whole list of 10 team members is going to be added throughout
-          the next few days.
+          * All of our 10 team members are going to be added throughout the next
+          few days.
         </small>
 
         <img

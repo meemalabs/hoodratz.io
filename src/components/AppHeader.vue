@@ -11,7 +11,8 @@
         class="p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
         ><img class="w-32" src="/images/logo.svg" alt="Hoodratz logo"
       /></router-link>
-      <div class="md:hidden">
+
+      <div class="lg:hidden">
         <img
           v-if="!showMobile"
           src="/images/menu.svg"
@@ -26,27 +27,9 @@
           @click="showMobile = !showMobile"
         />
       </div>
-      <div class="hidden text-white md:block">
+
+      <div class="hidden text-white lg:block">
         <ul class="flex">
-          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
-            <router-link
-              to="/"
-              custom
-              v-slot="{ href, route, navigate, isActive, isExactActive }"
-            >
-              <a
-                :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
-                @click="navigate"
-                :href="href"
-                >Home</a
-              >
-              <div
-                v-if="isActive"
-                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
-              ></div>
-            </router-link>
-          </li>
           <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/about"
