@@ -98,7 +98,9 @@ import AppFooter from "@/components/AppFooter.vue";
         <div class="relative mx-auto">
           <div class="max-w-5xl mx-auto mt-12">
             <div class="max-w-xl mx-auto">
-              <h1 class="mt-10 text-white underline font-kumbh-bold text-title">
+              <h1
+                class="pl-4 mt-10 text-white underline  md:pl-0 font-kumbh-bold text-title"
+              >
                 On the List?
               </h1>
               <p
@@ -118,10 +120,14 @@ import AppFooter from "@/components/AppFooter.vue";
                   >Claim your 1/1 Hoodratz NFT by sharing it on Twitter.</span
                 >
               </p>
-              <h1 class="mt-10 text-white underline font-kumbh-bold text-title">
+              <h1
+                class="pl-4 mt-10 text-white underline  md:pl-0 font-kumbh-bold text-title"
+              >
                 Not on the List?
               </h1>
-              <h2 class="mt-4 mb-6 text-pink-3 font-sora-semibold text-button">
+              <h2
+                class="pl-4 mt-4 mb-6  md:pl-0 text-pink-3 font-sora-semibold text-button"
+              >
                 <em>Spread good vibes and win a mythic Hoodratz NFT!</em>
               </h2>
               <p
@@ -246,11 +252,12 @@ import AppFooter from "@/components/AppFooter.vue";
                   </p>
                 </div>
               </div>
+
               <div>
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/solnftradar.jpg"
+                    src="/images/ian.png"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
@@ -260,16 +267,17 @@ import AppFooter from "@/components/AppFooter.vue";
                     <div class="w-8 h-8">
                       <img
                         class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1462864055157334020/YFwq6HAj_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1466978133270319113/5OFI3lr5_400x400.jpg"
                       />
                     </div>
                     <a
-                      href="https://twitter.com/solnftradar"
+                      href="https://twitter.com/ianlandsman"
                       target="_blank"
                       class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
-                      >@solnftradar</a
+                      >@ianlandsman</a
                     >
                   </div>
+
                   <div class="flex justify-center pt-4">
                     <a
                       href="https://twitter.com/intent/tweet?text=@hoodratznft"
@@ -279,10 +287,8 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p
-                    class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
-                  >
-                    Claimed!
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
                   </p>
                 </div>
               </div>
@@ -333,45 +339,6 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/ian.png"
-                    alt="Sample"
-                    class="object-cover object-center w-full h-full"
-                  />
-                </div>
-                <div class="flex flex-col py-2 mt-4">
-                  <div class="flex items-center justify-center space-x-4">
-                    <div class="w-8 h-8">
-                      <img
-                        class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1466978133270319113/5OFI3lr5_400x400.jpg"
-                      />
-                    </div>
-                    <a
-                      href="https://twitter.com/ianlandsman"
-                      target="_blank"
-                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
-                      >@ianlandsman</a
-                    >
-                  </div>
-
-                  <div class="flex justify-center pt-4">
-                    <a
-                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
-                      target="_blank"
-                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
-                    >
-                      Tweet @hoodratznft
-                    </a>
-                  </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
-                </div>
-              </div>
-              <div>
-                <div class="w-full overflow-hidden rounded-lg">
-                  <img
-                    loading="lazy"
                     src="/images/jack.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
@@ -403,10 +370,47 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p
-                    class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
-                  >
-                    Claimed!
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div class="w-full overflow-hidden rounded-lg">
+                  <img
+                    loading="lazy"
+                    src="/images/solnftradar.jpg"
+                    alt="Sample"
+                    class="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div class="flex flex-col py-2 mt-4">
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1462864055157334020/YFwq6HAj_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/solnftradar"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@solnftradar</a
+                    >
+                  </div>
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                    >
+                      Tweet @hoodratznft
+                    </a>
+                  </div>
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
                   </p>
                 </div>
               </div>
@@ -497,7 +501,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/brian.png"
+                    src="/images/angie.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
@@ -507,14 +511,14 @@ import AppFooter from "@/components/AppFooter.vue";
                     <div class="w-8 h-8">
                       <img
                         class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1281071936605323266/wc1KRZLK_400x400.jpg"
                       />
                     </div>
                     <a
-                      href="https://twitter.com/JackEllis"
+                      href="https://twitter.com/sarah_edo"
                       target="_blank"
                       class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
-                      >@hotgirlintech</a
+                      >@sarah_edo</a
                     >
                   </div>
 
@@ -527,10 +531,8 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p
-                    class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
-                  >
-                    Claimed!
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
                   </p>
                 </div>
               </div>
@@ -549,7 +551,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     <div class="w-8 h-8">
                       <img
                         class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1440746527568236548/PkUzoGY2_400x400.jpg"
                       />
                     </div>
                     <a
