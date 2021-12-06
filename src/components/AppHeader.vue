@@ -120,9 +120,7 @@
           </li>
           <li
             class="mx-2 text-gray-4 lg:mx-4"
-            v-tooltip="
-              `For now, please ping @Chris or team in Discord. Coming soon.`
-            "
+            v-tooltip="`White Paper draft dropping 12/07/21. Coming soon.`"
           >
             White Paper
             <span

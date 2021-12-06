@@ -35,7 +35,9 @@ import AppFooter from "@/components/AppFooter.vue";
               >
                 What’s this hype all about?!
               </h2>
-              <p class="leading-7 font-sora">Join us in this mythic venture.</p>
+              <p class="leading-7 font-sora">
+                Join us in this mythic venture of creating this ecosystem.
+              </p>
             </div>
           </div>
         </div>
@@ -208,23 +210,158 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/smoking.png"
+                    src="/images/drake.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@nakednfts</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div
+                      class="w-8 h-8 transition duration-150 transform  hover:scale-125"
+                    >
+                      <img
+                        class="duration-150 rounded-full  hover:transform hover:scale-125"
+                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/DrakeBell"
+                      target="_blank"
+                      class="text-center text-white transition duration-150  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@DrakeBell</a
+                    >
+                  </div>
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
+                  </div>
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div class="w-full overflow-hidden rounded-lg">
+                  <img
+                    loading="lazy"
+                    src="/images/solnftradar.jpg"
+                    alt="Sample"
+                    class="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div class="flex flex-col py-2 mt-4">
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1462864055157334020/YFwq6HAj_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/solnftradar"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@solnftradar</a
+                    >
+                  </div>
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                    >
+                      Tweet @hoodratznft
+                    </a>
+                  </div>
+                  <p
+                    class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
+                  >
+                    Claimed!
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <div class="w-full overflow-hidden rounded-lg">
+                  <img
+                    loading="lazy"
+                    src="/images/SolNFTs.jpg"
+                    alt="Sample"
+                    class="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div class="flex flex-col py-2 mt-4">
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1467363893634809857/gJfi7NM3_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/SolNFTs"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@SolNFTs</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                    >
+                      Tweet @hoodratznft
+                    </a>
+                  </div>
+                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
+                    Not Claimed!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 pt-24 mt-10 sm:grid-cols-3">
+              <div>
+                <div class="w-full overflow-hidden rounded-lg">
+                  <img
+                    loading="lazy"
+                    src="/images/ian.png"
+                    alt="Sample"
+                    class="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div class="flex flex-col py-2 mt-4">
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1466978133270319113/5OFI3lr5_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/ianlandsman"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@ianlandsman</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                    >
+                      Tweet @hoodratznft
+                    </a>
                   </div>
                   <p class="mt-5 text-center text-pink-3 font-sora text-title">
                     Not Claimed!
@@ -240,18 +377,31 @@ import AppFooter from "@/components/AppFooter.vue";
                     class="object-cover object-center w-full h-full"
                   />
                 </div>
+
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@chrisbreuer1904</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/989296839194173440/ZRsVtbV5_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/JackEllis"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@JackEllis</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
                   </div>
                   <p
                     class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
@@ -260,27 +410,40 @@ import AppFooter from "@/components/AppFooter.vue";
                   </p>
                 </div>
               </div>
+
               <div>
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/zr.png"
-                    alt="Sample"
+                    src="/images/nuno.jpg"
+                    alt="Nunos NFT"
                     class="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@hoodratznft</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1433501939648565257/hT4oXpfq_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/enunomaduro"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@enunomaduro</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
                   </div>
                   <p class="mt-5 text-center text-pink-3 font-sora text-title">
                     Not Claimed!
@@ -300,23 +463,36 @@ import AppFooter from "@/components/AppFooter.vue";
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@nakednfts</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1467551717961179145/D272PwD2_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/dabit3"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@dabit3</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
                   </div>
                   <p class="mt-5 text-center text-pink-3 font-sora text-title">
                     Not Claimed!
                   </p>
                 </div>
               </div>
+
               <div>
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
@@ -327,17 +503,29 @@ import AppFooter from "@/components/AppFooter.vue";
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@chrisbreuer1904</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/JackEllis"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@JackEllis</a
+                    >
+                  </div>
+
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
                   </div>
                   <p
                     class="z-10 mt-5 text-center  text-pink-1 font-sora text-title"
@@ -346,27 +534,39 @@ import AppFooter from "@/components/AppFooter.vue";
                   </p>
                 </div>
               </div>
+
               <div>
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/zr.png"
+                    src="/images/SOLbuckets.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
-                  <a
-                    href="#"
-                    class="text-center text-white  font-kumbh-bold text-h3 hover:text-gray-4"
-                    >@hoodratznft</a
-                  >
-                  <div class="flex justify-center">
-                    <button
-                      class="w-3/4 p-3 mt-3 text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
+                  <div class="flex items-center justify-center space-x-4">
+                    <div class="w-8 h-8">
+                      <img
+                        class="rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                      />
+                    </div>
+                    <a
+                      href="https://twitter.com/SOLbuckets"
+                      target="_blank"
+                      class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
+                      >@SOLbuckets</a
+                    >
+                  </div>
+                  <div class="flex justify-center pt-4">
+                    <a
+                      href="https://twitter.com/intent/tweet?text=@hoodratznft"
+                      target="_blank"
+                      class="w-3/4 p-3 mt-3 text-center text-white transition duration-150 transform border rounded-full  bg-gray-8 font-sora-semibold shadow-hoodratz-btn hover:bg-gray-6 border-pink-3"
                     >
                       Tweet @hoodratznft
-                    </button>
+                    </a>
                   </div>
                   <p class="mt-5 text-center text-pink-3 font-sora text-title">
                     Not Claimed!
