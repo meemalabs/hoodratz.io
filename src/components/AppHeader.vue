@@ -87,7 +87,7 @@
           </li>
           <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
-              to="/giveaway"
+              to="/influencers"
               custom
               v-slot="{ href, route, navigate, isActive, isExactActive }"
             >
