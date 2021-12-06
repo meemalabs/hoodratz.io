@@ -36,7 +36,9 @@ import AppFooter from "@/components/AppFooter.vue";
                 What’s this hype all about?!
               </h2>
               <p class="leading-7 font-sora">
-                Join us in this mythic venture of creating this ecosystem.
+                Are you read to join the pack / our DAO via this governance
+                token? Hold us and become part of the next big NFT marketplace
+                &amp; decentralized file manager. "Think of Dropbox for web3."
               </p>
             </div>
           </div>
