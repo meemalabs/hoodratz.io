@@ -158,6 +158,13 @@
             >
           </li>
           <li>
+            <router-link
+              to="/influencers"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              >Influencers</router-link
+            >
+          </li>
+          <li>
             <a
               href="#"
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
