@@ -27,21 +27,21 @@
   "team": [
     {
       "name": "Chris Breuer",
-      "role": "Technical Lead",
+      "role": "Co-Founder",
       "image": "/images/chris.jpeg",
       "twitter_url": "https://twitter.com/chrisbreuer1904",
       "linkedin_url": "https://www.linkedin.com/in/chris-breuer-33231765/"
     },
     {
       "name": "Kyle Cameron",
-      "role": "Creative Lead",
+      "role": "Co-Founder",
       "image": "/images/team/kyle.jpg",
       "twitter_url": "https://twitter.com/nakednfts",
       "linkedin_url": ""
     },
     {
       "name": "Avery Hill",
-      "role": "Artist & PM",
+      "role": "Creative Director",
       "image": "/images/team/avery.jpeg",
       "twitter_url": "",
       "linkedin_url": "https://www.linkedin.com/in/avery-breuer-4599b4104/"

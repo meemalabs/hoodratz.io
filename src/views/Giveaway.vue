@@ -372,7 +372,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/brian.png"
+                    src="/images/jack.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
@@ -457,7 +457,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/smoking.png"
+                    src="/images/dabit.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full"
                   />
@@ -514,7 +514,7 @@ import AppFooter from "@/components/AppFooter.vue";
                       href="https://twitter.com/JackEllis"
                       target="_blank"
                       class="text-center text-white transition duration-150 transform  font-kumbh-bold text-h3 hover:text-pink-2"
-                      >@JackEllis</a
+                      >@hotgirlintech</a
                     >
                   </div>
 
