@@ -236,7 +236,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     <a
                       href="https://twitter.com/DrakeBell"
                       target="_blank"
-                      class="text-center text-white transition duration-150 border-4 rounded-lg  border-pink-3 font-kumbh-bold text-h3 hover:text-pink-2"
+                      class="text-center text-white transition duration-150  font-kumbh-bold text-h3 hover:text-pink-2"
                       >@DrakeBell</a
                     >
                   </div>
