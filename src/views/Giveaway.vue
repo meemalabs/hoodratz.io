@@ -36,7 +36,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 What’s this hype all about?!
               </h2>
               <p class="leading-7 font-sora">
-                Join us in this mythic venture of creating this ecosystem.
+                Join us in this mythic venture of improving this ecosystem.
               </p>
             </div>
           </div>
