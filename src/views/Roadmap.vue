@@ -17,7 +17,7 @@ import AppFooter from "@/components/AppFooter.vue";
           />
           <div class="relative w-full my-4">
             <div class="w-full">
-              <img src="/images/roadmap.png" alt="About" />
+              <img src="/images/honorary.png" alt="About" />
             </div>
             <div class="absolute inset-0 flex items-center justify-center">
               <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
@@ -26,7 +26,7 @@ import AppFooter from "@/components/AppFooter.vue";
             </div>
           </div>
 
-          <div class="mx-4 text-center">
+          <div class="mx-4 text-center relative -top-20">
             <div class="mb-20">
               <h2
                 class="mb-4 -mt-6 text-3xl text-white font-kumbh-bold md:text-5xl"
