@@ -218,7 +218,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/drake.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -259,7 +259,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/ian.png"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -299,7 +299,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/SolNFTs.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -341,7 +341,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/jack.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
 
@@ -382,7 +382,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/solnftradar.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -421,7 +421,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/nuno.jpg"
                     alt="Nunos NFT"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -463,7 +463,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/dabit.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -503,7 +503,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/angie.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -543,7 +543,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/SOLbuckets.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
