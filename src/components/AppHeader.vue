@@ -4,11 +4,25 @@
     :class="transparent ? 'bg-transparent' : 'bg-gray-7'"
   >
     <div
-      class="container flex items-center justify-between h-16 px-6 mx-auto  md:h-24"
+      class="
+        container
+        flex
+        items-center
+        justify-between
+        h-16
+        px-6
+        mx-auto
+        md:h-24
+      "
     >
       <router-link
         to="/"
-        class="p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+        class="
+          p-3
+          rounded-md
+          hover:text-pink-3
+          focus:outline-none focus:bg-pink-custom-2
+        "
         ><img class="w-32" src="/images/logo.svg" alt="Hoodratz logo"
       /></router-link>
 
@@ -38,7 +52,15 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="
+                  transition
+                  duration-150
+                  ease-in-out
+                  rounded-md
+                  lg:px-2
+                  hover:text-pink-3
+                  focus:outline-none focus:bg-pink-custom-2
+                "
                 @click="navigate"
                 :href="href"
                 >About</a
@@ -58,7 +80,15 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="
+                  transition
+                  duration-150
+                  ease-in-out
+                  rounded-md
+                  lg:px-2
+                  hover:text-pink-3
+                  focus:outline-none focus:bg-pink-custom-2
+                "
                 :href="href"
                 >Roadmap</a
               >
@@ -68,6 +98,7 @@
               ></div>
             </router-link>
           </li>
+
           <li class="relative flex flex-col items-center mx-2 lg:mx-4">
             <router-link
               to="/influencers"
@@ -77,7 +108,15 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                class="
+                  transition
+                  duration-150
+                  ease-in-out
+                  rounded-md
+                  lg:px-2
+                  hover:text-pink-3
+                  focus:outline-none focus:bg-pink-custom-2
+                "
                 :href="href"
                 >Influencers</a
               >
@@ -87,6 +126,35 @@
               ></div>
             </router-link>
           </li>
+
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
+            <router-link
+              to="/white-paper"
+              custom
+              v-slot="{ href, route, navigate, isActive, isExactActive }"
+            >
+              <a
+                @click="navigate"
+                :class="{ 'text-pink-3': isActive }"
+                class="
+                  transition
+                  duration-150
+                  ease-in-out
+                  rounded-md
+                  lg:px-2
+                  hover:text-pink-3
+                  focus:outline-none focus:bg-pink-custom-2
+                "
+                :href="href"
+                >White Paper</a
+              >
+              <div
+                v-if="isActive"
+                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
+              ></div>
+            </router-link>
+          </li>
+
           <li class="mx-2 lg:mx-4 text-gray-4" v-tooltip="`Dropping 12/07/12`">
             Rarity
             <span
@@ -96,16 +164,6 @@
           </li>
           <li class="mx-2 text-gray-4 lg:mx-4" v-tooltip="`Coming January`">
             Merchandise
-            <span
-              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
-              >soon</span
-            >
-          </li>
-          <li
-            class="mx-2 text-gray-4 lg:mx-4"
-            v-tooltip="`White Paper draft dropping 12/07/21. Coming soon.`"
-          >
-            White Paper
             <span
               class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
               >soon</span
@@ -129,43 +187,115 @@
           <li>
             <router-link
               to="/about"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-8
+                hover:text-pink-3
+              "
               >About</router-link
             >
           </li>
           <li>
             <router-link
               to="/roadmap"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-8
+                hover:text-pink-3
+              "
               >Roadmap</router-link
             >
           </li>
           <li>
             <router-link
               to="/influencers"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-8
+                hover:text-pink-3
+              "
               >Influencers</router-link
+            >
+          </li>
+          <li>
+            <router-link
+              to="/white-paper"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-8
+                hover:text-pink-3
+              "
+              >White Paper</router-link
             >
           </li>
           <li>
             <a
               href="#"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-4
+                hover:text-pink-3
+              "
               >Rarity</a
             >
           </li>
           <li>
             <a
               href="#"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
+              class="
+                block
+                px-3
+                py-6
+                text-lg
+                font-medium
+                transition
+                duration-150
+                ease-in-out
+                rounded-md
+                text-gray-4
+                hover:text-pink-3
+              "
               >Merchandise</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
-              >White Paper</a
             >
           </li>
         </ul>
