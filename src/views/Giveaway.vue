@@ -19,16 +19,16 @@ import AppFooter from "@/components/AppFooter.vue";
           />
           <div class="relative w-full my-4">
             <div class="w-full">
-              <img src="/images/roadmap.png" alt="About" />
+              <img src="/images/honorary.png" alt="About" />
             </div>
-            <div class="absolute inset-0 flex items-center justify-center">
+            <div class="absolute inset-0 flex items-center justify-center -top-10">
               <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
                 Influencers
               </h1>
             </div>
           </div>
 
-          <div class="mx-4 text-center">
+          <div class="mx-4 text-center relative -top-44">
             <div class="mb-20">
               <h2
                 class="mb-4 -mt-6 text-3xl text-white  font-kumbh-bold md:text-5xl"
@@ -36,14 +36,14 @@ import AppFooter from "@/components/AppFooter.vue";
                 What’s this hype all about?!
               </h2>
               <p class="leading-7 font-sora">
-                Join us in this mythic venture of creating this ecosystem.
+                Join us in this mythic venture of improving this ecosystem.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="relative mx-auto md:mb-32">
+      <div class="relative mx-auto md:mb-32 -top-24">
         <img
           class="absolute hidden  xl:top-0 xl:-left-12 lg:top-0 lg:-left-5 lg:block"
           src="/images/home/hoodratz-ellipse-1424.svg"
@@ -218,7 +218,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/drake.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -259,7 +259,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/ian.png"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -299,7 +299,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/SolNFTs.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -341,7 +341,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/jack.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
 
@@ -382,7 +382,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/solnftradar.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -421,7 +421,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/nuno.jpg"
                     alt="Nunos NFT"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -463,7 +463,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/dabit.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -503,7 +503,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/angie.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">
@@ -543,7 +543,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     loading="lazy"
                     src="/images/SOLbuckets.jpg"
                     alt="Sample"
-                    class="object-cover object-center w-full h-full"
+                    class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
                 </div>
                 <div class="flex flex-col py-2 mt-4">

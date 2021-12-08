@@ -4,6 +4,7 @@ import Roadmap from "./views/Roadmap.vue";
 import NotFound from "./views/NotFound.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy.vue";
 import Giveaway from "./views/Giveaway.vue";
+import WhitePaper from "./views/WhitePaper.vue";
 import Faq from "./views/Faq.vue";
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -38,6 +39,12 @@ export const routes = [
     name: "giveaway",
     meta: { title: "Giveaway" },
     component: Giveaway,
+  },
+  {
+    path: "/white-paper",
+    name: "white-paper",
+    meta: { title: "White Paper" },
+    component: WhitePaper,
   },
   { path: "/:path(.*)", component: NotFound },
 ];
