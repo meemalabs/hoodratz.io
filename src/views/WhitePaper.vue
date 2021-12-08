@@ -99,7 +99,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
         <div class="relative mx-auto">
           <div class="max-w-5xl mx-auto mt-12">
-            <img src="/images/white_paper_v1.png" alt="White Paper" />
+            <img src="/images/white-paper_v2.png" alt="White Paper" />
           </div>
         </div>
 
