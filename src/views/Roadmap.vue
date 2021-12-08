@@ -20,16 +20,16 @@ import AppFooter from "@/components/AppFooter.vue";
               <img src="/images/honorary.png" alt="About" />
             </div>
             <div class="absolute inset-0 flex items-center justify-center -top-10">
-              <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
+              <h1 class="tracking-widest uppercase text-pink-3 font-sora">
                 Roadmap
               </h1>
             </div>
           </div>
 
-          <div class="mx-4 text-center relative -top-44">
+          <div class="relative mx-4 text-center -top-24 lg:-top-32 xl:-top-44">
             <div class="mb-20">
               <h2
-                class="mb-4 -mt-6 text-3xl text-white font-kumbh-bold md:text-5xl"
+                class="mb-4 text-3xl text-white lg:-mt-6 font-kumbh-bold md:text-5xl"
               >
                 Find out the plan!
               </h2>

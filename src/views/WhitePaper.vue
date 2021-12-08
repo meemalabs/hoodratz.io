@@ -5,13 +5,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
 <template>
   <div
-    class="
-      w-full
-      h-full
-      bg-gray-8
-      text-gray-4
-      selection:bg-pink-3 selection:text-white
-    "
+    class="w-full h-full  bg-gray-8 text-gray-4 selection:bg-pink-3 selection:text-white"
   >
     <AppHeader />
 
@@ -19,12 +13,7 @@ import AppFooter from "@/components/AppFooter.vue";
       <div class="relative mx-auto md:mt-32">
         <div class="mx-auto md:w-2/3">
           <img
-            class="
-              absolute
-              hidden
-              xl:left-3/4 xl:-top-10
-              lg:block lg:-top-16 lg:right-0
-            "
+            class="absolute hidden  xl:left-3/4 xl:-top-10 lg:block lg:-top-16 lg:right-0"
             src="/images/home/hoodratz-ellipse-97.png"
             alt=""
           />
@@ -32,23 +21,19 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="w-full">
               <img src="/images/white-paper-bg.png" alt="About" />
             </div>
-            <div class="absolute inset-0 flex items-center justify-center">
-              <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
+            <div
+              class="absolute inset-0 flex items-center justify-center -top-10"
+            >
+              <h1 class="tracking-widest uppercase text-pink-3 font-sora">
                 White Paper
               </h1>
             </div>
           </div>
 
-          <div class="mx-4 text-center">
+          <div class="relative mx-4 text-center -top-24 lg:-top-32 xl:-top-36">
             <div class="mb-20">
               <h2
-                class="
-                  mb-4
-                  -mt-6
-                  text-3xl text-white
-                  font-kumbh-bold
-                  md:text-5xl
-                "
+                class="mb-4 text-3xl text-white  lg:-mt-6 font-kumbh-bold md:text-5xl"
               >
                 What’s in it for the investors?
               </h2>
@@ -62,12 +47,7 @@ import AppFooter from "@/components/AppFooter.vue";
 
       <div class="relative mx-auto md:mb-32">
         <img
-          class="
-            absolute
-            hidden
-            xl:top-0 xl:-left-12
-            lg:top-0 lg:-left-5 lg:block
-          "
+          class="absolute hidden  xl:top-0 xl:-left-12 lg:top-0 lg:-left-5 lg:block"
           src="/images/home/hoodratz-ellipse-1424.svg"
           alt="background particle image"
         />
@@ -82,33 +62,17 @@ import AppFooter from "@/components/AppFooter.vue";
           alt="background particle image"
         />
         <img
-          class="
-            absolute
-            hidden
-            left-90
-            xl:top-3/4
-            lg:block lg:top-3/4 lg:left-0
-          "
+          class="absolute hidden  left-90 xl:top-3/4 lg:block lg:top-3/4 lg:left-0"
           src="/images/home/hoodratz-ellipse-88.png"
           alt="background particle image"
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-10 xl:top-1/4
-            lg:block lg:top-1/2 lg:left-0
-          "
+          class="absolute hidden  xl:left-10 xl:top-1/4 lg:block lg:top-1/2 lg:left-0"
           src="/images/home/hoodratz-ellipse-97.png"
           alt="background particle image"
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:left-2 xl:top-1/2
-            lg:block lg:top-3/4 lg:left-0
-          "
+          class="absolute hidden  xl:left-2 xl:top-1/2 lg:block lg:top-3/4 lg:left-0"
           src="/images/home/hoodratz-ellipse-88.png"
           alt="background particle image"
         />
@@ -118,12 +82,7 @@ import AppFooter from "@/components/AppFooter.vue";
           alt="background particle image"
         />
         <img
-          class="
-            absolute
-            hidden
-            xl:top-3/4 xl:left-2
-            lg:top-3/4 lg:-left-10 lg:block
-          "
+          class="absolute hidden  xl:top-3/4 xl:left-2 lg:top-3/4 lg:-left-10 lg:block"
           src="/images/home/hoodratz-ellipse-1424.svg"
           alt=""
         />
@@ -145,26 +104,12 @@ import AppFooter from "@/components/AppFooter.vue";
         </div>
 
         <p
-          class="
-            pt-48
-            mb-4
-            -mt-6
-            text-3xl text-center text-white
-            font-kumbh-bold
-            md:text-3xl
-          "
+          class="pt-48 mb-4 -mt-6 text-3xl text-center text-white  font-kumbh-bold md:text-3xl"
         >
           And a whole lot more to come...
         </p>
         <p
-          class="
-            pt-4
-            mb-4
-            -mt-6
-            text-3xl text-center text-pink-3
-            font-kumbh-bold
-            md:text-3xl
-          "
+          class="pt-4 mb-4 -mt-6 text-3xl text-center  text-pink-3 font-kumbh-bold md:text-3xl"
         >
           Rat pack, stay tuned and #stayhood
         </p>
