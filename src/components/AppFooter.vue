@@ -83,7 +83,7 @@
             </router-link>
           </div>
           <p
-            class="my-4 mr-0 text-sm leading-6 text-center md:mr-8 md:text-left md:text-xs"
+            class="my-4 mr-0 text-sm leading-6 text-center  md:mr-8 md:text-left md:text-xs"
           >
             Crafted in Silicon Beach, CA, Hoodratz are uniquely generated &amp;
             collectible NFTs. Inspired by New York City’s underground, each of
@@ -92,21 +92,21 @@
           <div class="flex justify-center mb-4 md:hidden">
             <ul class="flex">
               <li
-                class="flex items-center justify-center p-4 mx-3 border rounded-full border-gray-5"
+                class="flex items-center justify-center p-4 mx-3 border rounded-full  border-gray-5"
               >
                 <a :href="social.discord" target="_blank">
                   <img src="/images/discord.svg" alt="Discord" />
                 </a>
               </li>
               <li
-                class="flex items-center justify-center p-4 mx-3 border rounded-full border-gray-5"
+                class="flex items-center justify-center p-4 mx-3 border rounded-full  border-gray-5"
               >
                 <a :href="social.twitter" target="_blank">
                   <img src="/images/twitter.svg" alt="Twitter" />
                 </a>
               </li>
               <li
-                class="flex items-center justify-center p-4 mx-3 border rounded-full border-gray-5"
+                class="flex items-center justify-center p-4 mx-3 border rounded-full  border-gray-5"
               >
                 <a :href="social.instagram" target="_blank">
                   <img src="/images/insta.svg" alt="Instagram" />
@@ -125,19 +125,25 @@
               <ul>
                 <li class="my-2">
                   <router-link
-                    class="px-2 transition duration-150 ease-in-out rounded-md hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/about"
                     >About</router-link
                   >
                 </li>
                 <li class="my-2">
                   <router-link
-                    class="px-2 transition duration-150 ease-in-out rounded-md hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     to="/roadmap"
                     >Roadmap</router-link
                   >
                 </li>
-                <li class="px-2 my-2 text-gray-5">FAQ</li>
+                <li class="my-2">
+                  <router-link
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    to="/faq"
+                    >FAQ
+                  </router-link>
+                </li>
               </ul>
             </div>
             <div>
@@ -145,7 +151,7 @@
               <ul>
                 <li class="my-2">
                   <a
-                    class="px-2 transition duration-150 ease-in-out rounded-md hover:text-white focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  hover:text-white focus:outline-none focus:bg-pink-custom-2"
                     href="/#utility"
                   >
                     Utility
@@ -153,21 +159,21 @@
                 </li>
                 <li class="my-2">
                   <span
-                    class="px-2 transition duration-150 ease-in-out rounded-md text-gray-5 focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  text-gray-5 focus:outline-none focus:bg-pink-custom-2"
                   >
                     Attributes
                   </span>
                 </li>
                 <li class="my-2">
                   <span
-                    class="px-2 transition duration-150 ease-in-out rounded-md text-gray-5 focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  text-gray-5 focus:outline-none focus:bg-pink-custom-2"
                   >
                     Merchandise
                   </span>
                 </li>
                 <li class="my-2">
                   <span
-                    class="px-2 transition duration-150 ease-in-out rounded-md text-gray-5 focus:outline-none focus:bg-pink-custom-2"
+                    class="px-2 transition duration-150 ease-in-out rounded-md  text-gray-5 focus:outline-none focus:bg-pink-custom-2"
                   >
                     White Paper
                   </span>
@@ -196,7 +202,7 @@
                     <a
                       :href="social.discord"
                       target="_blank"
-                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
                     >
                       <img
                         class="w-full h-full"
@@ -209,7 +215,7 @@
                     <a
                       :href="social.twitter"
                       target="_blank"
-                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
                     >
                       <img
                         class="w-full h-full"
@@ -222,7 +228,7 @@
                     <a
                       :href="social.instagram"
                       target="_blank"
-                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
+                      class="block w-8 h-8 p-2 transition duration-150 ease-in-out border rounded-full  lg:w-12 lg:h-12 lg:p-4 hover:bg-gray-4 border-gray-5"
                     >
                       <img
                         class="w-full h-full"

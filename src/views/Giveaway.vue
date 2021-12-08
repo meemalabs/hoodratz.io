@@ -24,16 +24,16 @@ import AppFooter from "@/components/AppFooter.vue";
             <div
               class="absolute inset-0 flex items-center justify-center -top-10"
             >
-              <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
+              <h1 class="tracking-widest uppercase text-pink-3 font-sora">
                 Influencers
               </h1>
             </div>
           </div>
 
-          <div class="relative mx-4 text-center -top-44">
+          <div class="relative mx-4 text-center -top-24 lg:-top-32 xl:-top-44">
             <div class="mb-20">
               <h2
-                class="mb-4 -mt-6 text-3xl text-white  font-kumbh-bold md:text-5xl"
+                class="mb-4 text-3xl text-white  lg:-mt-6 font-kumbh-bold md:text-5xl"
               >
                 What’s this hype all about?!
               </h2>
@@ -100,7 +100,7 @@ import AppFooter from "@/components/AppFooter.vue";
         />
 
         <div class="relative mx-auto">
-          <div class="max-w-5xl mx-auto mt-12">
+          <div class="max-w-5xl px-4 mx-auto mt-12">
             <div class="max-w-xl mx-auto">
               <h1
                 class="pl-4 mt-10 text-white underline  md:pl-0 font-kumbh-bold text-title"
