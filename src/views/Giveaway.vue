@@ -21,14 +21,16 @@ import AppFooter from "@/components/AppFooter.vue";
             <div class="w-full">
               <img src="/images/honorary.png" alt="About" />
             </div>
-            <div class="absolute inset-0 flex items-center justify-center -top-10">
+            <div
+              class="absolute inset-0 flex items-center justify-center -top-10"
+            >
               <h1 class="-mt-2 tracking-widest uppercase text-pink-3 font-sora">
                 Influencers
               </h1>
             </div>
           </div>
 
-          <div class="mx-4 text-center relative -top-44">
+          <div class="relative mx-4 text-center -top-44">
             <div class="mb-20">
               <h2
                 class="mb-4 -mt-6 text-3xl text-white  font-kumbh-bold md:text-5xl"
@@ -36,7 +38,9 @@ import AppFooter from "@/components/AppFooter.vue";
                 What’s this hype all about?!
               </h2>
               <p class="leading-7 font-sora">
-                Join us in this mythic venture of improving this ecosystem.
+                Are you ready to join the pack / our DAO vai this governance
+                token? Hold us and become part of the next big NFT marketplace
+                &amp; decentralized file manager. "Think of Dropbox for web3"
               </p>
             </div>
           </div>
