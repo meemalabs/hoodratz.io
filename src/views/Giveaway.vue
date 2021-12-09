@@ -220,7 +220,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="/images/drake.jpg"
+                    src="https://pbs.twimg.com/profile_images/1467870974582222850/HaEsVIQX_400x400.png"
                     alt="Sample"
                     class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
