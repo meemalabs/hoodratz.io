@@ -220,7 +220,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 <div class="w-full overflow-hidden rounded-lg">
                   <img
                     loading="lazy"
-                    src="https://pbs.twimg.com/profile_images/1467870974582222850/HaEsVIQX_400x400.png"
+                    src="/images/drake.jpg"
                     alt="Sample"
                     class="object-cover object-center w-full h-full border-4 rounded-lg  border-pink-3"
                   />
@@ -232,7 +232,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     >
                       <img
                         class="duration-150 rounded-full  hover:transform hover:scale-125"
-                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1467870974582222850/HaEsVIQX_400x400.png"
                       />
                     </div>
                     <a
