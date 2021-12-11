@@ -1,6 +1,7 @@
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Roadmap from "./views/Roadmap.vue";
+import Rarities from "./views/Rarities.vue";
 import NotFound from "./views/NotFound.vue";
 import PrivacyPolicy from "./views/PrivacyPolicy.vue";
 import Giveaway from "./views/Giveaway.vue";
@@ -21,6 +22,12 @@ export const routes = [
     name: "roadmap",
     meta: { title: "Roadmap" },
     component: Roadmap,
+  },
+  {
+    path: "/rarities",
+    name: "rarities",
+    meta: { title: "Rarities" },
+    component: Rarities,
   },
   {
     path: "/privacy-policy",
