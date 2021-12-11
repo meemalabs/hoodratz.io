@@ -271,7 +271,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     <div class="w-8 h-8">
                       <img
                         class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1466978133270319113/5OFI3lr5_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1469158914033922053/r1kEfBul_400x400.jpg"
                       />
                     </div>
                     <a
