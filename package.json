@@ -9,7 +9,7 @@
   "dependencies": {
     "dayjs": "^1.10.7",
     "tippy.js": "^6.3.7",
-    "vue": "^3.2.24",
+    "vue": "^3.2.26",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
