@@ -50,7 +50,7 @@ import AppFooter from "@/components/AppFooter.vue";
             A limited edition of 10,000 rare Hoodratz.
           </p>
           <div
-            class="flex flex-col max-w-3xl"
+            class="flex flex-col lg:max-w-md"
           >
             <div class="grid grid-cols-1 md:grid-cols-2">
               <a
