@@ -8,9 +8,17 @@
     >
       <router-link
         to="/"
-        class="p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
-        ><img class="w-32" src="/images/logo.svg" alt="Hoodratz logo"
-      /></router-link>
+        class="flex p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+        ><img class="w-36" src="/images/logo.svg" alt="Hoodratz logo" />
+        <div class="flex items-center ml-2 animate-pulse">
+          <div
+            class="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-pink-3 blink"
+            aria-hidden="true"
+          ></div>
+
+          <span class="ml-2 mr-1 text-xs">Minting Live</span>
+        </div>
+      </router-link>
 
       <div class="lg:hidden">
         <img
@@ -121,26 +129,6 @@
                 class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Rarities</a
-              >
-              <div
-                v-if="isActive"
-                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
-              ></div>
-            </router-link>
-          </li>
-
-          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
-            <router-link
-              to="#"
-              custom
-              v-slot="{ href, route, navigate, isActive, isExactActive }"
-            >
-              <a
-                @click="navigate"
-                :class="{ 'text-pink-3': isActive }"
-                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
-                href="https://hoodratz.nakednfts.io"
-                >Minting Now</a
               >
               <div
                 v-if="isActive"
