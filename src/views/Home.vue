@@ -50,44 +50,45 @@ import AppFooter from "@/components/AppFooter.vue";
             A limited edition of 10,000 rare Hoodratz.
           </p>
           <div
-            class="flex flex-col items-center w-full  lg:flex-row lg:justify-start md:flex-row md:justify-center"
+            class="flex flex-col max-w-3xl"
           >
-            <a
-              :href="social.discord"
-              target="_blank"
-              class="z-10 w-full px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  lg:w-1/2 cta cta-gradient font-sora shadow-hoodratz-btn text-button"
-            >
-              Join Discord
-            </a>
-
-            <a
-              :href="social.twitter"
-              target="_blank"
-              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  lg:w-1/2 md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
-            >
-              Follow Us
-              <svg
-                class="fill-current ml-2.5"
-                width="15"
-                height="15"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
+            <div class="grid grid-cols-1 md:grid-cols-2">
+              <a
+                :href="social.discord"
+                target="_blank"
+                class="flex-1 z-10 px-8 py-4 mt-5 md:mr-4 text-white uppercase rounded-full cta cta-gradient font-sora shadow-hoodratz-btn text-button"
               >
-                <path
-                  d="M6.2918 18.1251C13.8371 18.1251 17.9652 11.8724 17.9652 6.45167C17.9652 6.27589 17.9613 6.0962 17.9535 5.92042C18.7566 5.33967 19.4496 4.62033 20 3.7962C19.2521 4.12896 18.458 4.34627 17.6449 4.44074C18.5011 3.92755 19.1421 3.12135 19.4492 2.17159C18.6438 2.64892 17.763 2.98563 16.8445 3.1673C16.2257 2.50976 15.4075 2.07439 14.5164 1.9285C13.6253 1.78261 12.711 1.93433 11.9148 2.3602C11.1186 2.78607 10.4848 3.46238 10.1115 4.28455C9.73825 5.10672 9.64619 6.02897 9.84961 6.9087C8.21874 6.82686 6.62328 6.40321 5.16665 5.6652C3.71002 4.9272 2.42474 3.89132 1.39414 2.62472C0.870333 3.52782 0.710047 4.59649 0.945859 5.61353C1.18167 6.63057 1.79589 7.51966 2.66367 8.10011C2.01219 8.07943 1.37498 7.90402 0.804688 7.58839V7.63917C0.804104 8.58691 1.13175 9.50561 1.73192 10.2391C2.3321 10.9726 3.16777 11.4756 4.09687 11.6626C3.49338 11.8277 2.85999 11.8518 2.2457 11.7329C2.50788 12.548 3.01798 13.2609 3.70481 13.7721C4.39164 14.2833 5.22093 14.5673 6.07695 14.5845C4.62369 15.726 2.82848 16.3452 0.980469 16.3423C0.652739 16.3418 0.325333 16.3217 0 16.2821C1.87738 17.4866 4.06128 18.1263 6.2918 18.1251Z"
+                Join Discord
+              </a>
+
+              <a
+                :href="social.twitter"
+                target="_blank"
+                class="flex-1 z-10 inline-flex items-center justify-center px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              >
+                Follow Us
+                <svg
+                  class="fill-current ml-2.5"
+                  width="15"
+                  height="15"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                />
-              </svg>
-            </a>
-          </div>
-          <div class="w-full pt-12">
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.2918 18.1251C13.8371 18.1251 17.9652 11.8724 17.9652 6.45167C17.9652 6.27589 17.9613 6.0962 17.9535 5.92042C18.7566 5.33967 19.4496 4.62033 20 3.7962C19.2521 4.12896 18.458 4.34627 17.6449 4.44074C18.5011 3.92755 19.1421 3.12135 19.4492 2.17159C18.6438 2.64892 17.763 2.98563 16.8445 3.1673C16.2257 2.50976 15.4075 2.07439 14.5164 1.9285C13.6253 1.78261 12.711 1.93433 11.9148 2.3602C11.1186 2.78607 10.4848 3.46238 10.1115 4.28455C9.73825 5.10672 9.64619 6.02897 9.84961 6.9087C8.21874 6.82686 6.62328 6.40321 5.16665 5.6652C3.71002 4.9272 2.42474 3.89132 1.39414 2.62472C0.870333 3.52782 0.710047 4.59649 0.945859 5.61353C1.18167 6.63057 1.79589 7.51966 2.66367 8.10011C2.01219 8.07943 1.37498 7.90402 0.804688 7.58839V7.63917C0.804104 8.58691 1.13175 9.50561 1.73192 10.2391C2.3321 10.9726 3.16777 11.4756 4.09687 11.6626C3.49338 11.8277 2.85999 11.8518 2.2457 11.7329C2.50788 12.548 3.01798 13.2609 3.70481 13.7721C4.39164 14.2833 5.22093 14.5673 6.07695 14.5845C4.62369 15.726 2.82848 16.3452 0.980469 16.3423C0.652739 16.3418 0.325333 16.3217 0 16.2821C1.87738 17.4866 4.06128 18.1263 6.2918 18.1251Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
             <a
               href="https://hoodratz.nakednfts.io/"
               target="_blank"
-              class="z-10 w-full px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  lg:w-1/2 cta cta-gradient font-sora shadow-hoodratz-btn text-button"
+              class="mt-5 cta-gradient flex items-center justify-center text-white border-4 border-white rounded-full px-8 py-3 uppercase font-sora z-10 text-button"
             >
-              Mint Now 🚀
+              <span>Mint Now</span>
+              <svg class="fill-current w-6 ml-2.5 animate-pulse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M461.8 53.6c-.4-1.7-1.6-3-3.3-3.4-54.4-13.3-180.1 34.1-248.2 102.2-13.3 13.3-24.2 26.4-33.1 39.1-21-1.9-42-.3-59.9 7.5-50.5 22.2-65.2 80.2-69.3 105.1-1 5.9 3.9 11 9.8 10.4l81.1-8.9c.1 7.8.6 14 1.1 18.3.4 4.2 2.3 8.1 5.3 11.1l31.4 31.4c3 3 6.9 4.9 11.1 5.3 4.3.5 10.5 1 18.2 1.1l-8.9 81c-.6 5.9 4.5 10.8 10.4 9.8 24.9-4 83-18.7 105.1-69.2 7.8-17.9 9.4-38.8 7.6-59.7 12.7-8.9 25.9-19.8 39.2-33.1 68.4-68 115.5-190.9 102.4-248zM298.6 213.5c-16.7-16.7-16.7-43.7 0-60.4 16.7-16.7 43.7-16.7 60.4 0 16.7 16.7 16.7 43.7 0 60.4-16.7 16.7-43.7 16.7-60.4 0z"/><path d="M174.5 380.5c-4.2 4.2-11.7 6.6-19.8 8-18.2 3.1-34.1-12.8-31-31 1.4-8.1 3.7-15.6 7.9-19.7l.1-.1c2.3-2.3.4-6.1-2.8-5.7-9.8 1.2-19.4 5.6-26.9 13.1-18 18-19.7 84.8-19.7 84.8s66.9-1.7 84.9-19.7c7.6-7.6 11.9-17.1 13.1-26.9.3-3.2-3.6-5.1-5.8-2.8z"/></svg>
             </a>
           </div>
         </div>
@@ -1106,7 +1107,6 @@ export default {
 }
 
 .cta-gradient {
-  border: 0;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   background: #f05281;
   background-image: linear-gradient(
