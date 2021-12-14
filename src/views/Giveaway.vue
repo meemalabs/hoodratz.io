@@ -38,7 +38,7 @@ import AppFooter from "@/components/AppFooter.vue";
                 What’s this hype all about?!
               </h2>
               <p class="leading-7 font-sora">
-                Are you ready to join the pack / our DAO vai this governance
+                Are you ready to join the pack / our DAO via this governance
                 token? Hold us and become part of the next big NFT marketplace
                 &amp; decentralized file manager. "Think of Dropbox for web3"
               </p>
@@ -232,7 +232,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     >
                       <img
                         class="duration-150 rounded-full  hover:transform hover:scale-125"
-                        src="https://pbs.twimg.com/profile_images/1466187175771451393/i_WlaN5B_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1467870974582222850/HaEsVIQX_400x400.png"
                       />
                     </div>
                     <a
@@ -271,7 +271,7 @@ import AppFooter from "@/components/AppFooter.vue";
                     <div class="w-8 h-8">
                       <img
                         class="rounded-full"
-                        src="https://pbs.twimg.com/profile_images/1466978133270319113/5OFI3lr5_400x400.jpg"
+                        src="https://pbs.twimg.com/profile_images/1469158914033922053/r1kEfBul_400x400.jpg"
                       />
                     </div>
                     <a

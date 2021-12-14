@@ -4,27 +4,21 @@
     :class="transparent ? 'bg-transparent' : 'bg-gray-7'"
   >
     <div
-      class="
-        container
-        flex
-        items-center
-        justify-between
-        h-16
-        px-6
-        mx-auto
-        md:h-24
-      "
+      class="container flex items-center justify-between h-16 px-6 mx-auto  md:h-24"
     >
       <router-link
         to="/"
-        class="
-          p-3
-          rounded-md
-          hover:text-pink-3
-          focus:outline-none focus:bg-pink-custom-2
-        "
-        ><img class="w-32" src="/images/logo.svg" alt="Hoodratz logo"
-      /></router-link>
+        class="flex p-3 rounded-md  hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+        ><img class="w-36" src="/images/logo.svg" alt="Hoodratz logo" />
+        <div class="flex items-center ml-2 animate-pulse">
+          <div
+            class="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-pink-3 blink"
+            aria-hidden="true"
+          ></div>
+
+          <span class="ml-2 mr-1 text-xs">Minting Live</span>
+        </div>
+      </router-link>
 
       <div class="lg:hidden">
         <img
@@ -52,15 +46,7 @@
             >
               <a
                 :class="{ 'text-pink-3': isActive }"
-                class="
-                  transition
-                  duration-150
-                  ease-in-out
-                  rounded-md
-                  lg:px-2
-                  hover:text-pink-3
-                  focus:outline-none focus:bg-pink-custom-2
-                "
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 @click="navigate"
                 :href="href"
                 >About</a
@@ -80,15 +66,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="
-                  transition
-                  duration-150
-                  ease-in-out
-                  rounded-md
-                  lg:px-2
-                  hover:text-pink-3
-                  focus:outline-none focus:bg-pink-custom-2
-                "
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Roadmap</a
               >
@@ -108,15 +86,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="
-                  transition
-                  duration-150
-                  ease-in-out
-                  rounded-md
-                  lg:px-2
-                  hover:text-pink-3
-                  focus:outline-none focus:bg-pink-custom-2
-                "
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >Influencers</a
               >
@@ -136,15 +106,7 @@
               <a
                 @click="navigate"
                 :class="{ 'text-pink-3': isActive }"
-                class="
-                  transition
-                  duration-150
-                  ease-in-out
-                  rounded-md
-                  lg:px-2
-                  hover:text-pink-3
-                  focus:outline-none focus:bg-pink-custom-2
-                "
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
                 :href="href"
                 >White Paper</a
               >
@@ -155,13 +117,26 @@
             </router-link>
           </li>
 
-          <li class="mx-2 lg:mx-4 text-gray-4" v-tooltip="`Dropping 12/07/12`">
-            Rarity
-            <span
-              class="px-2 py-0.5 mx-2 text-xs bg-white rounded-full text-gray-6"
-              >soon</span
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
+            <router-link
+              to="/rarities"
+              custom
+              v-slot="{ href, route, navigate, isActive, isExactActive }"
             >
+              <a
+                @click="navigate"
+                :class="{ 'text-pink-3': isActive }"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                :href="href"
+                >Rarities</a
+              >
+              <div
+                v-if="isActive"
+                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
+              ></div>
+            </router-link>
           </li>
+
           <li class="mx-2 text-gray-4 lg:mx-4" v-tooltip="`Coming January`">
             Merchandise
             <span
@@ -187,114 +162,49 @@
           <li>
             <router-link
               to="/about"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-8
-                hover:text-pink-3
-              "
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >About</router-link
             >
           </li>
           <li>
             <router-link
               to="/roadmap"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-8
-                hover:text-pink-3
-              "
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >Roadmap</router-link
             >
           </li>
           <li>
             <router-link
               to="/influencers"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-8
-                hover:text-pink-3
-              "
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >Influencers</router-link
             >
           </li>
           <li>
             <router-link
               to="/white-paper"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-8
-                hover:text-pink-3
-              "
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >White Paper</router-link
             >
           </li>
           <li>
-            <a
-              href="#"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-4
-                hover:text-pink-3
-              "
-              >Rarity</a
+            <router-link
+              to="/rarities"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              >Rarities</router-link
             >
           </li>
           <li>
             <a
+              href="https://hoodratz.nakednfts.io"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              >Minting Now!
+            </a>
+          </li>
+          <li>
+            <a
               href="#"
-              class="
-                block
-                px-3
-                py-6
-                text-lg
-                font-medium
-                transition
-                duration-150
-                ease-in-out
-                rounded-md
-                text-gray-4
-                hover:text-pink-3
-              "
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-4 hover:text-pink-3"
               >Merchandise</a
             >
           </li>
