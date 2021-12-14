@@ -129,6 +129,26 @@
             </router-link>
           </li>
 
+          <li class="relative flex flex-col items-center mx-2 lg:mx-4">
+            <router-link
+              to="#"
+              custom
+              v-slot="{ href, route, navigate, isActive, isExactActive }"
+            >
+              <a
+                @click="navigate"
+                :class="{ 'text-pink-3': isActive }"
+                class="transition duration-150 ease-in-out rounded-md  lg:px-2 hover:text-pink-3 focus:outline-none focus:bg-pink-custom-2"
+                href="https://hoodratz.nakednfts.io"
+                >Minting Now</a
+              >
+              <div
+                v-if="isActive"
+                class="absolute bottom-0 w-2 h-2 -mb-3 rounded bg-pink-gradient"
+              ></div>
+            </router-link>
+          </li>
+
           <li class="mx-2 text-gray-4 lg:mx-4" v-tooltip="`Coming January`">
             Merchandise
             <span
@@ -185,6 +205,13 @@
               class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
               >Rarities</router-link
             >
+          </li>
+          <li>
+            <a
+              href="https://hoodratz.nakednfts.io"
+              class="block px-3 py-6 text-lg font-medium transition duration-150 ease-in-out rounded-md  text-gray-8 hover:text-pink-3"
+              >Minting Now!
+            </a>
           </li>
           <li>
             <a
