@@ -55,7 +55,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.discord"
               target="_blank"
-              class="z-10 px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  cta cta-gradient font-sora shadow-hoodratz-btn text-button"
+              class="z-10 w-full px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  lg:w-1/2 cta cta-gradient font-sora shadow-hoodratz-btn text-button"
             >
               Join Discord
             </a>
@@ -63,7 +63,7 @@ import AppFooter from "@/components/AppFooter.vue";
             <a
               :href="social.twitter"
               target="_blank"
-              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
+              class="z-10 inline-flex items-center justify-center w-full px-8 py-3 mt-5 text-white uppercase transition duration-150 ease-in-out border border-white rounded-full  lg:w-1/2 md:w-3/4 lg:w-auto text-button font-sora backdrop-blur-sm hover:text-pink-3"
             >
               Follow Us
               <svg
@@ -81,17 +81,14 @@ import AppFooter from "@/components/AppFooter.vue";
               </svg>
             </a>
           </div>
-          <div
-            class="absolute items-center hidden  xl:bottom-0 lg:-bottom-36 lg:flex"
-          >
-            <p class="text-button text-gray-4 font-sora">
-              Launching on <span class="text-pink-3">12/12 @ 11am PST!</span>
-            </p>
-            <img
-              class="mt-10 w-28 h-28"
-              src="/images/home/hoodratz-rocket.svg"
-              alt=""
-            />
+          <div class="w-full pt-12">
+            <a
+              href="https://hoodratz.nakednfts.io/"
+              target="_blank"
+              class="z-10 w-full px-8 py-4 mt-5 mr-4 text-white uppercase rounded-full  lg:w-1/2 cta cta-gradient font-sora shadow-hoodratz-btn text-button"
+            >
+              Mint Now 🚀
+            </a>
           </div>
         </div>
         <div class="flex justify-center order-first mt-20 lg:order-last">
