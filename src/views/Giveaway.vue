@@ -251,9 +251,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -291,9 +288,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -331,9 +325,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
             </div>
@@ -374,9 +365,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -413,9 +401,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -453,9 +438,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
             </div>
@@ -495,9 +477,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -535,9 +514,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
 
@@ -574,9 +550,6 @@ import AppFooter from "@/components/AppFooter.vue";
                       Tweet @hoodratznft
                     </a>
                   </div>
-                  <p class="mt-5 text-center text-pink-3 font-sora text-title">
-                    Not Claimed!
-                  </p>
                 </div>
               </div>
             </div>

@@ -108,7 +108,7 @@ module.exports = {
       "2xl": "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
       "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
       inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
-      "hoodratz-btn": "6px 30px 60px 5px #592736",
+      "hoodratz-btn": "6px 15px 60px 5px #592736",
       none: "none",
     },
   },
