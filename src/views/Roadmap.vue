@@ -460,7 +460,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">7</div>
-                  <div class="mt-2 uppercase md:mt-0">Jan '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Jan '22</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
@@ -528,7 +528,7 @@ import AppFooter from "@/components/AppFooter.vue";
               <div>
                 <div class="flex justify-center md:justify-between">
                   <div class="hidden md:block text-pink-3">8</div>
-                  <div class="mt-2 uppercase md:mt-0">Feb '21</div>
+                  <div class="mt-2 uppercase md:mt-0">Feb '22</div>
                 </div>
 
                 <div class="my-4 text-2xl font-bold text-white">
