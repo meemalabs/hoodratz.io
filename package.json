@@ -13,7 +13,7 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@headlessui/vue": "^1.4.2",
+    "@headlessui/vue": "^1.6.0",
     "@heroicons/vue": "^1.0.5",
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.4.0-alpha.2",
